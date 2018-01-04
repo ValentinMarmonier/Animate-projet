@@ -1,0 +1,1 @@
+[27-Dec-2017 19:20:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/ubuntu/workspace/animate/src/Controller/LoginController.php on line 3
