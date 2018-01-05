@@ -53,7 +53,7 @@ CODEHTML;
         <div>$htmlImage</div>
         <div>$video</div>
         <p>$categorie</p>
-        
+        <p>$categorie</p>
     </article>
     
 CODEHTML;
