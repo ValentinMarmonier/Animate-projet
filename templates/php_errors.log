@@ -1,0 +1,10 @@
+[05-Jan-2018 09:13:18 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 17
+[05-Jan-2018 09:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/section-accueil.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 17
+[05-Jan-2018 09:14:47 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 17
+[05-Jan-2018 09:14:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/section-accueil.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 17
