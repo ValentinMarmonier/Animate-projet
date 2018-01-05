@@ -1,6 +1,7 @@
 body{
     margin:0 auto;
     width:100%;
+    color:#A0D5F9;
 }
 header{
     width:100%;
@@ -43,4 +44,7 @@ nav{
     display: inline-block;
     z-index:100;
     float:left;
+}
+h1{
+    color: #1797D7;
 }
