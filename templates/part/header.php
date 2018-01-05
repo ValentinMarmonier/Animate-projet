@@ -1,5 +1,3 @@
-    
-
 <?php
 
 // ON RECUPERE LES URLS DES PAGES GRACE AU NOM DE LEUR ROUTE
@@ -26,12 +24,12 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <meta name="format-detection" content="telephone=no">
 
         <title>Animate&reg;, outil d&#039;aide à la communication et de rééducation</title>
-
-        <!-- POUR DISPOSER DU CHEMIN ABSOLU A PARTIR DE LA PAGE Accueil -->
         
+        <!-- -->
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style-index.css" type="text/css" />
         
-       
+        <!-- -->
         <meta name="description" content="Animate, outil de communication, de rééducation pour l&#039;autisme, la déficience intellectuelle, les troubles neuros-dégénératifs et des apprentissages" />
         <meta name="robots" content="noodp"/>
         <link rel="canonical" href="http://www.animate.fr/" />
@@ -41,6 +39,12 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <meta property="og:description" content="Structure unique de marketing pour piloter le développement du business et la montée en compétences des marques" />
         <meta property="og:url" content="http://www.animate.fr/" />
         <meta property="og:site_name" content="Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" />
+        
+       <!-- Google fonts -->
+       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+       <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"> 
+       
+        
     </head>
     
     <body>
@@ -73,9 +77,3 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         </header><!-- #site-header -->
 
         <main>
-        
-
-
- 
-
-        
