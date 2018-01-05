@@ -5,12 +5,12 @@
                 <h4 id="titre-cadre-ZZ">Titre h4 :<span id="suite-titre-cadre-WW">Suite titre h4</span></h4>
                 <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.</p>
                 <div id="cta-upercase" class="cta-upercase">
-                    <a class="AA" href="/customer-intelligence">En savoir plus</a><span class="BB">&nbsp;&#8594;</span>
+                    <a class="bouton cta-bouton"  href="#">Bouton cta</a>
                 </div>    
             </section><!-- section#cadre-? -->
 
             <section id="ressources-tutos" class="">
-                <h4 id="titre-ress-tut"><span>Ressources et tutoriels</span></h4>
+                <h4 id="titre-ressources-tutoriels"><span>Ressources et tutoriels</span></h4>
                 <div id="cta-lowercase" class="cta-lowercase">
                     <a class="" href=""><pan>+</pan></a>
                 </div>
