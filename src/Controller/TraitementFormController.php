@@ -5,7 +5,7 @@ namespace App\Controller;
 // App              => src
 // App\Controller   => src/Controller
 
-class TraitementForm
+class TraitementFormController
 {
     // METHODES
     // CONSTRUCTEUR
