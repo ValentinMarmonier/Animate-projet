@@ -45,6 +45,45 @@ nav{
     z-index:100;
     float:left;
 }
-h1{
+h1,h2,h3{
     color: #1797D7;
+}
+.intro{
+    width:100%;
+    margin:0 auto;
+    padding-top: 5%;
+    padding-bottom:20%;
+   display: inline-block;
+   background-image: url("../src/assets/img/nuageheader2.png");
+}
+.intro img{
+    padding:10px; 
+}
+.video{
+    display: inline-block;
+    width: 45%; 
+}
+.fondateurs{
+    width:80%;
+    color:black;
+    display:inline-block;
+    margin:0 auto;
+    
+}
+.fondateurs img{
+
+    max-width: 400px;
+    object-fit: cover;
+    display:inline-block;
+    
+    
+}
+.cadre{
+    width: 50%;
+    display: inline-block;
+}
+.presentation{
+    width:40%;
+    padding:2%;
+    display:inline-block;
 }

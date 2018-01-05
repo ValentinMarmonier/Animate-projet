@@ -17,6 +17,8 @@ class VitrineController
       */   
    public function accueil (Request $objetRequest)
    {
+               return new Response("coucou");
+
         // POUR RECUPERER LES INFOS DE FORMULAIRE
         // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
         // UN OBJET DE LA CLASSE Request

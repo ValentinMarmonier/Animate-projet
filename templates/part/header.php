@@ -2,9 +2,9 @@
 
 // ON RECUPERE LES URLS DES PAGES GRACE AU NOM DE LEUR ROUTE
 $urlAccueil         = $this->generateUrl("accueil");
-$urlproduits        = $this->generateUrl("produits");
-$urlBlog            = $this->generateUrl("blog");
-$urlBoutique        = $this->generateUrl("boutique");
+$urlproduits        = "" ; //$this->generateUrl("produits");
+$urlBlog            = "" ; //$this->generateUrl("blog");
+$urlBoutique        = "" ; //$this->generateUrl("boutique");
 $urlAdminLogin      = $this->generateUrl("adminLogin");
 $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlKit             = $this->generateUrl("kit");
