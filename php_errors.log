@@ -34,3 +34,5 @@
 [05-Jan-2018 14:34:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/animate/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/public/index.php on line 8
 [05-Jan-2018 14:35:34 UTC] PHP Warning:  require(/home/ubuntu/workspace/animate/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/public/index.php on line 8
 [05-Jan-2018 14:35:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/animate/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/public/index.php on line 8
+[05-Jan-2018 14:48:51 UTC] PHP Warning:  require(/home/ubuntu/workspace/animate/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/public/index.php on line 8
+[05-Jan-2018 14:48:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/animate/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/public/index.php on line 8
