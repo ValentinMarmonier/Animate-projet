@@ -27,7 +27,7 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         
         <!-- -->
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style-index.css" type="text/css" />
+        <link rel="stylesheet" href="../src/assets/css/style-index.css" type="text/css" />
         
         <!-- -->
         <meta name="description" content="Animate, outil de communication, de rééducation pour l&#039;autisme, la déficience intellectuelle, les troubles neuros-dégénératifs et des apprentissages" />
