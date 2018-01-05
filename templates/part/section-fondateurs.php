@@ -1,6 +1,6 @@
 <div class="fondateurs">
     <div class="cadre">
-        <img src="img/eric-yunshan.png"></img>
+        <img src="../../src/assets/img/eric-yunshan.png"></img>
     </div>
                     <div class="presentation">
                         <h4>Cher visiteur</h4>

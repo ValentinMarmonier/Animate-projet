@@ -54,7 +54,7 @@ h1,h2,h3{
     padding-top: 5%;
     padding-bottom:20%;
    display: inline-block;
-   background-image: url("..src/assets/img/nuageheader2.png");
+   background-image: url("../src/assets/img/nuageheader2.png");
 }
 .intro img{
     padding:10px; 
