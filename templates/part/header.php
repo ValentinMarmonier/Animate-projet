@@ -2,9 +2,9 @@
 
 // ON RECUPERE LES URLS DES PAGES GRACE AU NOM DE LEUR ROUTE
 $urlAccueil         = $this->generateUrl("accueil");
-$urlproduits        = "" ; //$this->generateUrl("produits");
-$urlBlog            = "" ; //$this->generateUrl("blog");
-$urlBoutique        = "" ; //$this->generateUrl("boutique");
+$urlProduits        = $this->generateUrl("produits");
+$urlBlog            = $this->generateUrl("blog");
+$urlBoutique        = $this->generateUrl("boutique");
 $urlAdminLogin      = $this->generateUrl("adminLogin");
 $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlKit             = $this->generateUrl("kit");
@@ -59,16 +59,16 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
                 <div class="menu-container">
                     <ul id="menu-nav" class="menu">
                         <li class="">
-                            <a href="accueil">Accueil</a>
+                            <a href="<?php echo $urlAccueil ?>">Accueil</a>
                         </li>
                         <li class="">
-                            <a href="produits">Produits</a>
+                            <a href="<?php echo $urlProduits ?>">Produits</a>
                         </li>
                         <li class="">
-                            <a href="blog">Blog</a>
+                            <a href="<?php echo $urlBlog ?>">Blog</a>
                         </li>
                         <li class="">
-                            <a href="boutique">Boutique</a>
+                            <a href="<?php echo $urlBoutique ?>">Boutique</a>
                         </li>
                     </ul>           
                 </div><!-- .menu-container -->
