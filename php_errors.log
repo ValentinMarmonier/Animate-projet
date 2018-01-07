@@ -6,3 +6,20 @@ Stack trace:
 #3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
 #4 /home/ubuntu/workspace/animate/public/index.php(37): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundatio in /home/ubuntu/workspace/animate/src/Controller/VitrineController.php on line 226
 [05-Jan-2018 15:53:29 UTC] PHP Fatal error:  App\Controller\VitrineController::produits(): Failed opening required '/home/ubuntu/workspace/animate/templates/template-produits.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/src/Controller/VitrineController.php on line 226
+[07-Jan-2018 14:02:55 UTC] PHP Notice:  Undefined variable: cheminPart in /home/ubuntu/workspace/animate/templates/template-utilisateurs.php on line 3
+[07-Jan-2018 14:02:55 UTC] PHP Warning:  require_once(/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-utilisateurs.php on line 3
+[07-Jan-2018 14:02:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-utilisateurs.php on line 3
+[07-Jan-2018 14:02:58 UTC] PHP Notice:  Undefined variable: cheminPart in /home/ubuntu/workspace/animate/templates/template-utilisateurs.php on line 3
+[07-Jan-2018 14:02:58 UTC] PHP Warning:  require_once(/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-utilisateurs.php on line 3
+[07-Jan-2018 14:02:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-utilisateurs.php on line 3
+[07-Jan-2018 14:03:53 UTC] PHP Warning:  Uncaught ErrorException: Warning: require(/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php(267): require()
+#1 /home/ubuntu/workspace/animate/vendor/symfony/dependency-injection/Container.php(232): ContainerXoPpgfu\srcDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(543): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(125): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(185): Symfony\Component\HttpKernel\Kernel->boot()
+#5 /home/ubuntu/workspace/animate/public/index. in /home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php on line 267
+[07-Jan-2018 14:03:53 UTC] PHP Fatal error:  ContainerXoPpgfu\srcDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php on line 267
+[07-Jan-2018 14:04:33 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[07-Jan-2018 14:04:33 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
