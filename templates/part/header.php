@@ -28,6 +28,8 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <!-- -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="../src/assets/css/style-index.css" type="text/css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
         
         <!-- -->
         <meta name="description" content="Animate, outil de communication, de rééducation pour l&#039;autisme, la déficience intellectuelle, les troubles neuros-dégénératifs et des apprentissages" />
@@ -55,7 +57,7 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
             </a>                    
         
             <!-- #site-navigation -->
-            <nav id="site-navigation" class="from-top" role="navigation">
+            <nav id="site-navigation" class="nav" role="navigation">
                 <div class="menu-container">
                     <ul id="menu-nav" class="menu">
                         <li class="">

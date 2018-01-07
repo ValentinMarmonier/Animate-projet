@@ -5,6 +5,7 @@ body{
 }
 header{
     width:100%;
+    
 }
 nav a{
     text-decoration:none;
@@ -26,27 +27,43 @@ nav a:hover{
 nav li{
     
     list-style-type:none;
-    display:inline-block;
+    display: inline-block;
 }
 
-a img {
+header a img {
     max-width: 150px;
     object-fit: cover;
     display: block;
+    margin: 0 auto;
     /*float: left;*/
     padding:20px;
+    
 }
 
 nav{
     margin: 0 auto;
     background-color: white;
     width: 100%;
-    display: inline-block;
+    display: flex;
     z-index:100;
-    float:left;
+    justify-content: space-around;
+}
+nav.fixed{
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    z-index:100;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index:1000;
 }
 h1,h2,h3{
     color: #1797D7;
+}
+main{
+    height:560px;
 }
 .intro{
     width:100%;
