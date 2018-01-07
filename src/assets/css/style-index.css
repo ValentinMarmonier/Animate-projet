@@ -9,7 +9,7 @@ header{
 }
 nav a{
     text-decoration:none;
-    color:#00a0df;
+    color:white;
     padding:5px;
     margin: 15px;
     font-size:24px;
@@ -21,7 +21,8 @@ nav a{
 }
 
 nav a:hover{
-    color: #01384d;
+    color: #00a0df;
+    background-color: white;
 }
 
 nav li{
@@ -42,7 +43,7 @@ header a img {
 
 nav{
     margin: 0 auto;
-    background-color: white;
+    background-color: #00a0df;
     width: 100%;
     display: flex;
     z-index:100;
@@ -50,7 +51,7 @@ nav{
 }
 nav.fixed{
     margin: 0 auto;
-    background-color: white;
+    background-color: #00a0df;
     width: 100%;
     display: flex;
     z-index:100;
@@ -64,6 +65,23 @@ h1,h2,h3{
 }
 main{
     height:560px;
+}
+.bottom-footer{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.bottom-footer a {
+    text-decoration: none;
+    color: ivory;
+    
+}
+#contact,#infos-legales,#cgu,#cgv,#accueil-footer,#produits-footer,#blog-footer,#boutique-footer,
+#tel-footer,#adresse-footer,#email-footer{
+    padding: 5px;
 }
 .intro{
     width:100%;
