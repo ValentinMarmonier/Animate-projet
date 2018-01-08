@@ -1,35 +1,42 @@
             <section id="partenaires" class="sections-index">
-                <div id="icones-partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="img/" alt="icone ... partenaires">
-                </div>
-                
-                <div id="logos-partenaires">
-                    <h2 id="titre-partenaires">Partenaires</h2>
-                    <img class="logo-partenaires" src="img/" alt="logo ... partenaires">
-                    <img class="logo-partenaires" src="img/" alt="logo ... partenaires">
-                    <img class="logo-partenaires" src="img/" alt="logo ... partenaires">
-                    <img class="logo-partenaires" src="img/" alt="logo ... partenaires">
-                </div>
-                
-                <div id="centre-IME">
-                    <h3 id="titre-IME"></h3>Vous êtes centre IME
-                    <p class="paragraphes-index">
-                        Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset 
-                        contenant des passages du Lorem Ipsum, et, plus récemment, 
-                        par son inclusion dans des applications de mise en page de texte, 
-                        comme Aldus PageMaker.</p> 
-                </div>
-                <div id="cta-upercase" class="cta-upercase">
-                     <a class="bouton cta-bouton" href="#">Bouton cta</a>
-                </di>
-            </section>     
+                <article class="lignes-partenaires" class="lignes-index">
+                    <section>
+                        <div id="logos-partenaires">
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>    
+                        </div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>
+                            <div class="index-logo"><img src="img/index.png"></div>   
+                        </div>
+                    </section>           
+                </article>
+                    
+                <article class="ligne-partenaires" class="lignes-index">
+                    <h4 ><span id="titre-partenaires">Partenaires</span></h4>
+                    <img class="logo-partenaires" src="img/logo-Laureat-Chrysalide-MarseilleInnovation.jpg" alt="logos partenaires Lauréat Réseau Entreprendre Provence/Chrysalide Marseille/Marseille Innovation Accélérateur de croissance">
+                    <img class="logo-partenaires" src="img/logo-Bpifrance.png" alt="logo Bpifrance">
+                </article>
+    
+                <article class="ligne-partenaires" class="lignes-index">
+                    <h5><span id="titre-IME">Vous êtes centre IME</span></h5>
+                    <section class="ligne-partenaires" class="lignes-index">
+                        <p class="paragraphe-partenaires" class="paragraphes-index">
+                            Il a été popularisé dans les années 1960<br>
+                            grâce à la vente de feuilles Letras et contenant<br>
+                            des passages du Lorem Ipsum, et, plus récemment,<br>
+                            par son inclusion dans des applications<br>
+                            de mise en page de texte, comme Aldus PageMaker.</p>
+                        <div id="cta-upercase" class="cta-upercase">
+                            <a class="bouton cta-bouton-partenaires" href="#">Bouton cta</a>
+                        </div>
+                    </section>
+                </article>
+                    
+            </section><!-- partenaires -->             

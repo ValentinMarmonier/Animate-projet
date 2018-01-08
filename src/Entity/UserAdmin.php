@@ -32,4 +32,31 @@ class UserAdmin
      * @ORM\Column(type="integer")
      */
     private $niveau;
+    
+    
+    // METHODES GETTER 
+    
+    function getId ()
+    {
+        return $this->id;
+    }
+    
+    function getEmail ()
+    {
+        return $this->email;
+    }
+    
+    function getPassword ()
+    {
+        return $this->password;
+    }
+    
+    function getNiveau ()
+    {
+        return $this->niveau;
+    }
+    
+    
+    
+    
 }

@@ -69,7 +69,7 @@ class LoginController
    /**
       * @Route("/espaceAdmin", name="espaceAdmin")
       */   
-   public function espaceAdmin (Request $objetRequest /*, Connection $objetConnection, SessionInterface $objetSession*/)
+   public function espaceAdmin (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
    {
         // POUR RECUPERER LES INFOS DE FORMULAIRE
         // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
