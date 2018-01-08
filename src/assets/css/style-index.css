@@ -253,6 +253,7 @@ footer{
     object-fit: cover;
     max-height: 80px;
     max-width: 180px;
+    background-color: white;
 }
 #logos-partenaires{
     display:flex;

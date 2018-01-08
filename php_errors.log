@@ -34,3 +34,12 @@ Stack trace:
 [08-Jan-2018 12:34:51 UTC] PHP Warning:  require_once(/admin-header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
 [08-Jan-2018 12:34:51 UTC] PHP Fatal error:  require_once(): Failed opening required '/admin-header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
 >>>>>>> 10099dd82894baa3d2038253b6d39fdf0220b24a
+[08-Jan-2018 14:29:47 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-partenaires.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/part/section-accueil.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/part/section-accueil.php(8): require_once()
+#1 /home/ubuntu/workspace/animate/templates/template-accueil.php(4): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(34): require_once('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->accueil(Object(Symfony\Component\HttpFoundation\Request))
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\Htt in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 8
+[08-Jan-2018 14:29:47 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-partenaires.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 8
