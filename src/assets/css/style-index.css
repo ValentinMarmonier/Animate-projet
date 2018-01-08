@@ -64,7 +64,10 @@ h1,h2,h3{
     color: #1797D7;
 }
 main{
-    height:560px;
+    height:100%;
+}
+footer{
+    display:block;
 }
 .bottom-footer{
     background-color: black;
@@ -73,6 +76,7 @@ main{
     display: flex;
     padding: 5px;
     justify-content: space-between;
+    bottom:0;
 }
 .bottom-footer a {
     text-decoration: none;
@@ -94,7 +98,10 @@ main{
     padding-top: 5%;
     padding-bottom:20%;
    display: inline-block;
-   background-image: url("../src/assets/img/nuageheader2.png");
+   position:relative;
+   background-image: url("./../img/nuageheader.png");
+   background-position:bottom;
+   background-repeat:no-repeat;
 }
 .intro img{
     padding:10px; 
