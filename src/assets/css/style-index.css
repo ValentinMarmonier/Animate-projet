@@ -134,3 +134,34 @@ footer{
     padding:2%;
     display:inline-block;
 }
+.sectionTroubles{
+    background-color:#b4d7e1;
+    color:white;
+    padding-top:20px;
+    text-align:center;
+}
+.troublesdroite{
+    width:60%;
+    display:flex;
+    margin:0 auto;
+    justify-content:flex-end;
+    margin:0 auto;
+    padding:10px;
+}
+.troublesgauche{
+    width:60%;
+    display:flex;
+    justify-content:flex-start;
+    margin:0 auto;
+    padding:10px;
+}
+.sectionTroubles img{
+    max-width: 100px;
+    max-height:100px;
+    object-fit: cover;
+    display:inline-block;
+}
+.sectionTroubles p{
+    padding:10px;
+    
+}
