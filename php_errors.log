@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+[05-Jan-2018 15:27:37 UTC] PHP Warning:  require(/home/ubuntu/workspace/animate/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/public/index.php on line 8
+[05-Jan-2018 15:27:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/animate/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/public/index.php on line 8
+=======
 [05-Jan-2018 15:53:29 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/template-produits.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/src/Controller/VitrineController.php:226
 Stack trace:
 #0 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(226): require_once()
@@ -23,6 +27,10 @@ Stack trace:
 [07-Jan-2018 14:03:53 UTC] PHP Fatal error:  ContainerXoPpgfu\srcDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php on line 267
 [07-Jan-2018 14:04:33 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
 [07-Jan-2018 14:04:33 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerXoPpgfu/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+<<<<<<< HEAD
+>>>>>>> 0445d8710ff9b037f8be2828aac750ffbed41aec
+=======
 [08-Jan-2018 12:34:51 UTC] PHP Notice:  Undefined variable: cheminPart in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
 [08-Jan-2018 12:34:51 UTC] PHP Warning:  require_once(/admin-header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
 [08-Jan-2018 12:34:51 UTC] PHP Fatal error:  require_once(): Failed opening required '/admin-header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
+>>>>>>> 10099dd82894baa3d2038253b6d39fdf0220b24a

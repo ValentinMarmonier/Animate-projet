@@ -12,7 +12,7 @@
             <section id="ressources-tutos" class="">
                 <h4 id="titre-ressources-tutoriels"><span>Ressources et tutoriels</span></h4>
                 <div id="cta-lowercase" class="cta-lowercase">
-                    <a class="" href=""><pan>+</pan></a>
+                    <a class="" href=""><span>+</span></a>
                 </div>
             </section><!-- section#ressources-tutos -->
 

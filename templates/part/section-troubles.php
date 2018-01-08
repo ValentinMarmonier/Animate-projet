@@ -1,40 +1,78 @@
-<section class="sectionTroubles">
-    <h3>AniMate aide à travailler sur différents troubles</h3>
-   
-    <div class="troublesdroite">
-         <p>
-            Autisme
-        </p>
-        <img src="../src/assets/img/cognition-sociale-1-1024x900.jpg" alt="traiter l'autisme"></img>
-    </div>
+                <section id="troubles" class="sections-index">
+    				
+    			<h2 class="titre-2-sections">AniMate aide à travailler sur différents troubles</h2>
+            	<p class="paragraphe-troubles" class="paragraphe-index">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.<br>
+            	Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,<br>
+                quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+    				
     
-    <div class="troublesgauche">
-        <img src="../src/assets/img/exemple-Emotions-1024x900.jpg" alt="Déficience intellectuelle"></img>
-        <p>
-            Déficience intellectuelle
-        </p>
-    </div>  
+    			<article class="ligne-troubles" class="lignes-index">
+    				<section>
+    					<div class="icones">
+    						<img class="icones-troubles" src="img/vignette-trouble-1.png" alt="vignette trouble n°1">
+    					</div>
+    					<h3 class="titres-troubles">Autisme</h3>
+    					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
+    	                mais s'est aussi adapté à la bureautique informatique,<br> 
+    	                sans que son contenu n'en soit modifié
+    	            	</p>
+    				</section>
     
-    <div class="troublesdroite">
-                <p>
-            Troubles Dys
-        </p>
-        <img src="../src/assets/img/meteo3-1024x900.jpeg" alt="Troubles Dys"></img>
-    </div>
+    				<section>
+    					<div class="icones">
+    						<img class="icones-troubles" src="img/vignette-trouble-2.png" alt="vignette trouble n°2">
+    					</div>
+    					<h3 class="titres-troubles">Déficience intellectuelle</h3>
+    					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
+    	                mais s'est aussi adapté à la bureautique informatique,<br> 
+    	                sans que son contenu n'en soit modifié
+    	            	</p>
+    				</section>
     
-    <div class="troublesgauche">
-        <img src="../src/assets/img/hygiene-1024x900.jpg" alt="Maladies neurodégénératives"></img>
-        <p>
-            Maladies neurodégénératives
-        </p>
-    </div>
+    				<section>
+    					<div class="icones">
+    						<img class="icones-troubles" src="img/vignette-trouble-3.png" alt="vignette trouble n°3">
+    					</div>
+    					<h3 class="titres-troubles">Troubles Dys</h3>
+    					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
+    	                mais s'est aussi adapté à la bureautique informatique,<br> 
+    	                sans que son contenu n'en soit modifié
+    	            	</p>
+    				</section>
+    			</article>
+    			
+    			<article class="ligne-troubles" class="lignes-index">
+    				<section>
+    					<div class="icones">
+    						<img class="icones-troubles" src="img/vignette-trouble-4.jpg" alt="vignette trouble n°4">
+    					</div>
+    					<h3 class="titres-troubles">Maladies neurodégénératives</h3>
+    					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
+    	                mais s'est aussi adapté à la bureautique informatique,<br> 
+    	                sans que son contenu n'en soit modifié
+    	            	</p>	
+                	</section>
+    					
+                	<section>
+                		<div class="icones">
+    						<img class="icones-troubles" src="img/vignette-trouble-5.jpg" alt="vignette trouble n°5">
+    					</div>
+    					<h3 class="titres-troubles">Troubles du comportement</h3>
+    					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
+    	                mais s'est aussi adapté à la bureautique informatique,<br> 
+    	                sans que son contenu n'en soit modifié
+    	            	</p>
+                	</section>
+                		<div class="icones">
+    						<img class="icones-troubles" src="img/vignette-trouble-6.jpg" alt="vignette trouble n°6">
+    					</div>
+    					<h3 class="titres-troubles">Autres troubles</h3>
+    					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
+    	                mais s'est aussi adapté à la bureautique informatique,<br> 
+    	                sans que son contenu n'en soit modifié
+    	            	</p>
+                	<section>
     
-    <div class="troublesdroite">
-        <p>
-            Troubles du comportement
-        </p>
-        <img src="../src/assets/img/cognitive-1024x900.png" alt="Troubles du comportement"></img>
-    </div>
+    			</article>
     
-    
-</section>
+    		</section><!-- troubles -->
