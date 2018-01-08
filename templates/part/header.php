@@ -28,6 +28,7 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <!-- -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="../src/assets/css/style-index.css" type="text/css" />
+        <link rel="stylesheet" href="../../src/assets/css/style-index.css" type="text/css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
         

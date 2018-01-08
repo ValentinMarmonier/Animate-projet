@@ -65,11 +65,14 @@
                 </div><!-- .column-3 -->
 
                 <div class="column-4">
-                    <a class="social" href="https://www.facebook.com/Animate.figurine/" alt="facebook">  
+                    <a class="social" href="https://www.facebook.com/Animate.figurine/" alt="facebook">
+                        <img src="../src/assets/img/facebook.png" />
                     </a>
-                    <a class="social" href="https://www.youtube.com/channel/UC1alssxte9DNlCR_6N9SIxg/" alt="youtube">   
+                    <a class="social" href="https://www.youtube.com/channel/UC1alssxte9DNlCR_6N9SIxg/" alt="youtube"> 
+                        <img src="../src/assets/img/youtube.png" />
                     </a>
                     <a class="social" href="https://www.instagram.com/figurineanimate/" alt="instagram">
+                        <img src="../src/assets/img/instagram.png" />
                     </a>
                 </div><!-- .column-4 -->
  
