@@ -2,17 +2,7 @@
     <h3>Plus de 150 professionnels utilisent déjà AniMate</h3>
     
     <div>
-        <video src="https://youtu.be/CsJbev29jj0"></video>
         
-        <h4>Orthophonistes</h4>
-        
-        <p>
-        Marie, I said Cheetos, not Fritos. I must've said Cheetos like ten times. 
-        You need me to write it down for you? Well, I'm just saying, y'know, I said Cheetos. 
-        Ch-ch-ch sound. Virtually impossible to confuse Cheetos with Fritos it seems to me. 
-        </p>
-        
-        <a href="#">Découvrez les avantages d'AniMate pour les Orthophonistes</a>
         
     <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
