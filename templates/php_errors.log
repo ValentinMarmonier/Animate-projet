@@ -107,3 +107,48 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 50
+[08-Jan-2018 13:18:31 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 69
+[08-Jan-2018 13:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 69
+[08-Jan-2018 13:26:50 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 69
+[08-Jan-2018 13:26:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 69
+[08-Jan-2018 13:26:56 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 69
+[08-Jan-2018 13:26:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 69
+[08-Jan-2018 13:28:20 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 68
+[08-Jan-2018 13:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 68
+[08-Jan-2018 15:06:53 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:06:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:06:55 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:06:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:06:56 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:06:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:24:02 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:24:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:27:14 UTC] PHP Notice:  Undefined variable: objetRequest in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
+[08-Jan-2018 15:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/admin-form-kits.php on line 19
