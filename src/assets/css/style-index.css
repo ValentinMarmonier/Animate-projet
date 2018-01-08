@@ -1,14 +1,16 @@
 body{
     margin:0 auto;
     width:100%;
-    color:#A0D5F9;
+    color:#2A2D30;
+    background-color: #E8F9F9;
 }
 header{
     width:100%;
+    
 }
 nav a{
     text-decoration:none;
-    color:#00a0df;
+    color:white;
     padding:5px;
     margin: 15px;
     font-size:24px;
@@ -19,54 +21,108 @@ nav a{
     
 }
 
+
 nav a:hover{
-    color: #01384d;
+    color: #00a0df;
+    background-color: white;
 }
 
 nav li{
     
     list-style-type:none;
-    display:inline-block;
+    display: inline-block;
 }
 
-a img {
+header a img {
     max-width: 150px;
     object-fit: cover;
     display: block;
+    margin: 0 auto;
     /*float: left;*/
     padding:20px;
+    
 }
 
 nav{
     margin: 0 auto;
-    background-color: white;
+    background-color: #00a0df;
     width: 100%;
-    display: inline-block;
+    display: flex;
     z-index:100;
-    float:left;
+    justify-content: space-around;
 }
-h1,h2,h3{
-    color: #1797D7;
+nav.fixed{
+    margin: 0 auto;
+    background-color: #00a0df;
+    width: 100%;
+    display: flex;
+    z-index:100;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index:1000;
+}
+h1,h2,h3,h4{
+    color: #1797d7;
+}
+main{
+    height:100%;
+}
+footer{
+    display:block;
+}
+.bottom-footer{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    bottom:0;
+}
+.bottom-footer a {
+    text-decoration: none;
+    color: ivory;
+}
+.social img{
+    max-height:80px;
+    max-width:80px;
+    object-fit: cover;
+    padding:5px;
+}
+#contact,#infos-legales,#cgu,#cgv,#accueil-footer,#produits-footer,#blog-footer,#boutique-footer,
+#tel-footer,#adresse-footer,#email-footer{
+    padding: 5px;
 }
 .intro{
     width:100%;
     margin:0 auto;
-    padding-top: 5%;
-    padding-bottom:20%;
-   display: inline-block;
-   background-image: url("../src/assets/img/nuageheader2.png");
+    padding-top: 1%;
+    padding-bottom: 15%;
+   display: flex;
+   justify-content:space-between;
+   position:relative;
+   background-image: url("./../img/nuageheader.png");
+   background-position:bottom;
+   background-repeat:no-repeat;
+   background-size: contain;
 }
 .intro img{
-    padding:10px; 
+        max-height: 315px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;;
+    margin: 0 auto; 
 }
 .video{
     display: inline-block;
     width: 45%; 
+    margin: 0 auto;
 }
 .fondateurs{
     width:80%;
     color:black;
-    display:inline-block;
+    
     margin:0 auto;
     
 }
@@ -86,4 +142,86 @@ h1,h2,h3{
     width:40%;
     padding:2%;
     display:inline-block;
+}
+.sectionTroubles{
+    background-color:#b4d7e1;
+    color:white;
+    padding-top:20px;
+    text-align:center;
+}
+.troublesdroite{
+    width:60%;
+    display:flex;
+    margin:0 auto;
+    justify-content:flex-end;
+    margin:0 auto;
+    padding:10px;
+}
+.troublesgauche{
+    width:60%;
+    display:flex;
+    justify-content:flex-start;
+    margin:0 auto;
+    padding:10px;
+}
+.sectionTroubles img{
+    max-width: 100px;
+    max-height:100px;
+    object-fit: cover;
+    display:inline-block;
+}
+.sectionTroubles p{
+    padding:10px;
+    
+}
+.button-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  width: auto;
+}
+.sections-index{
+    margin:0 auto;
+    width: 90%;
+    padding: 10px;
+}
+.entete{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.ligne-benefices img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 180px;
+    width: 180px;
+    
+}
+.ligne-benefices{
+    display:flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.cta-button {
+  background-color: #8BC74A;
+  color: #fff !important;
+}
+
+.cta-button:hover {
+  color: black;
 }

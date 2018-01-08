@@ -2,9 +2,9 @@
 
 // ON RECUPERE LES URLS DES PAGES GRACE AU NOM DE LEUR ROUTE
 $urlAccueil         = $this->generateUrl("accueil");
-$urlproduits        = "" ; //$this->generateUrl("produits");
-$urlBlog            = "" ; //$this->generateUrl("blog");
-$urlBoutique        = "" ; //$this->generateUrl("boutique");
+$urlProduits        = $this->generateUrl("produits");
+$urlBlog            = $this->generateUrl("blog");
+$urlBoutique        = $this->generateUrl("boutique");
 $urlAdminLogin      = $this->generateUrl("adminLogin");
 $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlKit             = $this->generateUrl("kit");
@@ -28,6 +28,9 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <!-- -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="../src/assets/css/style-index.css" type="text/css" />
+        <link rel="stylesheet" href="../../src/assets/css/style-index.css" type="text/css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
         
         <!-- -->
         <meta name="description" content="Animate, outil de communication, de rééducation pour l&#039;autisme, la déficience intellectuelle, les troubles neuros-dégénératifs et des apprentissages" />
@@ -51,24 +54,24 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         
         <header id="site-header" class="" role="banner">
             <a href="https://www.animate.fr/">
-                <img src="img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
+                <img src="../src/assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
             </a>                    
         
             <!-- #site-navigation -->
-            <nav id="site-navigation" class="from-top" role="navigation">
+            <nav id="site-navigation" class="nav" role="navigation">
                 <div class="menu-container">
                     <ul id="menu-nav" class="menu">
                         <li class="">
-                            <a href="accueil">Accueil</a>
+                            <a href="<?php echo $urlAccueil ?>">Accueil</a>
                         </li>
                         <li class="">
-                            <a href="produits">Produits</a>
+                            <a href="<?php echo $urlProduits ?>">Produits</a>
                         </li>
                         <li class="">
-                            <a href="blog">Blog</a>
+                            <a href="<?php echo $urlBlog ?>">Blog</a>
                         </li>
                         <li class="">
-                            <a href="boutique">Boutique</a>
+                            <a href="<?php echo $urlBoutique ?>">Boutique</a>
                         </li>
                     </ul>           
                 </div><!-- .menu-container -->

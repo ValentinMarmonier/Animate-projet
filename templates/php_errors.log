@@ -8,3 +8,7 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 17
+[07-Jan-2018 14:03:15 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/ubuntu/workspace/animate/templates/part/section-utilisateurs.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/animate/templates/part/section-utilisateurs.php on line 21

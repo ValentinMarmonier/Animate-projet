@@ -42,20 +42,20 @@
                     <div id="blog-footer">
                         <a href="blog"><span>Blog</span></a>
                     </div>
-                    <div id="boutique">
+                    <div id="boutique-footer">
                         <a href="boutique"><span>Boutique</span></a>
                     </div>
                 </div><!-- .column-2 -->
 
                 <div class="column-3">
                     <adresse>
-                        <div id="tel">
+                        <div id="tel-footer">
                             <a href="tel:+33608133351"> Appeler la société Animate&reg; </a>
                         </div>
-                        <div id="email">
+                        <div id="email-footer">
                             <a href="mailto:eric.henryon@animate.fr"> Envoyer un email </a>
                         </div>
-                        <div id="bureaux">
+                        <div id="adresse-footer">
                             Technopôle de Château Gombert<br>
                             Hotel Technoptic<br>
                             2, rue Marc Donadille<br>
@@ -65,17 +65,36 @@
                 </div><!-- .column-3 -->
 
                 <div class="column-4">
-                    <a class="social" href="https://www.facebook.com/Animate.figurine/" alt="facebook">  
+                    <a class="social" href="https://www.facebook.com/Animate.figurine/" alt="facebook" target="_blank">
+                        <img src="../src/assets/img/facebook.png" />
                     </a>
-                    <a class="social" href="https://www.youtube.com/channel/UC1alssxte9DNlCR_6N9SIxg/" alt="youtube">   
+                    <a class="social" href="https://www.youtube.com/channel/UC1alssxte9DNlCR_6N9SIxg/" alt="youtube" target="_blank"> 
+                        <img src="../src/assets/img/youtube.png" />
                     </a>
-                    <a class="social" href="https://www.instagram.com/figurineanimate/" alt="instagram">
+                    <a class="social" href="https://www.instagram.com/figurineanimate/" alt="instagram" target="_blank">
+                        <img src="../src/assets/img/instagram.png" />
                     </a>
                 </div><!-- .column-4 -->
  
             </section><!-- section.bottom-footer -->
 
         </footer>
+        
+        <script type="text/javascript" >
+           $(window).scroll(function (event) {
+             // A chaque fois que l'utilisateur va scroller (descendre la page)
+            var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
+ 
+            //si cette valeur > à 200 on ajouter la class
+                if (y >= 200) {
+                    $('.nav').addClass('fixed');
+                }   
+                else {
+            // sinon, on l'enlève
+                    $('.nav').removeClass('fixed');
+                }
+            });
+        </script>
 
     </body>
 </html>
