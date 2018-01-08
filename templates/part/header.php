@@ -11,6 +11,8 @@ $urlKit             = $this->generateUrl("kit");
 $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
 
+
+
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->

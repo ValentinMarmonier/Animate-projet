@@ -103,7 +103,7 @@ class TraitementFormController
             // QUI CORRESPOND A L'EMAIL
             // http://www.doctrine-project.org/api/orm/2.5/class-Doctrine.ORM.EntityRepository.html
             // AVANT DE TRAITER LE LOGIN -> RECUPERER LE repository DANS LA SECTION
-            // $repository = $this->getDoctrine()->getRepository(App\Entity\User::class);
+            $repository = $this->getDoctrine()->getRepository(App\Entity\UserAdmin::class);
             $objetUser  = $objetRepository->findOneBy([ "email" => $email ]);
             if ($objetUser)
             {
@@ -118,20 +118,21 @@ class TraitementFormController
                 // http://php.net/manual/en/function.password-verify.php
                 if (password_verify($password, $passwordHash))
                 {
+                    if ($niveau == 9){
                     // OK
                     // LES MOTS DE PASSE CORRESPONDENT
-                    $pseudo = $objetUser->getPseudo();
                     $niveau = $objetUser->getNiveau();
                     $id     = $objetUser->getId();
-                    echo "BIENVENUE $pseudo (niveau=$niveau)";
+                //    echo "BIENVENUE $pseudo (niveau=$niveau)";
+                
+                    header('$urlEspaceAdmin');
                     
                     // MEMORISER LES INFOS DANS UNE SESSION
                     // https://symfony.com/doc/current/controller.html#session-intro
                     $objetSession->set("id", $id);
                     $objetSession->set("niveau", $niveau);
-                    $objetSession->set("pseudo", $pseudo);
                     $objetSession->set("email",  $email);
-                    
+                    }    
                 }
                 else
                 {
