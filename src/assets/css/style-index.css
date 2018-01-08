@@ -190,7 +190,7 @@ footer{
 }
 .sections-index{
     margin:0 auto;
-    width: 90%;
+    width:100%;
     padding: 10px;
 }
 .entete{
@@ -203,15 +203,37 @@ footer{
     object-fit: cover;
     height: 180px;
     width: 180px;
-    
 }
-.ligne-benefices{
+.ligne-benefices, .big-fact{
     display:flex;
     justify-content:space-between;
     width: 80%;
     margin: 0 auto;
+    padding: 15px;
 }
-
+.big-fact img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 180px;
+    width: 180px;
+    filter: grayscale(100%)
+    
+}
+.paragraphes-preuves{
+    padding: 20px;
+}
+#preuves{
+    background-color: white;
+}
+#apostrophes{
+   background-image: url("./../img/icone-apostrophes.png");
+   background-position: top left;
+   background-repeat:no-repeat;
+   background-size: 10%;
+}
+.signatures{
+    font-weight: bold;
+}
 
 
 
