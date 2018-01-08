@@ -1,7 +1,8 @@
 body{
     margin:0 auto;
     width:100%;
-    color:#A0D5F9;
+    color:#2A2D30;
+    background-color: #E8F9F9;
 }
 header{
     width:100%;
@@ -19,6 +20,7 @@ nav a{
     padding:20px;
     
 }
+
 
 nav a:hover{
     color: #00a0df;
@@ -60,8 +62,8 @@ nav.fixed{
     top: 0;
     z-index:1000;
 }
-h1,h2,h3{
-    color: #1797D7;
+h1,h2,h3,h4{
+    color: #1797d7;
 }
 main{
     height:100%;
@@ -186,9 +188,37 @@ footer{
   padding: 1em 2em;
   width: auto;
 }
+.sections-index{
+    margin:0 auto;
+    width: 90%;
+    padding: 10px;
+}
+.entete{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.ligne-benefices img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 180px;
+    width: 180px;
+    
+}
+.ligne-benefices{
+    display:flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
 
 .cta-button {
-  background-color: green;
+  background-color: #8BC74A;
   color: #fff !important;
 }
 
