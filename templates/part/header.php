@@ -56,10 +56,7 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
             <a href="https://www.animate.fr/">
                 <img src="../src/assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
             </a>
-            <h1>
-                Animate&reg;<br>
-                outil d&#039;aide à la communication et de rééducation
-            </h1> 
+            
         
             <!-- #site-navigation -->
             <nav id="site-navigation" class="nav" role="navigation">
