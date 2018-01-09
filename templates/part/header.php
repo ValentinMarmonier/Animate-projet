@@ -27,13 +27,8 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
 
         <title>Animate&reg;, outil d&#039;aide à la communication et de rééducation</title>
         
-        <!-- -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="../src/assets/css/style-index.css" type="text/css" />
-        <link rel="stylesheet" href="../../src/assets/css/style-index.css" type="text/css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-        
         <!-- -->
         <meta name="description" content="Animate, outil de communication, de rééducation pour l&#039;autisme, la déficience intellectuelle, les troubles neuros-dégénératifs et des apprentissages" />
         <meta name="robots" content="noodp"/>
@@ -45,10 +40,13 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <meta property="og:url" content="http://www.animate.fr/" />
         <meta property="og:site_name" content="Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" />
         
-       <!-- Google fonts -->
-       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-       <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"> 
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"> 
        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="../src/assets/css/style-index.css" type="text/css" />
+        <link rel="stylesheet" href="../../src/assets/css/style-index.css" type="text/css" />
         
     </head>
     
@@ -57,7 +55,11 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <header id="site-header" class="" role="banner">
             <a href="https://www.animate.fr/">
                 <img src="../src/assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
-            </a>                    
+            </a>
+            <h1>
+                Animate&reg;<br>
+                outil d&#039;aide à la communication et de rééducation
+            </h1> 
         
             <!-- #site-navigation -->
             <nav id="site-navigation" class="nav" role="navigation">
