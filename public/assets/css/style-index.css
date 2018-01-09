@@ -1,3 +1,5 @@
+
+/* body */
 body{
     margin:0 auto;
     width:100%;
@@ -5,10 +7,57 @@ body{
     background-color: #E8F9F9;
     font-family: 'Lato', sans-serif;
 }
+
+h1,h2,h3,h4,h5{
+    color: #1797d7;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h1{
+    padding:1%;
+    font-size: 22px;
+}
+main{
+    width: 1200px;
+    margin:0 auto;
+}
+
+/* header footer */
+
 header{
     width:100%;
-    
 }
+footer{
+    display:block;
+}
+    .bottom-footer{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    bottom:0;
+}
+.bottom-footer a {
+    text-decoration: none;
+    color: ivory;
+}
+.social img{
+    max-height:80px;
+    max-width:80px;
+    object-fit: cover;
+    padding:5px;
+}
+#contact,#infos-legales,#cgu,#cgv,#accueil-footer,#produits-footer,#blog-footer,#boutique-footer,
+#tel-footer,#adresse-footer,#email-footer{
+    padding: 5px;
+}
+
+/* nav */
+
 nav a{
     text-decoration:none;
     color:white;
@@ -63,43 +112,13 @@ nav.fixed{
     top: 0;
     z-index:1000;
 }
-h1,h2,h3,h4,h5{
-    color: #1797d7;
-    text-align: center;
-    margin: 0 auto;
-    padding:5%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+.sections-index{
+    margin:10px auto;
+    width:100%;
 }
-main{
-    height:100%;
-}
-footer{
-    display:block;
-}
-.bottom-footer{
-    background-color: black;
-    color: white;
-    list-style-type: none;
-    display: flex;
-    padding: 5px;
-    justify-content: space-between;
-    bottom:0;
-}
-.bottom-footer a {
-    text-decoration: none;
-    color: ivory;
-}
-.social img{
-    max-height:80px;
-    max-width:80px;
-    object-fit: cover;
-    padding:5px;
-}
-#contact,#infos-legales,#cgu,#cgv,#accueil-footer,#produits-footer,#blog-footer,#boutique-footer,
-#tel-footer,#adresse-footer,#email-footer{
-    padding: 5px;
-}
+
+/* intro video */
+
 .intro{
     width:100%;
     margin:0 auto;
@@ -126,20 +145,16 @@ footer{
     width: 45%; 
     margin: 0 auto;
 }
+/* fondateurs */
 .fondateurs{
     width:80%;
     color:black;
-    
     margin:0 auto;
-    
 }
 .fondateurs img{
-
     max-width: 400px;
     object-fit: cover;
     display:inline-block;
-    
-    
 }
 .cadre{
     width: 50%;
@@ -150,6 +165,9 @@ footer{
     padding:2%;
     display:inline-block;
 }
+
+/* troubles */
+
 .sectionTroubles{
     background-color:#b4d7e1;
     color:white;
@@ -195,10 +213,9 @@ footer{
   padding: 1em 2em;
   width: auto;
 }
-.sections-index{
-    margin:10px auto;
-    width:100%;
-}
+
+/* benefices */
+
 .entete{
     text-align: center;
     width: 40%;
@@ -217,6 +234,9 @@ footer{
     margin: 0 auto;
     padding: 15px;
 }
+
+/* benefices */
+
 .big-fact img{
     border-radius: 50%;
     object-fit: cover;
