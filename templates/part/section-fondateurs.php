@@ -1,6 +1,6 @@
-<div class="fondateurs">
+<div class="sections-produits">
     <div class="cadre">
-        <img src="../src/assets/img/eric-yunshan.png"></img>
+        <img src="assets/img/BD AniMate-fondateurs-3.jpg" alt="image figurines fondateurs">
     </div>
                     <div class="presentation">
                         <h4>Cher visiteur</h4>

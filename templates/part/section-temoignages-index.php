@@ -7,7 +7,7 @@
 
 			<article class="ligne-temoignages" class="lignes-index">
 				<section>
-					<img class="icone-apostrophes" src="img/icone-apostrophes.png" alt="apostrophes de citation">
+					<img class="icone-apostrophes" src="assets/img/icone-apostrophes.png" alt="apostrophes de citation">
 					<p class="paragraphes-temoignages" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié
@@ -18,17 +18,17 @@
 	            	</p>
             	</section>
             	<section class="icones">
-					<img class="icones-temoignages" src="img/vignette-temoignage-1.jpg" alt="vignette temoignage n°1">
+					<img class="icones-temoignages" src="assets/img/vignette-temoignage-1.jpg" alt="vignette temoignage n°1">
             	</section>	
 			</article>
 
 
 			<article class="ligne-temoignages" class="lignes-index">
 				<section class="icones">
-					<img class="icones-temoignages" src="img/vignette-temoignage-2.jpg" alt="vignette temoignage n°2">
+					<img class="icones-temoignages" src="assets/img/vignette-temoignage-2.jpg" alt="vignette temoignage n°2">
 				</section>
 				<section>
-					<img class="icone-apostrophes" src="img/icone-apostrophes.png" alt="apostrophes de citation">
+					<img class="icone-apostrophes" src="assets/img/icone-apostrophes.png" alt="apostrophes de citation">
 					<p class="paragraphes-temoignages" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié
@@ -43,7 +43,7 @@
 
 			<article class="ligne-temoignages" class="lignes-index">
 				<section>
-					<img class="icone-apostrophes" src="img/icone-apostrophes.png" alt="apostrophes de citation">
+					<img class="icone-apostrophes" src="assets/img/icone-apostrophes.png" alt="apostrophes de citation">
 					<p class="paragraphes-temoignages" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié
@@ -54,7 +54,7 @@
 	            	</p>
             	</section>
             	<section class="icones">
-					<img class="icones-temoignages" src="img/vignette-temoignage-3.png" alt="vignette temoignage n°3">
+					<img class="icones-temoignages" src="assets/img/vignette-temoignage-3.png" alt="vignette temoignage n°3">
 				</section>
 			</article>	
 			

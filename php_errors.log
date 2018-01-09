@@ -59,3 +59,30 @@ Stack trace:
 #3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
 #4 /home/ubuntu/workspace/animate/public/index.php(37): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundatio in /home/ubuntu/workspace/animate/src/Controller/VitrineController.php on line 258
 [09-Jan-2018 09:47:00 UTC] PHP Fatal error:  App\Controller\VitrineController::produits(): Failed opening required '/home/ubuntu/workspace/animate/templates/template-produits.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/src/Controller/VitrineController.php on line 258
+[09-Jan-2018 14:28:24 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-video.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/part/section-accueil.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/part/section-accueil.php(4): require_once()
+#1 /home/ubuntu/workspace/animate/templates/template-accueil.php(4): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(34): require_once('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->accueil(Object(Symfony\Component\HttpFoundation\Request))
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKerne in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 4
+[09-Jan-2018 14:28:24 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-video.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 4
+[09-Jan-2018 14:33:31 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-video.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/part/section-accueil.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/part/section-accueil.php(4): require_once()
+#1 /home/ubuntu/workspace/animate/templates/template-accueil.php(4): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(34): require_once('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->accueil(Object(Symfony\Component\HttpFoundation\Request))
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKerne in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 4
+[09-Jan-2018 14:33:31 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-video.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 4
+[09-Jan-2018 14:33:31 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-video.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/part/section-accueil.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/part/section-accueil.php(4): require_once()
+#1 /home/ubuntu/workspace/animate/templates/template-accueil.php(4): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(34): require_once('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->accueil(Object(Symfony\Component\HttpFoundation\Request))
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKerne in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 4
+[09-Jan-2018 14:33:31 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-video.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 4
