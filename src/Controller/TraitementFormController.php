@@ -12,7 +12,7 @@ class TraitementFormController
     function __construct ()
     {
         // DEBUG
-        echo "[TraitementForm::__construct]";
+       // echo "[TraitementForm::__construct]";
     }
     
     

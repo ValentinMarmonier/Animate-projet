@@ -2,7 +2,7 @@
 				
 			<h2 class="titre-2-sections-index">Cibles métiers</h2>
 			
-			<article class="ligne-cibles" class="lignes-index">
+			<article class="ligne-cibles" >
 				<section>
 					<h3 class="titre-3-sections-index">Orthophoniste</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -12,18 +12,17 @@
 	                plus récemment, par son inclusion dans des applications de mise enpage de texte,<br>
 	                comme Aldus PageMaker.
 	            	</p>
+	            		<img class="icones-cibles" src="img/logo-ortho.jpg" alt="logo métier orthophoniste">
 		            <div class="ligne-cibles" class="lignes-index">
 						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
 					</div>
 				</section>
 			</article>
-			<article class="icones">
-				<img class="icones-cibles" src="img/logo-ortho.jpg" alt="logo métier orthophoniste">
-			</article>
+			
 
 
 			<article class="icones">
-				<img class="icones-cibles" src="img/logo-psychomot.jpg" alt="logo métier orthophoniste">
+				<img class="icones-cibles" src="img/logo-psychomot.jpg" alt="logo métier psychomotricienne">
 			</article>
 			<article class="ligne-cibles" class="lignes-index">
 				<section>
