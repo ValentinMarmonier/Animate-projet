@@ -1,5 +1,4 @@
-            <section id="partenaires" class="sections-index">
-<<<<<<< HEAD
+            <section id="partenaire" class="sections-index">
                 <div id="icones-partenaires">
                     <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
                     <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
@@ -28,7 +27,7 @@
                 
                 <article class="ligne-partenaires" class="lignes-index">
                     <h5><span id="titre-IME">Vous êtes centre IME</span></h5>
-                    <section class="ligne-partenaires" class="lignes-index">
+                    <section class="lignes-partenaires" class="lignes-index">
                         <p class="paragraphes-index">
                             Il a été popularisé dans les années 1960<br>
                             grâce à la vente de feuilles Letras et contenant<br>
