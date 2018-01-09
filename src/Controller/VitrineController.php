@@ -63,7 +63,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-video.php");
+        require_once("$cheminPart/section-video.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -95,7 +95,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-fondateurs.php");
+        require_once("$cheminPart/section-fondateurs.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -127,7 +127,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-benefices.php");
+        require_once("$cheminPart/section-benefices.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -159,7 +159,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-partenaires.php");
+        require_once("$cheminPart/section-partenaires.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -191,7 +191,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-cibles.php");
+        require_once("$cheminPart/section-cibles.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -223,7 +223,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-cibles-description.php");
+        require_once("$cheminPart/section-cibles-description.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
