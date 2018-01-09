@@ -9,7 +9,7 @@
     			<article class="ligne-troubles" class="lignes-index">
     				<section>
     					<div class="icones">
-    						<img class="icones-troubles" src="img/vignette-trouble-1.png" alt="vignette trouble n°1">
+    						<img class="icones-troubles" src="img/symbole-autisme.png" alt="vignette symbole autisme">
     					</div>
     					<h3 class="titres-troubles">Autisme</h3>
     					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -20,7 +20,7 @@
     
     				<section>
     					<div class="icones">
-    						<img class="icones-troubles" src="img/vignette-trouble-2.png" alt="vignette trouble n°2">
+    						<img class="icones-troubles" src="img/symbole-deficience-intellectuelle2.jpg" alt="vignette déficience intellectuelle">
     					</div>
     					<h3 class="titres-troubles">Déficience intellectuelle</h3>
     					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -31,7 +31,7 @@
     
     				<section>
     					<div class="icones">
-    						<img class="icones-troubles" src="img/vignette-trouble-3.png" alt="vignette trouble n°3">
+    						<img class="icones-troubles" src="img/symbole-dysfonctionnement2.jpg" alt="vignette troubles dysfonctionnement">
     					</div>
     					<h3 class="titres-troubles">Troubles Dys</h3>
     					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -44,7 +44,7 @@
     			<article class="ligne-troubles" class="lignes-index">
     				<section>
     					<div class="icones">
-    						<img class="icones-troubles" src="img/vignette-trouble-4.jpg" alt="vignette trouble n°4">
+    						<img class="icones-troubles" src="img/symbole-maladies-neurodegeratives.jpg" alt="vignette maladies neurodégénératives">
     					</div>
     					<h3 class="titres-troubles">Maladies neurodégénératives</h3>
     					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -55,7 +55,7 @@
     					
                 	<section>
                 		<div class="icones">
-    						<img class="icones-troubles" src="img/vignette-trouble-5.jpg" alt="vignette trouble n°5">
+    						<img class="icones-troubles" src="img/symbole-troubles-comportement.jpg" alt="vignette troubles du comportement">
     					</div>
     					<h3 class="titres-troubles">Troubles du comportement</h3>
     					<p class="paragraphes-troubles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>

@@ -107,3 +107,9 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/ubuntu/workspace/animate/templates/part/section-admin-login.php on line 50
+[08-Jan-2018 16:04:39 UTC] PHP Notice:  Undefined variable: cheminPart in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 3
+[08-Jan-2018 16:04:39 UTC] PHP Warning:  require_once(/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 3
+[08-Jan-2018 16:04:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 3
+[08-Jan-2018 16:04:39 UTC] PHP Notice:  Undefined variable: cheminPart in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 3
+[08-Jan-2018 16:04:39 UTC] PHP Warning:  require_once(/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 3
+[08-Jan-2018 16:04:39 UTC] PHP Fatal error:  require_once(): Failed opening required '/header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/part/section-accueil.php on line 3
