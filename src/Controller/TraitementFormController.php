@@ -119,19 +119,20 @@ class TraitementFormController
                 if (password_verify($password, $passwordHash))
                 {
                     if ($niveau == 9){
-                    // OK
-                    // LES MOTS DE PASSE CORRESPONDENT
-                    $niveau = $objetUser->getNiveau();
-                    $id     = $objetUser->getId();
-                //    echo "BIENVENUE $pseudo (niveau=$niveau)";
-                
-                    header('$urlEspaceAdmin');
+                        // OK
+                        // LES MOTS DE PASSE CORRESPONDENT
+                        $niveau = $objetUser->getNiveau();
+                        $id     = $objetUser->getId();
+                    //    echo "BIENVENUE $pseudo (niveau=$niveau)";
+                    
+                        header('$urlEspaceAdmin');
                     
                     // MEMORISER LES INFOS DANS UNE SESSION
                     // https://symfony.com/doc/current/controller.html#session-intro
                     $objetSession->set("id", $id);
                     $objetSession->set("niveau", $niveau);
                     $objetSession->set("email",  $email);
+                    
                     }    
                 }
                 else

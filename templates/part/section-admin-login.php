@@ -1,4 +1,3 @@
-<!--
 
 <!doctype html>
 
@@ -45,8 +44,8 @@
         <input type="hidden" name="codebarre" value="login">
 
       </form>
--->      
-
+     
+<!--
 <section>
                 <h3>SECTION LOGIN</h3>
                 <form method="POST" action="" class="formLogin">
@@ -56,7 +55,7 @@
                     <input type="hidden" name="codebarre" value="login">
                     <div class="response">
 
-
+-->
 
 
 
@@ -81,7 +80,7 @@ if ($objetRequest->get("codebarre", "") == "login")
       
       
       
-<!--
+
     </div> 
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -91,7 +90,7 @@ if ($objetRequest->get("codebarre", "") == "login")
   </body>
 </html>
 
--->
+
 
 </div>
                 </form>

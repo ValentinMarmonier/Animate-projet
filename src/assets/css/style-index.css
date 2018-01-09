@@ -64,6 +64,9 @@ nav.fixed{
 }
 h1,h2,h3,h4{
     color: #1797d7;
+    text-align: center;
+    margin: 0 auto;
+    padding:5%;
 }
 main{
     height:100%;
@@ -216,7 +219,7 @@ footer{
     object-fit: cover;
     height: 180px;
     width: 180px;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
     
 }
 .paragraphes-preuves{
@@ -235,15 +238,46 @@ footer{
     font-weight: bold;
 }
 
-
-
-
-
-.cta-button {
-  background-color: #8BC74A;
-  color: #fff !important;
+.icones-partenaires{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+}
+#icones-partenaires{
+    display:flex;
+    justify-content:space-around;
+}
+.logo-partenaires{
+    border-radius: 50%;
+    object-fit: cover;
+    max-height: 80px;
+    max-width: 180px;
+    background-color: white;
+}
+#logos-partenaires{
+    display:flex;
+    justify-content:space-between;
 }
 
-.cta-button:hover {
-  color: black;
+
+
+.cta-bouton {
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-family: tahoma,arial,helvetica,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 12px;
+  padding: 7px 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #8BC74A;
+  color:white;
+}
+
+.cta-bouton:hover {
+  color: #8BC74A;
+  background-color: white;
 }
