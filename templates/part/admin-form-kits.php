@@ -18,9 +18,9 @@
 // TRAITER LE FORMULAIRE
 if ($objetRequest->get("codebarre", "") == "form-kits")
 {
-    $objetFormArticle = new App\Controller\FormAdminKit;
+    $objetFormArticle = new App\Controller\FormAdmin;
     
-    $objetFormArticle->creer($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
+    $objetFormArticle->creerKits($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
     
     // https://symfony.com/doc/current/doctrine.html#persisting-objects-to-the-database
     //$objetEntityManager = $this->getDoctrine()->getManager();
