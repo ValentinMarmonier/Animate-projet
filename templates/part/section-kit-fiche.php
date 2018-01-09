@@ -44,7 +44,7 @@ CODEHTML;
 <<<CODEHTML
 
     <article>
-        <h4 title="$id">$nomKit</a></h4>
+        <h4 title="$id">$nomKit</h4>
         <p>$description</p>
         <p>$infoComplementaire</p>
         <p>$prix €</p>

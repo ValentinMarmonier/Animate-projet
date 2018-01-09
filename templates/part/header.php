@@ -10,8 +10,7 @@ $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlKit             = $this->generateUrl("kit");
 $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
-
-
+$urlPanier          = $this->generateUrl("panier");
 
 ?>
 <!DOCTYPE html>

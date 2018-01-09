@@ -1,5 +1,4 @@
 
-
 <section>
     <h3>Retrouvez nos kits AniMate pour travailler avec les personnes que vous prenez en charge dans le cadre de séances individuelles ou en groupe.</h3>
 
@@ -49,15 +48,16 @@ CODEHTML;
 <<<CODEHTML
 
     <article>
-         <h4 title="$id"><a href="$urlKitFiche">$nomKit</a></h4>
+        <h4 title="$nomKit"><a href="$urlKitFiche">$nomKit</a></h4>
         <p>$description</p>
-        <p>$infoComplementaire</p>
         <p>$prix €</p>
         <div>$htmlImage</div>
+        <a href="$urlPanier">Panier</a>
+        
     </article>
     
 CODEHTML;
-    
+
 
     
 
@@ -66,3 +66,10 @@ CODEHTML;
 
 
 </section>
+
+<div>
+    
+    <a href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
+    
+</div>
+
