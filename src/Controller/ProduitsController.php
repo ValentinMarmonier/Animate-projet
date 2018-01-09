@@ -40,7 +40,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-kit.php");
+        require_once("$cheminPart/section-kit.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -73,7 +73,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-kit.php");
+        require_once("$cheminPart/section-kit.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -100,7 +100,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-categorie-kit.php");
+        require_once("$cheminPart/section-categorie-kit.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -126,7 +126,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-categorie-kit.php");
+        require_once("$cheminPart/section-categorie-kit.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -157,7 +157,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-pictogramme.php");
+        require_once("$cheminPart/section-pictogramme.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -189,7 +189,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-pictogramme.php");
+        require_once("$cheminPart/section-pictogramme.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -203,37 +203,7 @@ class ProduitsController
         return new Response($contenuCache);
    }
    
-   /**
-      * @Route("boutique/", name="boutique")
-      */   
-   public function boutique (Request $objetRequest, Connection $objetConnection)
-   {
-        // POUR RECUPERER LES INFOS DE FORMULAIRE
-        // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
-        // UN OBJET DE LA CLASSE Request
-        // (INJECTION DE DEPENDANCE...)
-       
-        // JE VAIS METTRE EN CACHE LE CODE HTML
-        // http://php.net/manual/fr/function.ob-start.php
-        ob_start();
-
-        // METHODE DE SYMFONY POUR OBTENIR LE CHEMIN DU DOSSIER symfony1        
-        $cheminSymfony   = $this->getParameter('kernel.project_dir');
-        $cheminTemplates = "$cheminSymfony/templates"; 
-        $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-boutique.php");
-        
-        // RECUPERER LE CONTENU DU CACHE
-        // http://php.net/manual/fr/function.ob-get-clean.php
-        $contenuCache = ob_get_clean();
-        
-        // TEMPORISATION DE L'AFFICHAGE...
-        // JE NE FAIS PAS LE echo DE L'AFFICHAGE MOI MEME
-        // JE DONNE LE CONTENU HTML A LA CLASSE Response
-        // ET C'EST LA MECANIQUE DE SYMFONY QUI VA GERER L'AFFICHAGE DE CE CODE
-        
-        return new Response($contenuCache);
-   }
+   
    
    /**
       * @Route("troubles/", name="troubles")
@@ -253,7 +223,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-troubles.php");
+        require_once("$cheminPart/section-troubles.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -285,7 +255,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-emotions.php");
+        require_once("$cheminPart/section-emotions.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -317,7 +287,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-utilisateurs.php");
+        require_once("$cheminPart/section-utilisateurs.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -349,7 +319,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-temoignages.php");
+        require_once("$cheminPart/section-temoignages.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -381,7 +351,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-commandes-tests.php");
+        require_once("$cheminPart/section-commandes-tests.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
@@ -413,7 +383,7 @@ class ProduitsController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-faq.php");
+        require_once("$cheminPart/section-faq.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php

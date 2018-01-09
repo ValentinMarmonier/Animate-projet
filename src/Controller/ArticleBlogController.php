@@ -32,7 +32,7 @@ class ArticleBlogController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-view-article.php");
+        require_once("$cheminPart/section-view-article.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php
