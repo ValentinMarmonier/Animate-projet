@@ -19,13 +19,13 @@
 
 			<article class="ligne-troubles" class="lignes-index">
 				<section>
-					<img class="icones-emotions" src="img/vignette-emotion-1.png" alt="vignette émotions n°1">
+					<img class="icones-emotions" src="assets/img/vignette-emotion-1.png" alt="vignette émotions n°1">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 		                mais s'est aussi adapté à la bureautique informatique,<br> 
 		                sans que son contenu n'en soit modifié</p>
 				</section>
 				<section>
-					<img class="icones-emotions" src="img/vignette-emotion-1.png" alt="vignette emotion n°2">
+					<img class="icones-emotions" src="assets/img/vignette-emotion-1.png" alt="vignette emotion n°2">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 		                mais s'est aussi adapté à la bureautique informatique,<br> 
 		                sans que son contenu n'en soit modifié</p>
@@ -35,13 +35,13 @@
 
 			<article class="ligne-emotions" class="lignes-index">
 				<section>
-					<img class="icones-emotions" src="img/vignette-emotion-3.jpg" alt="vignette émotions n°3">
+					<img class="icones-emotions" src="assets/img/vignette-emotion-3.jpg" alt="vignette émotions n°3">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié</p>
             	</section>
             	<section>
-            		<img class="icones-emotions" src="img/vignette-emotion-3.jpg" alt="vignette emotion n°4">
+            		<img class="icones-emotions" src="assets/img/vignette-emotion-3.jpg" alt="vignette emotion n°4">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié</p>
@@ -50,7 +50,7 @@
 
 			<article class="ligne-emotions" class="lignes-index">
 				<section>
-					<img class="icones-emotions" src="img/vignette-emotion-5.png" alt="vignette émotions n°5">
+					<img class="icones-emotions" src="assets/img/vignette-emotion-5.png" alt="vignette émotions n°5">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié</p>

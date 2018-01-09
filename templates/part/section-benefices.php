@@ -16,10 +16,10 @@
                     mais s'est aussi adapté à la bureautique informatique,<br> 
                     sans que son contenu n'en soit modifié</p>
                     </div>
-                    <img class="icones-benefices" src="../src/assets/img/attention-aux-autres.png" alt="">
+                    <img class="icones-benefices" src="assets/img/attention-aux-autres.png" alt="">
                 </div>
                 <div class="ligne-benefices">
-                   <img class="icones-benefices" src="../src/assets/img/attention.png" alt="">
+                   <img class="icones-benefices" src="assets/img/attention.png" alt="">
                     <div class="bloctexte">
                     <h3 class="titre-3-sections">Titre h3 ligne 2 section bénéfices</h3>
                     <p class="paragraphes-benefices" class="paragraphes-index"> 
@@ -36,7 +36,7 @@
                     mais s'est aussi adapté à la bureautique informatique,<br> 
                     sans que son contenu n'en soit modifié</p>
                     </div>
-                    <img class="icones-benefices" src="../src/assets/img/attention-1.png" alt="">
+                    <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
                 </div>
                 
             </section>

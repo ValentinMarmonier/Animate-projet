@@ -34,16 +34,16 @@
 
                 <div class="column-2">
                     <div id="accueil-footer">
-                        <a  href="accueil"><span>Accueil</span></a>
+                        <a href="<?php echo $urlAccueil ?>">Accueil</a>
                     </div>
                     <div id="produits-footer">
-                        <a href="produits"><span>Produits</span></a>
+                        <a href="<?php echo $urlProduits ?>">Produits</a>
                     </div>
                     <div id="blog-footer">
-                        <a href="blog"><span>Blog</span></a>
+                        <a href="<?php echo $urlBlog ?>">Produits</a>
                     </div>
                     <div id="boutique-footer">
-                        <a href="boutique"><span>Boutique</span></a>
+                        <a href="<?php echo $urlBoutique ?>">Boutique</a>
                     </div>
                     
                     
