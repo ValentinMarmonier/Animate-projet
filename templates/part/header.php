@@ -44,9 +44,9 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"> 
        
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="../public/assets/css/style-index.css" type="text/css" />
-        <link rel="stylesheet" href="../../public/assets/css/style-index.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo $urlAccueil ?>css/normalize.css">
+        <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style.css" type="text/css" />
+      
         
     </head>
     
