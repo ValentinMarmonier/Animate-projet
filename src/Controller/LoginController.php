@@ -37,7 +37,7 @@ class LoginController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminPart/section-admin-login.php");
+        require_once("$cheminTemplates/template-admin-login.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php

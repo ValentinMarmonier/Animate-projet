@@ -13,7 +13,7 @@
         
         <button type="submit">PUBLIER ARTICLE</button>
         <input type="hidden" name="codebarre" value="form-kits">
-        <div class="response">
+        >
 <?php
 // TRAITER LE FORMULAIRE
 if ($objetRequest->get("codebarre", "") == "form-kits")
@@ -27,7 +27,7 @@ if ($objetRequest->get("codebarre", "") == "form-kits")
     //$objetFormArticle->creerPersistence($objetRequest, $objetConnection, $objetEntityManager, $cheminSymfony, $objetSession);
 }
 ?>
-        </div>
+        
     </form>
     
     <!-- https://sdk.ckeditor.com/samples/autogrow.html# -->
@@ -43,3 +43,5 @@ if ($objetRequest->get("codebarre", "") == "form-kits")
     </script>
     
 </section>
+
+

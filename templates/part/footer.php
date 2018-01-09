@@ -45,6 +45,9 @@
                     <div id="boutique-footer">
                         <a href="boutique"><span>Boutique</span></a>
                     </div>
+                    
+                    
+                    
                 </div><!-- .column-2 -->
 
                 <div class="column-3">
