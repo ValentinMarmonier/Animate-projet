@@ -7,7 +7,7 @@
 
 <section>
     <div class="intro">
-    <img src="assets/img/BD AniMate-fondateurs-3.jpg" alt="image figurines fondateurs">
+    <img src="assets/img/BD-AniMatecoeur.png" alt="image figurines fondateurs">
         <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qskzSUsuLeU"
             frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
