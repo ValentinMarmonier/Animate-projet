@@ -12,6 +12,13 @@ $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
 $urlPanier          = $this->generateUrl("panier");
 
+        // A SUPRIMER QUAND ADMIN OK !!!
+$urlInscription             = $this->generateUrl("inscription");
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
