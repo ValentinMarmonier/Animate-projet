@@ -1,19 +1,19 @@
             <section id="partenaire" class="sections-index">
                 <section class="largeur">
                 <div id="icones-partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
                     </div>
                     <div id="icones-partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
                 </div>
                 <div id="partenaires">
                     <h2 id="titre-partenaires">Partenaires</h2>

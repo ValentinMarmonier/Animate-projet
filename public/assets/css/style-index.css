@@ -168,6 +168,11 @@ nav.fixed{
 /* fondateurs */
 .sections-index-fondateurs{
     background-color: white;
+    background-image: url(./../img/bulle.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    padding-bottom: 10%;
 }
 .fondateurs{
     width:80%;
@@ -316,7 +321,7 @@ nav.fixed{
 #icones-partenaires{
     display:flex;
     justify-content:space-around;
-    padding-top: 7%;
+    padding: 5% 0px;
 }
 .logo-partenaires{
     border-radius: 50%;
@@ -341,9 +346,49 @@ nav.fixed{
     align-items:center;
 }
 
+/* cibles */
 
 #cibles{
     background-color: white;
+}
+.icones-cibles{
+    border-radius: 20px;
+    object-fit: cover;
+    max-height: 80px;
+    max-width: 180px;
+    background-color: white;
+    margin: 20px;
+}
+.ligne-cibles{
+    display:flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    align-items:center;
+}
+
+/* footer top */
+
+.section-top{
+    background-image: url("./../img/ludique.png");
+    background-position:bottom;
+   background-repeat:no-repeat;
+   background-size: contain;
+   height: 800px;
+}
+#cadre-footer{
+    padding-top: 22%;
+    width: 20%;
+    margin: 0 auto;
+}
+#ressources-tutos{
+    width: 20%;
+    margin: 115px auto;
+    border: solid 2px #1797d7;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
 }
 
 .cta-bouton {
@@ -366,13 +411,7 @@ nav.fixed{
   color: #8BC74A;
   background-color: white;
 }
-.ligne-cibles{
-    display:flex;
-    justify-content:space-between;
-    width: 80%;
-    margin: 0 auto;
-    padding: 15px;
-}
+
 
 input, textarea, button {
     display:block;
