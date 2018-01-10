@@ -121,3 +121,30 @@ Stack trace:
 [10-Jan-2018 11:00:34 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerG43RYbq/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
 [10-Jan-2018 11:00:34 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerG43RYbq/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
 [10-Jan-2018 11:00:34 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerG43RYbq/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 14:39:55 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-temoignages.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-produits.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/template-produits.php(6): require_once()
+#1 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(258): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->produits(Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/ubuntu/workspace/animate in /home/ubuntu/workspace/animate/templates/template-produits.php on line 6
+[10-Jan-2018 14:39:55 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-temoignages.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-produits.php on line 6
+[10-Jan-2018 14:44:33 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-temoignages.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-produits.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/template-produits.php(6): require_once()
+#1 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(258): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->produits(Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/ubuntu/workspace/animate in /home/ubuntu/workspace/animate/templates/template-produits.php on line 6
+[10-Jan-2018 14:44:33 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-temoignages.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-produits.php on line 6
+[10-Jan-2018 14:52:07 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/section-temoignages.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-produits.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/template-produits.php(6): require_once()
+#1 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(258): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->produits(Object(Symfony\Component\HttpFoundation\Request))
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /home/ubuntu/workspace/animate in /home/ubuntu/workspace/animate/templates/template-produits.php on line 6
+[10-Jan-2018 14:52:07 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/section-temoignages.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-produits.php on line 6

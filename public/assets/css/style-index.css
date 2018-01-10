@@ -187,6 +187,7 @@ nav.fixed{
     object-fit: cover;
     display:inline-block;
     border-radius:10%;
+    transform: rotate(-5deg);
 }
 .cadre{
     width: 50%;
