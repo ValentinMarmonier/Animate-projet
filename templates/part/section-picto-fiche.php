@@ -23,6 +23,7 @@ if ($objetPictogramme)
     $description            = $objetPictogramme->getDescription();
     $prix                   = $objetPictogramme->getPrix();
     $image                  = $objetPictogramme->getImage();
+    $imagefiche             = $objetPictogramme->getImagefiche();
     $categorie              = $objetPictogramme->getCategorie();
     
     
@@ -32,10 +33,22 @@ if ($objetPictogramme)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBoutique/$image" title="$image">
 
 CODEHTML;
     }
+    
+    
+$htmlImageFiche = "";
+    if ($imagefiche)
+    {
+        $htmlImageFiche = 
+<<<CODEHTML
+
+    <img src="$urlAccueil/assets/img/imgBoutique/$imagefiche" title="$imagefiche">
+
+CODEHTML;
+    }      
     
     
     echo
@@ -45,7 +58,9 @@ CODEHTML;
          <h4 title="$titre">$titre</h4>
         <p>$description</p>
         <p>$prix €</p>
-        <div>$htmlImage</div>
+        <div class="imageBoutique">$htmlImage</div>
+        <div class="imageBoutiqueFiche">$htmlImageFiche</div>
+        
     </article>
     
 CODEHTML;

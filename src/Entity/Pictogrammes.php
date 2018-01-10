@@ -40,6 +40,11 @@ class Pictogrammes
     private $image;
     
     /**
+     * @ORM\Column(type="text")
+     */
+    private $imagefiche;
+    
+    /**
      * @ORM\Column(type="string", length=200)
      */
     private $categorie;
@@ -71,6 +76,11 @@ class Pictogrammes
     public function setImage ($image)
     {
         $this->image = $image;
+    }
+    
+    public function setImagefiche ($imagefiche)
+    {
+        $this->imagefiche = $imagefiche;
     }
     
     public function setCategorie ($categorie)
@@ -105,6 +115,11 @@ class Pictogrammes
     public function getImage ()
     {
         return $this->image;
+    }
+    
+    public function getImagefiche ()
+    {
+        return $this->imagefiche;
     }
     
     public function getCategorie ()
