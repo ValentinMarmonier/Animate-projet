@@ -8,35 +8,36 @@
                     et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, 
                     quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
                 </div>
-                <div class="ligne-benefices">
-                    <div class="bloctexte">
-                    <h3 class="titre-3-sections">Titre h3 ligne 1 section bénéfices</h3>
-                    <p class="paragraphes-benefices" class="paragraphes-index"> 
-                    Il n'a pas fait que survivre cinq siècles,<br>
-                    mais s'est aussi adapté à la bureautique informatique,<br> 
-                    sans que son contenu n'en soit modifié</p>
+                <section class="largeur">
+                    <div class="ligne-benefices">
+                        <div class="bloctexte">
+                        <h3 class="titre-3-sections">Titre h3 ligne 1 section bénéfices</h3>
+                        <p class="paragraphes-benefices" class="paragraphes-index"> 
+                        Il n'a pas fait que survivre cinq siècles,<br>
+                        mais s'est aussi adapté à la bureautique informatique,<br> 
+                        sans que son contenu n'en soit modifié</p>
+                        </div>
+                        <img class="icones-benefices" src="assets/img/attention-aux-autres.png" alt="">
                     </div>
-                    <img class="icones-benefices" src="assets/img/attention-aux-autres.png" alt="">
-                </div>
-                <div class="ligne-benefices">
-                   <img class="icones-benefices" src="assets/img/attention.png" alt="">
-                    <div class="bloctexte">
-                    <h3 class="titre-3-sections">Titre h3 ligne 2 section bénéfices</h3>
-                    <p class="paragraphes-benefices" class="paragraphes-index"> 
-                    Il n'a pas fait que survivre cinq siècles,<br>
-                    mais s'est aussi adapté à la bureautique informatique,<br> 
-                    sans que son contenu n'en soit modifié</p>
+                    <div class="ligne-benefices">
+                       <img class="icones-benefices" src="assets/img/attention.png" alt="">
+                        <div class="bloctexte">
+                        <h3 class="titre-3-sections">Titre h3 ligne 2 section bénéfices</h3>
+                        <p class="paragraphes-benefices" class="paragraphes-index"> 
+                        Il n'a pas fait que survivre cinq siècles,<br>
+                        mais s'est aussi adapté à la bureautique informatique,<br> 
+                        sans que son contenu n'en soit modifié</p>
+                        </div>
                     </div>
-                </div>
-                <div class="ligne-benefices">
-                    <div class="bloctexte">
-                    <h3 class="titre-3-sections">Titre h3 ligne 1 section bénéfices</h3>
-                    <p class="paragraphes-benefices" class="paragraphes-index"> 
-                    Il n'a pas fait que survivre cinq siècles,<br>
-                    mais s'est aussi adapté à la bureautique informatique,<br> 
-                    sans que son contenu n'en soit modifié</p>
+                    <div class="ligne-benefices">
+                        <div class="bloctexte">
+                        <h3 class="titre-3-sections">Titre h3 ligne 1 section bénéfices</h3>
+                        <p class="paragraphes-benefices" class="paragraphes-index"> 
+                        Il n'a pas fait que survivre cinq siècles,<br>
+                        mais s'est aussi adapté à la bureautique informatique,<br> 
+                        sans que son contenu n'en soit modifié</p>
+                        </div>
+                        <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
                     </div>
-                    <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
-                </div>
-                
+                </section>
             </section>

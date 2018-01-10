@@ -19,9 +19,21 @@ h1{
     padding:1%;
     font-size: 22px;
 }
+h2{
+    padding-top: 20px;
+    font-size: 34px;
+}
+h4{margin-bottom: 3%;
+    font-size: 24px;
+}
 main{
     width: 100%;
     margin:0 auto;
+}
+.largeur{
+    width:1200px;
+    margin:0 auto;
+    padding-top: 20px;
 }
 
 /* header footer */
@@ -112,8 +124,8 @@ nav.fixed{
     top: 0;
     z-index:1000;
 }
-.sections-index{
-    margin:10px auto;
+.sections-index,.sections-index-fondateurs{
+    padding: 20px 0px;
     width:100%;
 }
 
@@ -124,8 +136,9 @@ nav.fixed{
     margin:0 auto;
     padding-top: 1%;
     padding-bottom: 17%;
-   display: flex;
-   justify-content:space-between;
+   display:flex;
+    justify-content:space-between;
+    align-items:center;
    position:relative;
    background-image: url("./../img/nuageheader.png");
    background-position:bottom;
@@ -134,27 +147,41 @@ nav.fixed{
    font-family: 'Nunito', sans-serif;
 }
 .intro img{
-    max-height: 315px;
+    max-height: 400px;
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;;
     margin: 0 auto; 
 }
 .video{
-    display: inline-block;
     width: 45%; 
     margin: 0 auto;
+    padding: 25px;
+    background-image: url(./../img/cadre.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.video-placement{
+    display:block;
+    margin:0 auto;
 }
 /* fondateurs */
+.sections-index-fondateurs{
+    background-color: white;
+}
 .fondateurs{
     width:80%;
     color:black;
     margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 .fondateurs img{
     max-width: 400px;
     object-fit: cover;
     display:inline-block;
+    border-radius:10%;
 }
 .cadre{
     width: 50%;
@@ -234,8 +261,16 @@ nav.fixed{
     margin: 0 auto;
     padding: 15px;
 }
+.ligne-benefices{
+    border: solid 2px #1797d7;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin:15px auto;
 
-/* benefices */
+}
+
+/* preuves sociales */
 
 .big-fact img{
     border-radius: 50%;
@@ -244,6 +279,9 @@ nav.fixed{
     width: 180px;
     filter: grayscale(100%);
     
+}
+.big-fact{
+    width: 70%;
 }
 .paragraphes-preuves{
     padding: 20px;
@@ -261,12 +299,13 @@ nav.fixed{
     font-weight: bold;
 }
 
+/* partenaires */
 #partenaire{
-    height: 1300px;
     background-image: url("./../img/fond-partenaires.png");
     background-position:bottom;
    background-repeat:no-repeat;
    background-size: cover;
+   padding-bottom: 40px; 
 }
 .icones-partenaires{
     border-radius: 50%;
@@ -291,8 +330,21 @@ nav.fixed{
     display:flex;
     justify-content:space-between;
 }
+.ligne-partenaires{
+    width:60%;
+    margin:0 auto;
+    
+}
+#bloc-partenaires{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
 
+#cibles{
+    background-color: white;
+}
 
 .cta-bouton {
   border-radius: 0.5em 0.5em 0.5em 0.5em;
@@ -307,6 +359,7 @@ nav.fixed{
   text-transform: uppercase;
   background-color: #8BC74A;
   color:white;
+   max-height: 12px;
 }
 
 .cta-bouton:hover {

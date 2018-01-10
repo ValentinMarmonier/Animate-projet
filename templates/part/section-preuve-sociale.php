@@ -2,6 +2,7 @@
                 <div class="entete">
                     <h2 class="titre-2-sections">Preuves Sociales</h2>
                     </div>
+                <section class="largeur">
                 <div class="big-fact">
                     <div class="bloctexte" id="apostrophes">
                     <p class="paragraphes-preuves" lass="paragraphes-index"> 
@@ -33,3 +34,4 @@
                     <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
                 </div>
             </section>
+        </section>

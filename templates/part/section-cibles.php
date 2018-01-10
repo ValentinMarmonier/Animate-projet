@@ -2,8 +2,8 @@
 				
 			<h2 class="titre-2-sections-index">Cibles métiers</h2>
 			
-			<article class="ligne-cibles" >
-				<section>
+			<section class="largeur">
+				<article class="ligne-cibles" >
 					<h3 class="titre-3-sections-index">Orthophoniste</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
@@ -16,8 +16,8 @@
 		            <div class="ligne-cibles" class="lignes-index">
 						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
 					</div>
-				</section>
-			</article>
+				</article>
+			
 			
 
 
@@ -118,6 +118,7 @@
 					</div>
             	</section>
 			</article>
+			</section>
 			
 		</section><!-- cibles -->
         
