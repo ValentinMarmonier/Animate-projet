@@ -43,7 +43,7 @@ $urlPanier          = $this->generateUrl("panier");
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"> 
        
-        <link rel="stylesheet" href="<?php echo $urlAccueil ?>css/normalize.css">
+        <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/normalize.css">
         <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style-index.css" type="text/css" />
       
         
@@ -53,7 +53,7 @@ $urlPanier          = $this->generateUrl("panier");
         
         <header id="site-header" class="" role="banner">
             <a href="https://www.animate.fr/">
-                <img src="assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
+                <img src="<?php echo $urlAccueil ?>assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
             </a>
             
         
