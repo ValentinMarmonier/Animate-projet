@@ -48,6 +48,11 @@
                         <a href="<?php echo $urlBoutique ?>">Boutique</a>
                     </div>
                     
+                    <!-- A SUPRIMER QUAND ADMIN OK !!! -->
+                    <div>
+                        <a href="<?php echo $urlInscription ?>">Inscription Admin</a>
+                    </div>
+                    
                     
                     
                 </div><!-- .column-2 -->
