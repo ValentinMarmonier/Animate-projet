@@ -48,7 +48,7 @@ $urlInscription             = $this->generateUrl("inscription");
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
           <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-          <script type="text/javascript" src="<?php echo $urlAccueil ?>assets/js/script.js"></script>
+          <script type="text/javascript" src="<?php echo $urlAccueil ?>asset/js/script.js"></script>
       
         
     </head>
