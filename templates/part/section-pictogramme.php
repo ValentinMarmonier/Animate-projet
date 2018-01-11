@@ -35,7 +35,7 @@ foreach($tabResultat as $objetPictogrammes)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBoutique/$image" title="$image">
 
 CODEHTML;
     }
@@ -47,10 +47,11 @@ CODEHTML;
 <<<CODEHTML
 
     <article>
-         <h4 title="$id"><a href="$urlPictoFiche">$titre</a></h4>
+         <h4 title="$titre"><a href="$urlPictoFiche">$titre</a></h4>
         <p>$description</p>
         <p>$prix €</p>
-        <div>$htmlImage</div>
+        <div class="imageBoutique">$htmlImage</div>
+        <a href="$urlPanier">Panier</a>
     </article>
     
 CODEHTML;
@@ -63,3 +64,9 @@ CODEHTML;
 
 
 </section>
+
+<div>
+    
+    <a href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
+    
+</div>

@@ -25,6 +25,7 @@ if ($objetKits)
     $infoComplementaire     = $objetKits->getinfoComplementaire();
     $prix                   = $objetKits->getPrix();
     $image                  = $objetKits->getImage();
+    $imagefiche             = $objetKits->getImagefiche();
     $categorie              = $objetKits->getCategorie();
     
     
@@ -34,21 +35,38 @@ if ($objetKits)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBoutique/$image" title="$image">
 
 CODEHTML;
     }
+    
+    
+$htmlImageFiche = "";
+    if ($imagefiche)
+    {
+        $htmlImageFiche = 
+<<<CODEHTML
+
+    <img src="$urlAccueil/assets/img/imgBoutique/$imagefiche" title="$imagefiche">
+
+CODEHTML;
+    }    
+    
+    
+    
     
     
     echo
 <<<CODEHTML
 
     <article>
-        <h4 title="$id">$nomKit</a></h4>
+        <h4 title="$id">$nomKit</h4>
         <p>$description</p>
         <p>$infoComplementaire</p>
         <p>$prix €</p>
-        <div>$htmlImage</div>
+        <div class="imageBoutique">$htmlImage</div>
+        <div class="imageBoutiqueFiche">$htmlImageFiche</div>
+        
     </article>
     
 CODEHTML;

@@ -1,18 +1,19 @@
             <section id="partenaire" class="sections-index">
+                <section class="largeur">
                 <div id="icones-partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
                     </div>
                     <div id="icones-partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="http://www.renders-graphiques.fr/image/upload/normal/5353_render_logo_om.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
+                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
                 </div>
                 
                 <div id="partenaires">
@@ -21,9 +22,9 @@
                 
                 <div id="logos-partenaires">
                     
-                    <img class="logo-partenaires" src="../src/assets/img/laureatentrepriseprovence.jpg" alt="laureat entreprise provence">
-                    <img class="logo-partenaires" src="../src/assets/img/logo-marseille-innovation.jpg" alt="marseille innovation">
-                    <img class="logo-partenaires" src="../src/assets/img/chrysalidemarseille.png" alt="chrysalide marseille">
+                    <img class="logo-partenaires" src="<?php echo $urlAccueil ?>assets/img/laureatentrepriseprovence.jpg" alt="laureat entreprise provence">
+                    <img class="logo-partenaires" src="<?php echo $urlAccueil ?>assets/img/logo-marseille-innovation.jpg" alt="marseille innovation">
+                    <img class="logo-partenaires" src="<?php echo $urlAccueil ?>assets/img/chrysalidemarseille.png" alt="chrysalide marseille">
                     <img class="logo-partenaires" src="https://www.animate.fr/wp-content/uploads/2016/10/Unknown.png" alt="bpi france">
                 </div>
                 
@@ -39,7 +40,7 @@
                 
                 <article class="ligne-partenaires" class="lignes-index">
                     <h5><span id="titre-IME">Vous êtes centre IME</span></h5>
-                    <section class="lignes-partenaires" class="lignes-index">
+                    <section id="bloc-partenaires" class="lignes-index">
                         <p class="paragraphes-index">
                             Il a été popularisé dans les années 1960<br>
                             grâce à la vente de feuilles Letras et contenant<br>
@@ -51,5 +52,5 @@
                         </div>
                     </section>
                 </article>
-                    
-            </section><!-- partenaires -->     
+            </section>  
+        </section><!-- partenaires -->     

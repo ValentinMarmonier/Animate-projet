@@ -10,6 +10,12 @@ $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlKit             = $this->generateUrl("kit");
 $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
+$urlPanier          = $this->generateUrl("panier");
+
+        // A SUPRIMER QUAND ADMIN OK !!!
+$urlInscription             = $this->generateUrl("inscription");
+
+
 
 
 
@@ -54,7 +60,7 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
         
         <header id="site-header" class="" role="banner">
             <a href="https://www.animate.fr/">
-                <img src="assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
+                <img src="<?php echo $urlAccueil ?>assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
             </a>
             
         

@@ -6,7 +6,7 @@
 <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
 
-// JE VAIS RECUPERER LE REPOSITORY POUR L'ENTITE Article
+// JE VAIS RECUPERER LE REPOSITORY POUR L'ENTITE 
 $objetRepository = $this->getDoctrine()->getRepository(App\Entity\Pictogrammes::class);
 
 // PLUS PRATIQUE => findBy
@@ -14,16 +14,17 @@ $objetRepository = $this->getDoctrine()->getRepository(App\Entity\Pictogrammes::
 // ATTENTION: ON UTILISE LE NOM DES PROPRIETES
 // $objetArticle = $objetRepository->find($id);
 
-// ON A UN TABLEAU D'OBJETS DE CLASSE Article
-if ($objetPictogrammes)
+// ON A UN TABLEAU D'OBJETS DE CLASSE 
+if ($objetPictogramme)
 {
-    // METHODES "GETTER" A RAJOUTER DANS LA CLASSE Article
-    $id                     = $objetPictogrammes->getId();
-    $titre                  = $objetPictogrammes->getTitre();
-    $description            = $objetPictogrammes->getDescription();
-    $prix                   = $objetPictogrammes->getPrix();
-    $image                  = $objetPictogrammes->getImage();
-    $categorie              = $objetPictogrammes->getCategorie();
+    // METHODES "GETTER" A RAJOUTER DANS LA CLASSE 
+    $id                     = $objetPictogramme->getId();
+    $titre                  = $objetPictogramme->getTitre();
+    $description            = $objetPictogramme->getDescription();
+    $prix                   = $objetPictogramme->getPrix();
+    $image                  = $objetPictogramme->getImage();
+    $imagefiche             = $objetPictogramme->getImagefiche();
+    $categorie              = $objetPictogramme->getCategorie();
     
     
     $htmlImage = "";
@@ -32,20 +33,34 @@ if ($objetPictogrammes)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBoutique/$image" title="$image">
 
 CODEHTML;
     }
+    
+    
+$htmlImageFiche = "";
+    if ($imagefiche)
+    {
+        $htmlImageFiche = 
+<<<CODEHTML
+
+    <img src="$urlAccueil/assets/img/imgBoutique/$imagefiche" title="$imagefiche">
+
+CODEHTML;
+    }      
     
     
     echo
 <<<CODEHTML
 
     <article>
-         <h4 title="$id">$titre</h4>
+         <h4 title="$titre">$titre</h4>
         <p>$description</p>
         <p>$prix €</p>
-        <div>$htmlImage</div>
+        <div class="imageBoutique">$htmlImage</div>
+        <div class="imageBoutiqueFiche">$htmlImageFiche</div>
+        
     </article>
     
 CODEHTML;
