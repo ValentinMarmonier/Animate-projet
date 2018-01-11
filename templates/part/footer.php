@@ -89,7 +89,9 @@
             </section><!-- section.bottom-footer -->
 
         </footer>
-        
+
+
+
         <script type="text/javascript" >
            $(window).scroll(function (event) {
              // A chaque fois que l'utilisateur va scroller (descendre la page)
