@@ -26,15 +26,25 @@
                     <img class="logo-partenaires" src="https://www.animate.fr/wp-content/uploads/2016/10/Unknown.png" alt="bpi france">
                 </div>
                 
+                <div id="partenaires">
+                    <p class="paragraphes-index">
+                        Parmi nos partenaires privilégiés se trouve l’association la Chrysalide à Marseille. 
+                        En effet, nous avons choisi de confier l’assemblage et les opérations de conditionnement et de finition 
+                        de notre kit à deux ESAT (Etablissement et Service d’Aide par le Travail) de l’association. 
+                        Acheter nos kits c’est aussi soutenir l’activité d’ateliers protégés employant des travailleurs 
+                        eux mêmes fragilisés ou en situation de handicap.
+                    </p>
+                </div>
+                
                 <article class="ligne-partenaires" class="lignes-index">
                     <h5><span id="titre-IME">Vous êtes centre IME</span></h5>
                     <section id="bloc-partenaires" class="lignes-index">
                         <p class="paragraphes-index">
-                            Il a été popularisé dans les années 1960<br>
-                            grâce à la vente de feuilles Letras et contenant<br>
-                            des passages du Lorem Ipsum, et, plus récemment,<br>
-                            par son inclusion dans des applications<br>
-                            de mise en page de texte, comme Aldus PageMaker.</p>
+                            Parmi nos partenaires privilégiés se trouve l’association la Chrysalide à Marseille. 
+                        En effet, nous avons choisi de confier l’assemblage et les opérations de conditionnement et de finition 
+                        de notre kit à deux ESAT (Etablissement et Service d’Aide par le Travail) de l’association. 
+                        Acheter nos kits c’est aussi soutenir l’activité d’ateliers protégés employant des travailleurs 
+                        eux mêmes fragilisés ou en situation de handicap.</p>
                         <div id="cta-upercase" class="cta-upercase">
                             <a class="bouton cta-bouton" href="#">Bouton cta</a>
                         </div>
