@@ -60,7 +60,6 @@ CODEHTML;
         <p>$prix €</p>
         <div class="imageBoutique">$htmlImage</div>
         <div class="imageBoutiqueFiche">$htmlImageFiche</div>
-        
     </article>
     
 CODEHTML;

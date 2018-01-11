@@ -21,7 +21,7 @@ class UserAdmin
     /**
      * @ORM\Column(type="string", length=500)
      */
-    private $email;
+    private $pseudo;
     
     /**
      * @ORM\Column(type="string", length=50)
@@ -41,9 +41,9 @@ class UserAdmin
         return $this->id;
     }
     
-    function getEmail ()
+    function getPseudo ()
     {
-        return $this->email;
+        return $this->pseudo;
     }
     
     function getPassword ()

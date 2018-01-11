@@ -30,19 +30,21 @@
           
           <div id="modifPage">
             
-            <h1>Choisissez la page à modifier</h1>
+            <h1>Modifiez un article de la page Kit</h1>
   
             <section class="row text-center placeholders">
               
               <div class="col-6 col-sm-3 placeholder">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Page Kits</h4>
+                <a href="<?php echo $urlAdminKitCreate?>"<h4>Créer un nouveau kit</h4></a>
               </div>
               
               <div class="col-6 col-sm-3 placeholder">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Page Pictogrammes</h4>
+                <h4>Modifier un kit</h4>
               </div>
+    
+    <!--
               
               <div class="col-6 col-sm-3 placeholder">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
@@ -53,7 +55,7 @@
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
                 <h4>Boutique</h4>
               </div>
-              
+   -->           
             </section>  
             
           </div>
@@ -65,27 +67,3 @@
         </main>
       </div>
     </div>
-
-<footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
-    
-    <script>
-
-      document.querySelector('#btn-kits').addEventListener('click', function(){
-                  const xhr = new XMLHttpRequest();
-                  xhr.open("GET", 'admin-form-kits.php');
-                  xhr.onload = function(){
-                      const formKits = JSON.parse(xhr.responseText);
-                      document.querySelector('#modifPage').innerHTML = "";
-    //                  formKits.forEach(function(client){
-    //                      const clientHTML = `<div class="client">${client.firstName} ${client.lastName}</div>`;
-    //                      document.querySelector('#contenu').innerHTML += clientHTML;
-    //                  })
-                  }
-              
-              xhr.send()
-              })
-    </script>
-</footer>
-
-    
