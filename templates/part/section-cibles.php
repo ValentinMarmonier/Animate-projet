@@ -3,7 +3,7 @@
 			<h2 class="titre-2-sections-index">Cibles métiers</h2>
 			
 			<section class="largeur">
-				<article class="ligne-cibles" >
+				<article class="ligne-cibles" > 
 					<div class="bloctexte">
 					<h3 class="titre-3-sections-index">Orthophoniste</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>

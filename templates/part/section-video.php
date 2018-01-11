@@ -4,7 +4,7 @@
                 outil d&#039;aide à la communication et de rééducation
             </h1>
 </section>
-<section>
+<section> 
     <div class="intro">
     <img class="gif" src="<?php echo $urlAccueil ?>assets/img/BD-AniMatecoeur.png" loop=infinite>
         <div class="video">

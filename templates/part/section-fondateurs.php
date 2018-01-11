@@ -6,25 +6,28 @@
             </div>
             <div class="presentation">
                 <h4>Cher visiteur</h4>
-                <article>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                        dolor in hendrerit in vulputate velit esse molestie consequat,
-                        vel illum dolore eu feugiat nulla facilisis at vero eros et
-                        accumsan et iusto odio dignissim qui blandit praesent luptatum
-                        zzril delenit augue duis dolore te feugait nulla facilisi.
-                        
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                        dolor in hendrerit in vulputate velit esse molestie consequat,
-                        vel illum dolore eu feugiat nulla facilisis at vero eros et
-                        accumsan et iusto odio dignissim qui blandit praesent luptatum
-                        zzril delenit augue duis dolore te feugait nulla facilisi.
+                <article> <p>Yunshan et moi – Eric -  sommes ravis de vous accueillir sur le site Internet<br />
+                            d’AniMate®, le petit avatar au service des personnes en situation de handicap et<br />
+                            des personnes qui les accompagnent que nous avons imaginé.<br :> 
+                            Comme vous pourrez le découvrir, AniMate® n’est pas un matériel de rééducation<br />
+                            comme les autres, ce n’est pas un jeu avec des règles, ni un puzzle, et encore <br />
+                            moins un simple bout de plastique, … C’est un bonhomme, concret, manipulable et <br />
+                            attachant qui crée un lien affectif très spécial avec les personnes fragilisées et<br />
+                            leur permet ensuite de focaliser leur attention, d’interagir ou encore de parler<br />
+                            d’elles même. Au delà de ses fonctionnalités pratiques, AniMate® est un catalyseur<br />
+                            d’émotions, elles-mêmes au service de l’apprentissage. <br />
+                            Ludique et stimulant, vous découvrirez alors qu’AniMate® est un outil de rééducation<br />
+                            très polyvalent qui permet d’aborder plusieurs thématiques de travail à travers des<br /> 
+                            kits de pictogrammes variés et adaptés à tous, petits et grands.
+                        </p>
+                        <p>
+                            Nous vous souhaitons une bonne visite et restons à votre disposition pour répondre à <br /> 
+                            vos questions ou apporter des compléments d’information. (Lien vers contact ?)
+                        </p>
+                        <p>
+                            Si vous souhaitez en savoir plus sur notre histoire et celle d’AniMate®, vous trouverez<br />
+                             ici quelques planches de BD résumant les grandes étapes de notre parcours et de celui<br />
+                             de notre bonhomme. 
                     </article>
             </div>
         </div>
