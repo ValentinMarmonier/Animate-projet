@@ -41,7 +41,7 @@
               
               <div class="col-6 col-sm-3 placeholder">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Modifier un kit</h4>
+                <a href="<?php echo $urlAdminKitCreate?>"<h4>Modifier un kit</h4></a>
               </div>
     
     <!--

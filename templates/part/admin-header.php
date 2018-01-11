@@ -2,8 +2,9 @@
 
 <?php
 
-$urlAdminKit = $this->generateUrl("adminKit");
-$urlAdminKitCreate = $this->generateUrl("adminKitCreate");
+$urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
+$urlAdminKit        = $this->generateUrl("adminKit");
+$urlAdminKitCreate  = $this->generateUrl("adminKitCreate");
 
 ?>
 
@@ -32,7 +33,7 @@ $urlAdminKitCreate = $this->generateUrl("adminKitCreate");
 
     <header>
       <nav class="navbar navbar-inverse navbar-static-top">
-        <a class="navbar-brand" href="#">Espace Administrateur Animate</a>
+        <a class="navbar-brand" href="<?php echo $urlEspaceAdmin?>">Espace Administrateur Animate</a>
         <p class="navbar-text navbar-right">Dernière modification le (...) sur la page <a href="#" class="navbar-link">(...)</a></p>      
         </nav>
     </header>

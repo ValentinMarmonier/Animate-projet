@@ -5,8 +5,14 @@ namespace App\Controller;
 // App              => src
 // App\Controller   => src/Controller
 
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Session\SessionInterface;
+use Doctrine\DBAL\Driver\Connection;
+use Symfony\Component\HttpFoundation\Request;
 
-class FormAdmin
+
+
+class FormAdmin extends Controller 
 {
    
     // METHODES
@@ -18,10 +24,10 @@ class FormAdmin
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
-        $nomKit                 = $objetRequest->get("nom_kit", "");       
+        $nomKit                 = $objetRequest->get("nomKit", "");       
         $description            = $objetRequest->get("description", "");       
-        $contenuKit             = $objetRequest->get("contenu_kit", "");   
-        $infoComplementaire     = $objetRequest->get("info_complementaire", "");
+        $contenuKit             = $objetRequest->get("contenuKit", "");   
+        $infoComplementaire     = $objetRequest->get("infoComplementaire", "");
         $prix                   = $objetRequest->get("prix", "");       
         $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
@@ -39,12 +45,13 @@ class FormAdmin
             // ON VA UTILISER $objetConnection FOURNI PAR SYMFONY
             // http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/data-retrieval-and-manipulation.html#insert
             $objetConnection->insert("kits", 
-                                    [   "nom_kit"           => $nomKit, 
-                                        "description"       => $description,
-                                        "contenu_kit"       => $contenuKit,
-                                        "prix"              => $prix,
-                                        "image"             => $image,
-                                        "categorie"         => $categorie
+                                    [   "nom_kit"               => $nomKit, 
+                                        "description"           => $description,
+                                        "contenu_kit"           => $contenuKit,
+                                        "info_complementaire"   => $infoComplementaire,
+                                        "prix"                  => $prix,
+                                        "image"                 => $image,
+                                        "categorie"             => $categorie
                                         ]);
             
             // MESSAGE RETOUR POUR LE VISITEUR
@@ -60,10 +67,10 @@ class FormAdmin
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
-        $nomKit                 = $objetRequest->get("nom_kit", "");       
+        $nomKit                 = $objetRequest->get("nomKit", "");       
         $description            = $objetRequest->get("description", "");       
-        $contenuKit             = $objetRequest->get("contenu_kit", "");   
-        $infoComplementaire     = $objetRequest->get("info_complementaire", "");
+        $contenuKit             = $objetRequest->get("contenuKit", "");   
+        $infoComplementaire     = $objetRequest->get("infoComplementaire", "");
         $prix                   = $objetRequest->get("prix", "");       
         $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
@@ -350,6 +357,8 @@ class FormAdmin
         
         return $cheminImage;
     }
+    
+    
     
     
     

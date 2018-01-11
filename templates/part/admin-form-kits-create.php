@@ -6,7 +6,7 @@
           <ul class="nav nav-pills flex-column">
             
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo $urlAdminKit?>" id="btn-kits">Page Kits</a>
+              <a class="nav-link" href="<?php echo $urlAdminKit?>" id="btn-kits">Retour à l'interface Admin</a>
             </li>
             
             
@@ -14,7 +14,7 @@
         </nav>
 
 
-<section>
+<section class="col-lg-4 col-lg-offset-2">
     <h3>Ajouter un article dans la page Kits</h3>
     <!-- NE PAS OUBLIER: POUR UPLOADER UN FICHIER -->
     <!-- method="POST" enctype="multipart/form-data" -->
@@ -30,7 +30,7 @@
   
   <div class="form-group">
     <label for="formGroupExampleInput">Description</label>
-    <input type="text" name="nomKit" required class="form-control" id="formGroupExampleInput" placeholder="Description">
+    <input type="text" name="description" required class="form-control" id="formGroupExampleInput" placeholder="Description">
   </div>
   
   <div class="form-group">
@@ -103,24 +103,14 @@ if ($objetRequest->get("codebarre", "") == "form-kits")
     $objetFormAdmin->creerKits($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
     
     // https://symfony.com/doc/current/doctrine.html#persisting-objects-to-the-database
-    //$objetEntityManager = $this->getDoctrine()->getManager();
-    //$objetFormArticle->creerPersistence($objetRequest, $objetConnection, $objetEntityManager, $cheminSymfony, $objetSession);
+  //  $objetEntityManager = $this->getDoctrine()->getManager();
+  //  $objetFormArticle->creerPersistence($objetRequest, $objetConnection, $objetEntityManager, $cheminSymfony, $objetSession);
 }
 ?>
         
-    </form>
     
-    <!-- https://sdk.ckeditor.com/samples/autogrow.html# -->
-	<script src="https://cdn.ckeditor.com/4.8.0/standard-all/ckeditor.js"></script>
-    <script>
-    CKEDITOR.replace( 'editor1', {
-			extraPlugins: 'autogrow',
-			autoGrow_minHeight: 200,
-			autoGrow_maxHeight: 600,
-			autoGrow_bottomSpace: 50,
-			removePlugins: 'resize'
-		} );
-    </script>
+    
+    
     
 </section>
 

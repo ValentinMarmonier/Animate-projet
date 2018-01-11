@@ -7,7 +7,8 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Doctrine\DBAL\Driver\Connection;
-use App\Entity\Newsletter;
+use App\Entity\UserAdmin;
+use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 class VitrineController
     extends Controller
@@ -405,7 +406,7 @@ class VitrineController
    /**
       * @Route("adminKitCreate/", name="adminKitCreate")
       */   
-   public function adminKitCreate (Request $objetRequest, Connection $objetConnection)
+   public function adminKitCreate (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
    {
 
         // POUR RECUPERER LES INFOS DE FORMULAIRE
