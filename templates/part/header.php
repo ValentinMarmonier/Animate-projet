@@ -1,5 +1,4 @@
 <?php
-
 // ON RECUPERE LES URLS DES PAGES GRACE AU NOM DE LEUR ROUTE
 $urlAccueil         = $this->generateUrl("accueil");
 $urlProduits        = $this->generateUrl("produits");
@@ -11,14 +10,8 @@ $urlKit             = $this->generateUrl("kit");
 $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
 $urlPanier          = $this->generateUrl("panier");
-
         // A SUPRIMER QUAND ADMIN OK !!!
 $urlInscription             = $this->generateUrl("inscription");
-
-
-
-
-
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
@@ -50,8 +43,11 @@ $urlInscription             = $this->generateUrl("inscription");
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet"> 
        
-        <link rel="stylesheet" href="<?php echo $urlAccueil ?>css/normalize.css">
+        <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/normalize.css">
         <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style-index.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
       
         
     </head>
@@ -60,7 +56,7 @@ $urlInscription             = $this->generateUrl("inscription");
         
         <header id="site-header" class="" role="banner">
             <a href="https://www.animate.fr/">
-                <img src="assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
+                <img src="<?php echo $urlAccueil ?>assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
             </a>
             
         

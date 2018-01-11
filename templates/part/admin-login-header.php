@@ -1,19 +1,5 @@
 <!doctype html>
-
-<?php
-
-$urlAdminKit = $this->generateUrl("adminKit");
-$urlAdminKitCreate = $this->generateUrl("adminKitCreate");
-
-?>
-
-
-
-
-
-<!doctype html>
-
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,13 +12,15 @@ $urlAdminKitCreate = $this->generateUrl("adminKitCreate");
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
+
     
-        <title>Administrateur Animate</title>
+    <title>Page Admin Animate</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <header>
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <a class="navbar-brand" href="#">Espace Administrateur Animate</a>
-        <p class="navbar-text navbar-right">Dernière modification le (...) sur la page <a href="#" class="navbar-link">(...)</a></p>      
-        </nav>
-    </header>
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+
+  <body>

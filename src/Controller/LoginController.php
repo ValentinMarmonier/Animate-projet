@@ -22,7 +22,7 @@ class LoginController
     /**
       * @Route("/adminLogin", name="adminLogin")
       */   
-   public function adminLogin (Request $objetRequest /*, Connection $objetConnection, SessionInterface $objetSession*/)
+   public function adminLogin (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
    {
         // POUR RECUPERER LES INFOS DE FORMULAIRE
         // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
@@ -48,14 +48,11 @@ class LoginController
         // JE DONNE LE CONTENU HTML A LA CLASSE Response
         // ET C'EST LA MECANIQUE DE SYMFONY QUI VA GERER L'AFFICHAGE DE CE CODE
         
-        return new Response($contenuCache);
-
-        /*
         $verifNiveau = $objetSession->get("niveau");
         if ($verifNiveau >= 9)
         {
             // ON VA VERS LA PAGE admin
-            $urlAdmin = $this->generateUrl("admin");
+            $urlAdmin = $this->generateUrl("espaceAdmin");
             return new RedirectResponse($urlAdmin);
         }
         else
@@ -63,7 +60,8 @@ class LoginController
             // ON RESTE SUR LA PAGE 
             return new Response($contenuCache);
         }
-        */
+
+        
    }
    
    /**
@@ -75,7 +73,17 @@ class LoginController
         // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
         // UN OBJET DE LA CLASSE Request
         // (INJECTION DE DEPENDANCE...)
+        
+        // CETTE PAGE EST PROTEGEE
+        // ON VA RECUPERER LE NIVEAU DEPUIS LA SESSION
+        // SI LE NIVEAU EST >= 9
+        // ALORS ON AFFICHE LA PAGE admin
+        // SINON ON VA REDIRIGER VERS LA PAGE login
+        $verifNiveau = $objetSession->get("niveau");
+        $verifPseudo = $objetSession->get("pseudo");        
        
+       if ($verifNiveau >= 9)
+        {
         // JE VAIS METTRE EN CACHE LE CODE HTML
         // http://php.net/manual/fr/function.ob-start.php
         ob_start();
@@ -97,7 +105,8 @@ class LoginController
         
         return new Response($contenuCache);
 
-     
+        }
+
    }
    
 }

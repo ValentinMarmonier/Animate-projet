@@ -1,4 +1,4 @@
-        </main>
+</main>
         
         <footer>
             <section class="section-top">
@@ -103,6 +103,15 @@
             // sinon, on l'enlève
                     $('.nav').removeClass('fixed');
                 }
+            });
+        </script>
+        <script type="text/javascript" >
+          $(function(){
+              $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                slideWidth: 600
+              });
             });
         </script>
     </body>

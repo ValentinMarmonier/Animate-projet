@@ -121,3 +121,53 @@ Stack trace:
 [10-Jan-2018 11:00:34 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerG43RYbq/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
 [10-Jan-2018 11:00:34 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerG43RYbq/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
 [10-Jan-2018 11:00:34 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerG43RYbq/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 13:14:23 UTC] PHP Warning:  Uncaught ErrorException: Warning: require(/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php(268): require()
+#1 /home/ubuntu/workspace/animate/vendor/symfony/dependency-injection/Container.php(232): ContainerAana7EJ\srcDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(543): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(125): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(185): Symfony\Component\HttpKernel\Kernel->boot()
+#5 /home/ubuntu/workspace/animate/public/index. in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php on line 268
+[10-Jan-2018 13:14:23 UTC] PHP Fatal error:  ContainerAana7EJ\srcDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php on line 268
+[10-Jan-2018 13:14:26 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 13:14:26 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 13:47:10 UTC] PHP Warning:  Uncaught ErrorException: Warning: require(/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php(268): require()
+#1 /home/ubuntu/workspace/animate/vendor/symfony/dependency-injection/Container.php(232): ContainerAana7EJ\srcDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(543): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(125): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(185): Symfony\Component\HttpKernel\Kernel->boot()
+#5 /home/ubuntu/workspace/animate/public/index. in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php on line 268
+[10-Jan-2018 13:47:10 UTC] PHP Fatal error:  ContainerAana7EJ\srcDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php on line 268
+[10-Jan-2018 13:47:13 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 13:47:13 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 14:28:00 UTC] PHP Warning:  Uncaught ErrorException: Warning: require(/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php(268): require()
+#1 /home/ubuntu/workspace/animate/vendor/symfony/dependency-injection/Container.php(232): ContainerAana7EJ\srcDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(543): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(125): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(185): Symfony\Component\HttpKernel\Kernel->boot()
+#5 /home/ubuntu/workspace/animate/public/index. in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php on line 268
+[10-Jan-2018 14:28:00 UTC] PHP Fatal error:  ContainerAana7EJ\srcDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php on line 268
+[10-Jan-2018 14:28:25 UTC] PHP Warning:  include(/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[10-Jan-2018 14:28:25 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/animate/var/cache/dev/ContainerAana7EJ/srcDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/var/cache/dev/srcDevDebugProjectContainer.php on line 7
+[11-Jan-2018 09:21:17 UTC] PHP Fatal error:  Class 'App\Controller\Controller' not found in /home/ubuntu/workspace/animate/src/Controller/TraitementFormController.php on line 9
+[11-Jan-2018 09:25:05 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/admin-header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-admin.php:3
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/template-admin.php(3): require_once()
+#1 /home/ubuntu/workspace/animate/src/Controller/LoginController.php(95): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\LoginController->espaceAdmin(Object(Symfony\Component\HttpFoundation\Request), Object(Doctrine\DBAL\Connection), Object(Symfony\Component\HttpFoundation\Session\Session))
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\ in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
+[11-Jan-2018 09:25:05 UTC] PHP Fatal error:  App\Controller\LoginController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/admin-header.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-admin.php on line 3
+[11-Jan-2018 10:30:11 UTC] PHP Warning:  Uncaught ErrorException: Warning: require_once(/home/ubuntu/workspace/animate/templates/part/admin-form-kit-create.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/animate/templates/template-admin-kit-create.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/animate/templates/template-admin-kit-create.php(4): require_once()
+#1 /home/ubuntu/workspace/animate/src/Controller/VitrineController.php(424): require_once('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(149): App\Controller\VitrineController->adminKitCreate(Object(Symfony\Component\HttpFoundation\Request), Object(Doctrine\DBAL\Connection))
+#3 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/HttpKernel.php(66): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /home/ubuntu/workspace/animate/vendor/symfony/http-kernel/Kernel.php(190): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFound in /home/ubuntu/workspace/animate/templates/template-admin-kit-create.php on line 4
+[11-Jan-2018 10:30:11 UTC] PHP Fatal error:  App\Controller\VitrineController::main(): Failed opening required '/home/ubuntu/workspace/animate/templates/part/admin-form-kit-create.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/animate/templates/template-admin-kit-create.php on line 4

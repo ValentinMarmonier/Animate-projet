@@ -4,12 +4,13 @@ namespace App\Controller;
 // DANS LA MECANIQUE DE SYMFONY
 // App              => src
 // App\Controller   => src/Controller
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-
-class TraitementFormController
+class TraitementFormController extends Controller 
 {
     // METHODES
     // CONSTRUCTEUR
+    
     function __construct ()
     {
         // DEBUG
@@ -24,15 +25,15 @@ class TraitementFormController
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
-        $email      = $objetRequest->get("email", "");
+        $pseudo     = $objetRequest->get("pseudo", "");
         $password   = $objetRequest->get("password", "");
         
         // UN PEU DE SECURITE (BASIQUE)
-        if ( ($email != "") && ($password != "") )
+        if ( ($pseudo != "") && ($password != "") )
         {
             // COMPLETER LES INFOS MANQUANTES
             $niveau          = 1;                   // DIRECTEMENT ACTIF
-            
+            echo("$password");
             // HASHAGE DU MOT DE PASSE
             // http://php.net/manual/en/function.password-hash.php
             $password = password_hash($password, PASSWORD_DEFAULT);
@@ -41,13 +42,13 @@ class TraitementFormController
             // ON VA UTILISER UN OBJET FOURNI PAR SYMFONY DE LA CLASSE Connection
             $objetConnection->insert( "user_admin", 
                                         [ 
-                                            "email"             => $email, 
+                                            "pseudo"            => $pseudo, 
                                             "password"          => $password, 
                                             "niveau"            => $niveau
                                         ] );
             
             // MESSAGE POUR LE VISITEUR
-            echo "MERCI DE VOTRE INSCRIPTION ($email)";
+            echo "MERCI DE VOTRE INSCRIPTION ($pseudo)";
         }
 
     }
@@ -60,61 +61,62 @@ class TraitementFormController
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
-        $email      = $objetRequest->get("email", "");
-        $password   = $objetRequest->get("password", "");
+        $pseudo     = $objetRequest->get("pseudo",       "");
+        $password   = $objetRequest->get("password",    "");
         
         // UN PEU DE SECURITE (BASIQUE)
-        if ( ($email != "")  && ($password != "") )
+        if ( ($pseudo != "") && ($password != ""))
         {
-            
             // READ
-            // CHERCHER DANS LA TABLE user SI IL Y A UNE LIGNE
+            // CHERCHER DANS LA TABLE user SI IL Y A UNE LIGNE 
             // QUI CORRESPOND A L'EMAIL
             // http://www.doctrine-project.org/api/orm/2.5/class-Doctrine.ORM.EntityRepository.html
-            // AVANT DE TRAITER LE LOGIN -> RECUPERER LE repository DANS LA SECTION
-            $repository = $this->getDoctrine()->getRepository(App\Entity\UserAdmin::class);
-            $objetUser  = $objetRepository->findOneBy([ "email" => $email ]);
+            $objetUser  = $objetRepository->findOneBy([ "pseudo" => $pseudo ]);
             if ($objetUser)
             {
                 // OK
                 // DEBUG
-                // echo "TROUVE : ";
+                // echo "TROUVE: ";
                 // var_dump($objetUser);
-                // RECU¨PERER LE PASSWORD HASHE POUR LE COMPARER
+                // RECUPERER LE PASSWORD HASHE POUR LE COMPARER 
                 // AVEC CELUI DU FORMULAIRE
-                // AJOUTER UN GETTER A L'ENTITE POUR User POUR ACCEDER AUX PROPRIETES
+                // AJOUTER UN GETTER A L'ENTITE User POUR ACCEDER AUX PROPRIETES
                 $passwordHash = $objetUser->getPassword();
                 // http://php.net/manual/en/function.password-verify.php
+                echo "($password, $passwordHash)";
                 if (password_verify($password, $passwordHash))
                 {
-                    if ($niveau == 9){
-                        // OK
-                        // LES MOTS DE PASSE CORRESPONDENT
-                        $niveau = $objetUser->getNiveau();
-                        $id     = $objetUser->getId();
-                    //    echo "BIENVENUE $pseudo (niveau=$niveau)";
+                    // OK
+                    // LES MOTS DE PASSE CORRESPONDENT
+                    $pseudo = $objetUser->getPseudo();
+                    $niveau = $objetUser->getNiveau();
+                    $id     = $objetUser->getId();
+                    echo "BIENVENUE $pseudo (niveau=$niveau)";
                     
-                        header('$urlEspaceAdmin');
+                    
                     
                     // MEMORISER LES INFOS DANS UNE SESSION
                     // https://symfony.com/doc/current/controller.html#session-intro
-                    $objetSession->set("id", $id);
+                    $objetSession->set("id",     $id);
                     $objetSession->set("niveau", $niveau);
-                    $objetSession->set("email",  $email);
+                    $objetSession->set("pseudo", $pseudo);
+
+                    // IL FAUDRAIT REDIRIGER VERS LA PAGE admin 
+                    // SI LE NIVEAU EST >= 9
                     
-                    }    
+                    
                 }
-                else
+                else 
                 {
                     // KO
                     // LE MOT DE PASSE N'EST PAS BON
                     echo "MOT DE PASSE INCORRECT";
                 }
             }
-            else
+            else 
             {
                 // KO
-                // DEBUG
+                //DEBUG
                 echo "EMAIL INCONNU";
             }
         }

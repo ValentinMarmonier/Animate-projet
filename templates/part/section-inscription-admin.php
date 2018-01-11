@@ -2,7 +2,7 @@
             <section>
                 <h3>SECTION INSCRIPTION</h3>
                 <form method="POST" action="">
-                    <input type="email" name="email" required placeholder="VOTRE EMAIL">
+                    <input type="text" name="pseudo" required placeholder="VOTRE PSEUDO">
                     <input type="password" name="password" required placeholder="VOTRE PASSWORD">
                     <button type="submit">INSCRIPTION</button>
                     <input type="hidden" name="codebarre" value="inscription">
