@@ -46,6 +46,8 @@ $urlInscription             = $this->generateUrl("inscription");
         <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/normalize.css">
         <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style-index.css" type="text/css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style-modal.css" type="text/css" />
+        
   
         
     </head>
