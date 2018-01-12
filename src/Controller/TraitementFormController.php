@@ -121,5 +121,31 @@ class TraitementFormController extends Controller
             }
         }
     }
-    
+    function traiterContact ($objetRequest, $objetConnection)
+        {
+            // RECUPERER LES INFOS DU FORMULAIRE
+            // ->get("email", "")
+            // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
+            // ET SI L'INFO N'EST PAS PRESENTE 
+            //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
+            $email      = $objetRequest->get("email",   "");
+            $nom        = $objetRequest->get("nom",     "");
+            $message    = $objetRequest->get("message", "");
+            
+            // UN PEU DE SECURITE (BASIQUE)
+            if ( ($email != "") && ($nom != "") && ($message != ""))
+            {
+                // COMPLETER LES INFOS MANQUANTES
+                $dateMessage = date("Y-m-d H:i:s"); // DATE AU FORMAT SQL DATETIME
+                
+                // ON VA STOCKER LES INFOS DANS LA TABLE SQL contact
+                // ON VA UTILISER UN OBJET FOURNI PAR SYMFONY DE LA CLASSE Connection
+                $objetConnection->insert("contact", [ "email" => $email, "nom" => $nom, "message" => $message, "date_message" => $dateMessage ] );
+                
+                // MESSAGE POUR LE VISITEUR
+                echo "Merci de votre message...";
+            }
+            
+        }
+        
 }

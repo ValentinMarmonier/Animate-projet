@@ -4,7 +4,7 @@ body{
     margin:0 auto;
     width:100%;
     color:#2A2D30;
-    background-color: #E8F9F9;
+    background-color: #D5EFFE;
     font-family: 'Lato', sans-serif;
 }
 
@@ -127,6 +127,8 @@ nav.fixed{
 .sections-index,.sections-index-fondateurs{
     padding: 20px 0px;
     width:100%;
+    text-align: justify;
+    line-height: 1.4em;
 }
 
 /* intro video */
@@ -224,12 +226,13 @@ nav.fixed{
 }
 .lignes-troubles{
     display:flex;
-    justify-content:space-between;
     flex-direction:column;
     align-items:center;
     width: 25%;
     margin: 0 auto;
     padding: 15px;
+        text-align: justify;
+    line-height: 1.4em;
 }
 #BD-troubles{
      max-width: 200px;
@@ -261,7 +264,21 @@ nav.fixed{
 }    
 .paragraphes-slider{
     color: black;
+   background-image: url("./../img/icone-apostrophes.png");
+   background-position: top left;
+   background-repeat:no-repeat;
+   background-size: 6%;
+   background-color: rgba(252,252,252,0.2);
+   border-radius: 10px;
+   position: relative !important;
+   width: 80% !important;
+   margin: 0 auto !important;
+   padding: 5%;
 }
+.bx-viewport{
+    height: 100% !important;
+}
+
 
 /* emotions */
 #block-emotions{
@@ -278,6 +295,8 @@ nav.fixed{
 .ligne-emotions{
     width: 60%;
     padding-right: 5%;
+        text-align: justify;
+    line-height: 1.4em;
 }
 #block-emotions-icones{
     display: flex;
@@ -290,6 +309,8 @@ nav.fixed{
     color: white;
 }
 
+/* fiche technique */
+
 .fiche-technique{
     display: flex;
     justify-content: space-around;
@@ -301,6 +322,9 @@ nav.fixed{
     object-fit: cover;
     border-radius: 10%;
     display: block;
+}
+.fiche-pictogramme{
+    padding-right: 5%;
 }
 
 
@@ -367,17 +391,35 @@ nav.fixed{
 .big-fact{
     width: 70%;
 }
+.block-compteur{
+    display:flex;
+    justify-content:space-around;
+    padding: 5%;
+}
+.compteurs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compteurs img{
+    object-fit: cover;
+    height: 180px;
+    width: 180px;
+}
 .paragraphes-preuves{
     padding: 20px;
 }
 #preuves{
-    background-color: white;
+    background-color: #FEA632;
+    color: white;
 }
 #apostrophes{
    background-image: url("./../img/icone-apostrophes.png");
    background-position: top left;
    background-repeat:no-repeat;
   background-size: 8%;
+      background-color: rgba(252,252,252,0.2);
+    border-radius: 10px;
     width: 60%;
 }
 .signatures{
@@ -390,7 +432,8 @@ nav.fixed{
     background-image: url("./../img/nuageheader.png");
     background-position:bottom;
    background-repeat:no-repeat;
-   padding-bottom: 130px; 
+    background-size: contain;
+   padding-bottom: 15%; 
 }
 .icones-partenaires{
     border-radius: 50%;
@@ -511,7 +554,3 @@ textarea{
 ::placeholder { 
    color:white;
 }
-
-
-
-

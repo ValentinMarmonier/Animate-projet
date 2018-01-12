@@ -2,11 +2,34 @@
                 <div class="entete">
                     <h2 class="titre-2-sections">Ils utilisent AniMate®</h2>
                     <h3>AniMate® est utilisé par près de 200 clients à ce jours.</h3>
-                <strong style="color: red;"><em>Ajouter un compteur :</em></strong><br>
-                <strong style="color: red;"><em>Centres médico-sociaux  / Professionnels du soin / Familles</em></strong>
-
+                </div>
+                    <section class="block-compteur">
+                        <article class="compteurs">
+        				<img src="assets/img/professionel.png" alt="">
+        				<span id="compteur1">0</span>
+        				<p class="">
+        					<strong>Professionnels en libéral</strong>
+        				</p>
+        			    </article>
+            			<article class="compteurs">
+            				<img src="assets/img/hopitaux.png" alt="">
+            				<span id="compteur2">0</span>
+            				<p class="">
+            					<strong>Etablissements médicales</strong><br>
+            					<span id="esperluette">&</span>
+            					<strong>Centres médico-sociales</strong>
+            				</p>
+            			</article>
+            			<article class="compteurs">
+            				<img src="assets/img/famille.png" alt="">
+            				<span id="compteur3">0</span>
+            				<p class="">
+            					<strong>Familles et parents</strong><br>
+            				</p>
+            			</article>
+                    </section>
                 <h3>Ils témoignent...</h3>
-                    </div>
+                    
                 <section class="largeur">
                 <div class="big-fact">
                     <div class="bloctexte" id="apostrophes">
