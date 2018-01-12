@@ -66,7 +66,7 @@ CODEHTML;
         <p>$prix €</p>
         <div class="imageBoutique">$htmlImage</div>
         <div class="imageBoutiqueFiche">$htmlImageFiche</div>
-        <a href="$urlPanier">Ajouter au panier</a>
+        <a href="$urlPanier">Je choisi mon kit</a>
     </article>
     
 CODEHTML;
