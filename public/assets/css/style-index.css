@@ -410,8 +410,8 @@ nav.fixed{
     padding: 20px;
 }
 #preuves{
-    background-color: #FEA632;
-    color: white;
+    background-color: rgb(247, 178, 51);
+    color: black;
 }
 #apostrophes{
    background-image: url("./../img/icone-apostrophes.png");
