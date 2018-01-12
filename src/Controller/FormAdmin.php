@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Doctrine\DBAL\Driver\Connection;
 use Symfony\Component\HttpFoundation\Request;
 
-
+use App\Entity\UserAdmin;
 
 class FormAdmin extends Controller 
 {
@@ -253,23 +253,33 @@ class FormAdmin extends Controller
         $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
         $video                  = $this->getUploadedFile("video", $objetRequest, $cheminSymfony);
-        
+ 
+        // CONVERTIR $idUpdate EN NOMBRE
+        $idUpdate = intval($idUpdate);        
         
         // SECURITE TRES BASIQUE
-        if (($titre != "") && ($contenu != ""))
+        if (($idUpdate >0) && ($titre != "") && ($contenu != ""))
         {
             
             // AJOUTER L'ARTICLE DANS LA BASE DE DONNEES
             // ON VA UTILISER $objetConnection FOURNI PAR SYMFONY
             // http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/data-retrieval-and-manipulation.html#insert
-            $objetConnection->update("article_blog", 
+            $tabLigneUpdate = 
                                     [   "titre"             => $titre, 
                                         "contenu"           => $contenu,
                                         "image"             => $image,
                                         "categorie"         => $categorie,
                                         "video"             => $video
 
-                                        ]);
+                                        ];
+            if ($image != "")
+                {
+                    // SI IL Y A UNE IMAGE UPLOADE
+                    // ON MET A JOUR LA VALEUR DANS LA TABLE SQL
+                    $tabLigneUpdate["image"] = $image;
+                }
+            
+            $objetConnection->update("article_blog", $tabLigneUpdate, [ "id" => $idUpdate ]);
             
             // MESSAGE RETOUR POUR LE VISITEUR
             echo "Article modifié";

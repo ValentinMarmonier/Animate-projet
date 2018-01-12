@@ -54,7 +54,7 @@ CODEHTML;
     
     
     
-    
+$urlCheminAchat = $this->generateUrl("cheminAchat");    
     
     echo
 <<<CODEHTML
@@ -66,7 +66,7 @@ CODEHTML;
         <p>$prix €</p>
         <div class="imageBoutique">$htmlImage</div>
         <div class="imageBoutiqueFiche">$htmlImageFiche</div>
-        <a href="$urlPanier">Je choisi mon kit</a>
+        <a href="$urlCheminAchat">Je choisi mon kit</a>
     </article>
     
 CODEHTML;

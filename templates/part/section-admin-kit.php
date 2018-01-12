@@ -1,30 +1,6 @@
 
 
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-          
-          <ul class="nav nav-pills flex-column">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo $urlAdminKit?>" id="btn-kits">Page Kits</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#!" id="btn-pictos">Page Pictogrammes</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#!" id="btn-blog">Blog</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#!" id="btn-boutique">Boutique</a>
-            </li>
-            
-          </ul>
-
-        </nav>
+    
 
         <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
           

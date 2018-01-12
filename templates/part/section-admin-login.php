@@ -1,3 +1,13 @@
+<?php
+
+$urlLogout = $this->generateUrl("logout");
+
+?>
+
+
+<div>
+    <a href="<?php echo $urlLogout?>">Déconnexion</a>
+</div>
 
             <div class="container">
 
@@ -19,6 +29,8 @@
       
 
     </div> <!-- /container -->
+    
+    
 
 
 <?php
@@ -35,5 +47,9 @@ if ($objetRequest->get("codebarre", "") == "loginAdmin")
                                         $objetRepository, 
                                         $objetSession );
 }
+
+
+
+
 
 ?>

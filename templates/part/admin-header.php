@@ -5,6 +5,9 @@
 $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlAdminKit        = $this->generateUrl("adminKit");
 $urlAdminKitCreate  = $this->generateUrl("adminKitCreate");
+$urlAdminBlog       = $this->generateUrl("adminBlog");
+$urlAdminBlogCreate = $this->generateUrl("adminBlogCreate");
+$urlAdminBlogUpdate = $this->generateUrl("adminBlogUpdate");
 
 ?>
 
@@ -34,6 +37,32 @@ $urlAdminKitCreate  = $this->generateUrl("adminKitCreate");
     <header>
       <nav class="navbar navbar-inverse navbar-static-top">
         <a class="navbar-brand" href="<?php echo $urlEspaceAdmin?>">Espace Administrateur Animate</a>
-        <p class="navbar-text navbar-right">Dernière modification le (...) sur la page <a href="#" class="navbar-link">(...)</a></p>      
         </nav>
     </header>
+    
+ <div class="container-fluid">
+      <div class="row">    
+    
+    <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
+          
+          <ul class="nav nav-pills flex-column">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo $urlAdminKit?>" id="btn-kits">Page Kits</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#!" id="btn-pictos">Page Pictogrammes</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo $urlAdminBlog?>" id="btn-blog">Blog</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#!" id="btn-boutique">Boutique</a>
+            </li>
+            
+          </ul>
+
+        </nav>

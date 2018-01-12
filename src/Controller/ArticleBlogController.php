@@ -44,5 +44,9 @@ class ArticleBlogController
         // ET C'EST LA MECANIQUE DE SYMFONY QUI VA GERER L'AFFICHAGE DE CE CODE
         return new Response($contenuCache);
        
-   }   
+   }
+   
+   
+   
+   
 }

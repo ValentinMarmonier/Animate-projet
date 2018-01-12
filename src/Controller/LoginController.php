@@ -109,4 +109,21 @@ class LoginController
 
    }
    
+   /**
+      * @Route("/logout", name="logout")
+      */   
+   public function logout (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
+   {
+        // EFFACER LES INFOS DE SESSION
+        $objetSession->set("niveau", 0);
+        $objetSession->set("pseudo", "");
+        $objetSession->set("email",  "");
+        
+        // REDIRIGER VERS LA PAGE login
+        $urlAdminLogin = $this->generateUrl("adminLogin");
+        return new RedirectResponse($urlAdminLogin);
+        
+
+   }
+   
 }
