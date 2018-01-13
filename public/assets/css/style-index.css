@@ -534,10 +534,14 @@ nav.fixed{
   color: #8BC74A;
   background-color: white;
 }
-
+.contact{
+    display: flex;
+}
+.formulaire{
+    margin: 0 auto;
+}
 
 input, textarea, button {
-    display:block;
     margin-bottom:20px;
     width:90%;
     height:50px;
@@ -553,4 +557,8 @@ textarea{
 }
 ::placeholder { 
    color:white;
+}
+#EmplacementDeMaCarte{
+    display: flex;
+    margin: 0 auto;
 }

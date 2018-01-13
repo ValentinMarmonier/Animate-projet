@@ -1,15 +1,3 @@
-            <section>
-                <h3>Pour nous contacter</h3>
-                <form method="GET" action="">
-                    <input type="email" name="email" required placeholder="VOTRE EMAIL">
-                    <input type="text" name="nom" required placeholder="VOTRE NOM">
-                    <textarea type="text" name="message" required placeholder="VOTRE MESSAGE" rows="6" cols="60"></textarea>
-                    <button type="submit">ENVOYER LE MESSAGE</button>
-                    <input type="hidden" name="codebarre" value="contact">
-                    <div class="response">
-
-
-
 <?php
 // TRAITER LE FORMULAIRE
 // AVEC SYMFONY ON VA UTILISER UN OBJET DE LA CLASSE Request
@@ -48,4 +36,21 @@ if ($objetRequest->get("codebarre", "") == "contact")
 		
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTRXwU5HMtlVMwdNfOeY6k6L8NVQhuuiE&callback=initialisation"
             type="text/javascript">
-            </script>        
+            </script>       
+            <section>
+            <h3>Section contact</h3>
+                <article class="contact">
+                    <div class="formulaire">
+                    <form method="GET" action="">
+                    
+                    <input type="text" name="nom" required placeholder="Nom">
+                    <input type="texte" name="mail" required placeholder="adresse@maboite.com">
+                    <textarea name="article" placeholder="VOTRE MESSAGE" rows="5" cols="60" required></textarea>
+                    
+                    <button type="submit">ENVOYER</button>
+                    
+                    </form>
+                    </div>
+                    
+                </article>
+        </section>
