@@ -353,7 +353,7 @@ class VitrineController
    /**
       * @Route("adminKit/", name="adminKit")
       */   
-   public function adminKit (Request $objetRequest, Connection $objetConnection)
+   public function adminKit (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
    {
 
         // POUR RECUPERER LES INFOS DE FORMULAIRE
@@ -383,38 +383,7 @@ class VitrineController
        
    }
    
-   /**
-      * @Route("adminKitCreate/", name="adminKitCreate")
-      */   
-   public function adminKitCreate (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
-   {
-
-        // POUR RECUPERER LES INFOS DE FORMULAIRE
-        // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
-        // UN OBJET DE LA CLASSE Request
-        // (INJECTION DE DEPENDANCE...)
-       
-        // JE VAIS METTRE EN CACHE LE CODE HTML
-        // http://php.net/manual/fr/function.ob-start.php
-        ob_start();
-        
-        // METHODE DE SYMFONY POUR OBTENIR LE CHEMIN DU DOSSIER symfony1        
-        $cheminSymfony   = $this->getParameter('kernel.project_dir');
-        $cheminTemplates = "$cheminSymfony/templates"; 
-        $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-admin-kit-create.php");
-        
-        // RECUPERER LE CONTENU DU CACHE
-        // http://php.net/manual/fr/function.ob-get-clean.php
-        $contenuCache = ob_get_clean();
-        
-        // TEMPORISATION DE L'AFFICHAGE...
-        // JE NE FAIS PAS LE echo DE L'AFFICHAGE MOI MEME
-        // JE DONNE LE CONTENU HTML A LA CLASSE Response
-        // ET C'EST LA MECANIQUE DE SYMFONY QUI VA GERER L'AFFICHAGE DE CE CODE
-        return new Response($contenuCache);
-       
-   }
+  
    
    /**
       * @Route("contact", name="contact")
@@ -445,7 +414,7 @@ class VitrineController
    /**
       * @Route("adminBlog/", name="adminBlog")
       */   
-   public function adminBlog (Request $objetRequest, Connection $objetConnection)
+   public function adminBlog (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
    {
 
         // POUR RECUPERER LES INFOS DE FORMULAIRE
@@ -476,9 +445,9 @@ class VitrineController
    }
    
    /**
-      * @Route("adminBlogCreate/", name="adminBlogCreate")
+      * @Route("adminPicto/", name="adminPicto")
       */   
-   public function adminBlogCreate (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
+   public function adminPicto (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
    {
 
         // POUR RECUPERER LES INFOS DE FORMULAIRE
@@ -494,40 +463,7 @@ class VitrineController
         $cheminSymfony   = $this->getParameter('kernel.project_dir');
         $cheminTemplates = "$cheminSymfony/templates"; 
         $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-admin-blog-create.php");
-        
-        // RECUPERER LE CONTENU DU CACHE
-        // http://php.net/manual/fr/function.ob-get-clean.php
-        $contenuCache = ob_get_clean();
-        
-        // TEMPORISATION DE L'AFFICHAGE...
-        // JE NE FAIS PAS LE echo DE L'AFFICHAGE MOI MEME
-        // JE DONNE LE CONTENU HTML A LA CLASSE Response
-        // ET C'EST LA MECANIQUE DE SYMFONY QUI VA GERER L'AFFICHAGE DE CE CODE
-        return new Response($contenuCache);
-       
-   }
-   
-   /**
-      * @Route("adminBlogUpdate/", name="adminBlogUpdate")
-      */   
-   public function adminBlogUpdate (Request $objetRequest, Connection $objetConnection, SessionInterface $objetSession)
-   {
-
-        // POUR RECUPERER LES INFOS DE FORMULAIRE
-        // ON DEMANDE A SYMFONY DE NOUS FOURNIR 
-        // UN OBJET DE LA CLASSE Request
-        // (INJECTION DE DEPENDANCE...)
-       
-        // JE VAIS METTRE EN CACHE LE CODE HTML
-        // http://php.net/manual/fr/function.ob-start.php
-        ob_start();
-        
-        // METHODE DE SYMFONY POUR OBTENIR LE CHEMIN DU DOSSIER symfony1        
-        $cheminSymfony   = $this->getParameter('kernel.project_dir');
-        $cheminTemplates = "$cheminSymfony/templates"; 
-        $cheminPart      = "$cheminTemplates/part"; 
-        require_once("$cheminTemplates/template-admin-blog-update.php");
+        require_once("$cheminTemplates/template-admin-picto.php");
         
         // RECUPERER LE CONTENU DU CACHE
         // http://php.net/manual/fr/function.ob-get-clean.php

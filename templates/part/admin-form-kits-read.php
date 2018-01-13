@@ -1,11 +1,28 @@
+<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+          
+          <div id="modifPage">
+            
+            <h1>Page Kits</h1>
+  
+            <section class="row text-center placeholders">
+              
+              <div class="col-6 col-sm-3 placeholder">
+              </div>
+              
+             
+            </section>  
+            
+          </div>
+
+
 <?php
 
 // FAIRE LE TRAITEMENT DU FORMULAIRE AVANT DE FAIRE LE READ
 if ($objetRequest->get("codebarre", "") == "delete")
 {
-    $objetFormArticle = new App\Controller\FormAdmin;
+    $objetFormAdmin = new App\Controller\FormAdmin;
     
-    $objetFormAdmin->supprimer($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
+    $objetFormAdmin->supprimerKits($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
     
 }
 ?>
@@ -24,7 +41,7 @@ $objetRepository = $this->getDoctrine()->getRepository(App\Entity\Kits::class);
 // PLUS PRATIQUE => findBy
 // http://www.doctrine-project.org/api/orm/2.5/class-Doctrine.ORM.EntityRepository.html
 // ATTENTION: ON UTILISE LE NOM DES PROPRIETES
-$tabResultat = $objetRepository->findBy([], [ "datePublication" => "DESC" ]);
+$tabResultat = $objetRepository->findBy([], [ "id" => "DESC" ]);
 
 // ON A UN TABLEAU D'OBJETS DE CLASSE 
 foreach($tabResultat as $objetKits)
@@ -46,29 +63,20 @@ foreach($tabResultat as $objetKits)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBoutique/$image" title="$image">
 
 CODEHTML;
     }
     
- //   $urlCategorie = "#";
- //   if ($categorie)
- //   {
-        // POUR CONSTRUIRE UNE URL POUR UNE ROUTE DYNAMIQUE
-        // IL FAUT FOURNIR LA VALEUR DU PARAMETRE DANS L'URL
-        //      * @Route("categorie/{cat}", name="categorie")
- //       $urlCategorie = $this->generateUrl("categorie", [ "kit" => $categorie ]);
- //   }
-    
     // CREER L'URL POUR LA ROUTE DYNAMIQUE (AVEC PARAMETRE)
- //   $urlArticle = $this->generateUrl("article", [ "id" => $id ]);
+    $urlViewKit = $this->generateUrl("view-kits", [ "id" => $id ]);
     
     echo
 <<<CODEHTML
 
     <tr>
         <td>$id</td>
-        <td><a href="$urlKitFiche">$nomKit</a></td>
+        <td><a href="$urlViewKit">$nomKit</a></td>
         <td>$description</td>
         <td>$contenuKit</td>
         <td>$infoComplementaire</td>
@@ -80,7 +88,7 @@ CODEHTML;
             <form method="GET" action="#section-update">
                 <input type="hidden" name="afficher" value="update">
                 <input type="hidden" name="idUpdate" value="$id">
-                <button type="submit">modifier</button>
+                <button type="submit">Modifier</button>
             </form>
         </td>
         <td>

@@ -62,11 +62,14 @@ class FormAdmin extends Controller
     
     function updateKits ($objetRequest, $objetConnection, $cheminSymfony, $objetSession)
     {
+        
+
         // RECUPERER LES INFOS DU FORMULAIRE
         // ->get("email", "")
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
+        $idUpdate               = $objetRequest->get("idUpdate",    "");       
         $nomKit                 = $objetRequest->get("nomKit", "");       
         $description            = $objetRequest->get("description", "");       
         $contenuKit             = $objetRequest->get("contenuKit", "");   
@@ -74,22 +77,34 @@ class FormAdmin extends Controller
         $prix                   = $objetRequest->get("prix", "");       
         $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
+
+        $idUpdate = intval($idUpdate);
+
         
         // SECURITE TRES BASIQUE
-        if (($nomKit != "") && ($description != "") && ($contenuKit != "") && ($prix != ""))
+        if (($idUpdate >0) && ($nomKit != "")  && ($prix != ""))
         {
             
             // AJOUTER L'ARTICLE DANS LA BASE DE DONNEES
             // ON VA UTILISER $objetConnection FOURNI PAR SYMFONY
             // http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/data-retrieval-and-manipulation.html#insert
-            $objetConnection->update("kits", 
+            $tabLigneUpdate = 
                                     [   "nom_kit"           => $nomKit, 
                                         "description"       => $description,
                                         "contenu_kit"       => $contenuKit,
                                         "prix"              => $prix,
                                         "image"             => $image,
                                         "categorie"         => $categorie
-                                        ]);
+                                        ];
+                                        
+            if ($image != "")
+            {
+                // SI IL Y A UNE IMAGE UPLOADE
+                // ON MET A JOUR LA VALEUR DANS LA TABLE SQL
+                $tabLigneUpdate["image"] = $image;
+            }
+            
+            $objetConnection->update("kits", $tabLigneUpdate, [ "id" => $idUpdate ]);                            
             
             // MESSAGE RETOUR POUR LE VISITEUR
             echo "Article modifié";
@@ -159,6 +174,7 @@ class FormAdmin extends Controller
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
+        $idUpdate               = $objetRequest->get("idUpdate",    "");       
         $titre                  = $objetRequest->get("titre", "");       
         $description            = $objetRequest->get("description", "");       
         $prix                   = $objetRequest->get("prix", "");       
@@ -166,19 +182,28 @@ class FormAdmin extends Controller
         $categorie              = $objetRequest->get("categorie", "");
         
         // SECURITE TRES BASIQUE
-        if (($titre != "") && ($description != "") && ($prix != ""))
+        if (($idUpdate >0) && ($titre != "")  && ($prix != ""))
         {
             
             // AJOUTER L'ARTICLE DANS LA BASE DE DONNEES
             // ON VA UTILISER $objetConnection FOURNI PAR SYMFONY
             // http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/data-retrieval-and-manipulation.html#insert
-            $objetConnection->update("pictogrammes", 
-                                    [   "titre"           => $titre, 
+            $tabLigneUpdate = 
+                                    [   "titre"             => $titre, 
                                         "description"       => $description,
                                         "prix"              => $prix,
                                         "image"             => $image,
                                         "categorie"         => $categorie
-                                        ]);
+                                        ];
+                                        
+            if ($image != "")
+            {
+                // SI IL Y A UNE IMAGE UPLOADE
+                // ON MET A JOUR LA VALEUR DANS LA TABLE SQL
+                $tabLigneUpdate["image"] = $image;
+            }
+                        
+            $objetConnection->update("pictogrammes", $tabLigneUpdate, [ "id" => $idUpdate ]);                                        
             
             // MESSAGE RETOUR POUR LE VISITEUR
             echo "Article modifié";
@@ -248,6 +273,7 @@ class FormAdmin extends Controller
         // VA CHERCHER L'INFO DANS LE FORMULAIRE HTML name="email"
         // ET SI L'INFO N'EST PAS PRESENTE 
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
+        $idUpdate               = $objetRequest->get("idUpdate",    "");       
         $titre                  = $objetRequest->get("titre", "");       
         $contenu                = $objetRequest->get("contenu", "");       
         $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
@@ -255,8 +281,7 @@ class FormAdmin extends Controller
         $video                  = $this->getUploadedFile("video", $objetRequest, $cheminSymfony);
  
         // CONVERTIR $idUpdate EN NOMBRE
-        $idUpdate = intval($idUpdate);        
-        
+        $idUpdate = intval($idUpdate);
         // SECURITE TRES BASIQUE
         if (($idUpdate >0) && ($titre != "") && ($contenu != ""))
         {

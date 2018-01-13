@@ -76,11 +76,13 @@ $video      = $objetArticleUpdate->getVideo();
   
   
   <button type="submit" class="btn btn-primary">Modifier l'article</button>
+  
   <input type="hidden" name="afficher" value="update">
   <input type="hidden" name="idUpdate" value="<?php echo $idUpdate ?>">
   <input type="hidden" name="codebarre" value="update">  
   
-  
+<?php echo $messageUpdate ?>
+
 </form>
 
  <?php endif; ?>

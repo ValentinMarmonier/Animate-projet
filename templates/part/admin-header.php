@@ -2,12 +2,12 @@
 
 <?php
 
+$urlAccueil         = $this->generateUrl("accueil");
 $urlEspaceAdmin     = $this->generateUrl("espaceAdmin");
 $urlAdminKit        = $this->generateUrl("adminKit");
-$urlAdminKitCreate  = $this->generateUrl("adminKitCreate");
 $urlAdminBlog       = $this->generateUrl("adminBlog");
-$urlAdminBlogCreate = $this->generateUrl("adminBlogCreate");
-$urlAdminBlogUpdate = $this->generateUrl("adminBlogUpdate");
+$urlAdminPicto      = $this->generateUrl("adminPicto");
+
 
 ?>
 
@@ -30,6 +30,7 @@ $urlAdminBlogUpdate = $this->generateUrl("adminBlogUpdate");
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style-admin.css" type="text/css" />
     
         <title>Administrateur Animate</title>
 
@@ -52,7 +53,7 @@ $urlAdminBlogUpdate = $this->generateUrl("adminBlogUpdate");
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#!" id="btn-pictos">Page Pictogrammes</a>
+              <a class="nav-link" href="<?php echo $urlAdminPicto?>" id="btn-pictos">Page Pictogrammes</a>
             </li>
             
             <li class="nav-item">

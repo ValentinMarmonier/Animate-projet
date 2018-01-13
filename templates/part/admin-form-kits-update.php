@@ -1,4 +1,4 @@
-<section id="section-update-kits">
+<section id="section-update">
 <?php
 
 // ON TRAITE LE FORMULAIRE UPDATE AVANT DE FAIRE LA REQUETE
@@ -16,7 +16,7 @@ if ($objetRequest->get("codebarre", "") == "update")
     $objetFormAdmin = new App\Controller\FormAdmin;
     
     $objetEntityManager = $this->getDoctrine()->getManager();
-    $objetFormAdmin->update($objetRequest, $objetConnection, $objetEntityManager, $cheminSymfony, $objetSession);
+    $objetFormAdmin->updateKits($objetRequest, $objetConnection, $objetEntityManager, $cheminSymfony, $objetSession);
 }
 
 $messageUpdate = ob_get_clean();
@@ -45,18 +45,22 @@ $objetUpdateKits = $objetRepository->find($idUpdate);
 ?>
     <H3>Modifier un article de la page Kits</H3>
     <form method="POST">
-        <input type="text" name="nomKit" required placeholder="Nom du kit">
-        <input type="text" name="description" required placeholder="description">
-        <textarea id="editor1" type="text" name="contenuKit" required placeholder="contenu du kit" rows="30"></textarea>
-        <input type="text" name="infoComplementaire" placeholder="Informations complémentaires">
-        <input type="text" name="prix" placeholder="Prix du kit">
-        <input type="file" name="image">
-        <input type="text" name="categorie" required placeholder="categorie du kit">
+        <input type="text" name="nomKit" required placeholder="Nom du kit" value="<?php echo $nomKit ?>">
+        <input type="text" name="contenuKit" required placeholder="description" value="<?php echo $contenuKit ?>">
+        <textarea id="editor1" type="text" name="description" required placeholder="contenu du kit" rows="30" value="<?php echo $description ?>"></textarea>
+        <input type="text" name="infoComplementaire" placeholder="Informations complémentaires" value="<?php echo $infoComplementaire ?>">
+        <input type="text" name="prix" placeholder="Prix du kit" value="<?php echo $prix ?>">
+        <input type="file" name="image" value="<?php echo $image ?>">
+        <input type="text" name="categorie" required placeholder="categorie du kit" value="<?php echo $categorie ?>">
         
         <button type="submit">PUBLIER ARTICLE</button>
-        <input type="hidden" name="codebarre" value="form-kits">
-
+        <input type="hidden" name="afficher" value="update">
+        <input type="hidden" name="idUpdate" value="<?php echo $idUpdate ?>">
+        <input type="hidden" name="codebarre" value="update">  
     </form>
+
+<?php echo $messageUpdate ?>
+
     
 </section>
     

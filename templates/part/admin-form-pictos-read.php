@@ -1,12 +1,8 @@
-
-
-    
-
-        <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
           
           <div id="modifPage">
             
-            <h1>Page Blog</h1>
+            <h1>Page Kits</h1>
   
             <section class="row text-center placeholders">
               
@@ -24,15 +20,15 @@
 // FAIRE LE TRAITEMENT DU FORMULAIRE AVANT DE FAIRE LE READ
 if ($objetRequest->get("codebarre", "") == "delete")
 {
-    $objetFormArticle = new App\Controller\FormAdmin;
+    $objetFormAdmin = new App\Controller\FormAdmin;
     
-    $objetFormArticle->supprimerArticleBlog($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
+    $objetFormAdmin->supprimerPictos($objetRequest, $objetConnection, $cheminSymfony, $objetSession);
     
 }
 ?>
 
 <section>
-    <h3>Liste des articles de la page blog</h3>
+    <h3>Liste des articles de la page Pictogrammes</h3>
         <table>
             <tbody>
             
@@ -40,23 +36,23 @@ if ($objetRequest->get("codebarre", "") == "delete")
 
 // JE VAIS RECUPERER LE REPOSITORY POUR L'ENTITE Article
 // $objetRepository = $this->getDoctrine()->getRepository("App\Entity\MonArticle");
-$objetRepository = $this->getDoctrine()->getRepository(App\Entity\ArticleBlog::class);
+$objetRepository = $this->getDoctrine()->getRepository(App\Entity\Pictogrammes::class);
 
 // PLUS PRATIQUE => findBy
 // http://www.doctrine-project.org/api/orm/2.5/class-Doctrine.ORM.EntityRepository.html
 // ATTENTION: ON UTILISE LE NOM DES PROPRIETES
 $tabResultat = $objetRepository->findBy([], [ "id" => "DESC" ]);
 
-// ON A UN TABLEAU D'OBJETS DE CLASSE Article
-foreach($tabResultat as $objetArticle)
+// ON A UN TABLEAU D'OBJETS DE CLASSE 
+foreach($tabResultat as $objetPictogrammes)
 {
-    // METHODES "GETTER" A RAJOUTER DANS LA CLASSE Article
-    $id         = $objetArticle->getId();
-    $titre      = $objetArticle->getTitre();
-    $contenu    = $objetArticle->getContenu();
-    $image      = $objetArticle->getImage();
-    $categorie  = $objetArticle->getCategorie();
-    $video      = $objetArticle->getVideo();
+    // METHODES "GETTER" A RAJOUTER DANS LA CLASSE 
+    $id                     = $objetPictogrammes->getId();
+    $titre                  = $objetPictogrammes->getTitre();
+    $description            = $objetPictogrammes->getDescription();
+    $prix                   = $objetPictogrammes->getPrix();
+    $image                  = $objetPictogrammes->getImage();
+    $categorie              = $objetPictogrammes->getCategorie();
     
     
     $htmlImage = "";
@@ -70,20 +66,19 @@ foreach($tabResultat as $objetArticle)
 CODEHTML;
     }
     
-    
     // CREER L'URL POUR LA ROUTE DYNAMIQUE (AVEC PARAMETRE)
-    $urlViewArticle = $this->generateUrl("view-article", [ "id" => $id ]);
+    $urlViewPictos = $this->generateUrl("view-pictos", [ "id" => $id ]);
     
     echo
 <<<CODEHTML
 
     <tr>
         <td>$id</td>
-        <td><a href="$urlViewArticle">$titre</a></td>
+        <td><a href="$urlViewPictos">$titre</a></td>
+        <td>$description</td>
+        <td>$prix</td>
+        <td>$image</td>
         <td>$categorie</td>
-        <td>$contenu</td>
-        <td>$htmlImage</td>
-        <td>$video</td>
         <td>
             <!-- ETAPE 1: AFFICHER LE FORMULAIRE POUR UN UPDATE -->
             <form method="GET" action="#section-update">
@@ -96,7 +91,7 @@ CODEHTML;
             <form method="POST" action="">
                 <input type="hidden" name="codebarre" value="delete">
                 <input type="hidden" name="idDelete" value="$id">
-                <button type="submit">Supprimer</button>
+                <button type="submit">supprimer</button>
             </form>
         </td>
     </tr>
@@ -111,21 +106,3 @@ CODEHTML;
 
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-         
-        </main>
-      </div>
-    </div>
