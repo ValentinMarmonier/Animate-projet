@@ -5,17 +5,17 @@
                         <img src="assets/img/BD AniMate-fondateurs-3.png" alt="image figurines fondateurs">
                     </div>
                     
-                    <div class="container">
+                    <section class="container">
                     <div class="ligne-benefices">
                         <div class="bloctexte">
                         	<h2><strong>Chère visiteuse, cher visiteur</strong></h2>
                             <button class="show-modal4 open-modal4">
                                 <h3>
 					    			<strong>
-					    				<a href="" data-modal="#modal" class="modal__trigger">
+					    				
 					    				Partons ensemble pour la découverte du monde d'AniMate®<br>
 					    				Le petit bonhomme d&#039;aide à la communication et à la rééducation.
-			                        	</a>
+			                        	
 			                    	</strong>
 					    		</h3>
                             </button>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </article>
     </section>

@@ -1,10 +1,10 @@
-        <section id="cibles" class="sections-index">
+<section id="cibles" class="sections-index">
 				
-			<h2 class="titre-2-sections-index">Cibles métiers</h2>
+	<h2 class="titre-2-sections-index">Cibles métiers</h2>
 			
-			<section class="largeur">
-				<article class="ligne-cibles" > 
-					<div class="bloctexte">
+		<section class="largeur">
+			<article class="ligne-cibles" > 
+				<div class="bloctexte">
 					<h3 class="titre-3-sections-index">Orthophoniste</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
@@ -16,15 +16,9 @@
 	            	<div class="ligne-cibles" class="lignes-index">
 						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
 					</div>
-					</div>
-	            		<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/orthophoniste.png" alt="logo métier orthophoniste">
-		            
-				</article>
-			
-			
-
-
-				
+				</div>
+            		<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/orthophoniste.png" alt="logo métier orthophoniste">
+			</article>
 			
 			<article class="ligne-cibles">
 				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychomotricien.png" alt="logo métier psychomotricienne">
@@ -43,7 +37,6 @@
             	</div>
 			</article>
 
-	
 			<article class="ligne-cibles" >
 				<div class="bloctexte">
 					<h3 class="titre-3-sections-index">Psychologue</h3>
@@ -61,8 +54,6 @@
 				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologue.png" alt="logo métier psychologue">
 			</article>
 			
-		
-				
 			<article class="ligne-cibles" class="lignes-index">
 				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/enseignant special.png" alt="logo métier éducateur spécialisé">
 				<div class="bloctexte">
@@ -79,7 +70,6 @@
 					</div>
             	</div>
 			</article>
-
 
 			<article class="ligne-cibles">
 				<div class="bloctexte">
@@ -99,7 +89,6 @@
 				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/responsable CMS.png" alt="logo métier établissement médico-social">
 			</article>
 
-
 			<article class="ligne-cibles" class="lignes-index">
 				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/parent.png" alt="logo famille">
 				<div class="bloctexte">
@@ -116,7 +105,6 @@
 					</div>
             	</div>
 			</article>
-			</section>
-			
-		</section><!-- cibles -->
+	</section>
+</section><!-- cibles -->
         

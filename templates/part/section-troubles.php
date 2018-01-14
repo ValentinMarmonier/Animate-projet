@@ -10,7 +10,7 @@
                 <div class="block-troubles">
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-troubles.jpg" alt="image des troubles autistiques">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles du spectre autistique 2.jpg" alt="image des troubles autistiques">
                         </div>
                         <h3 class="titres-troubles">Les troubles du spectre autistique :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
@@ -24,7 +24,7 @@
 
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-troubles.jpg" alt="image des déficiences intellectuelle">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/maladies neurodégénératives 2.jpg" alt="image des déficiences intellectuelle">
                         </div>
                         <h3 class="titres-troubles">Déficience intellectuelle</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
@@ -37,7 +37,7 @@
 
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-troubles.jpg" alt="vigette détails troubles">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/maladies neurodégénératives.jpg" alt="vigette détails troubles">
                         </div>
                         <h3 class="titres-troubles">Les maladies neurodégénératives :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
@@ -52,7 +52,7 @@
                 <div class="block-troubles">
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-troubles.jpg" alt="vigette détails troubles">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles des apprentissages.jpg" alt="vigette détails troubles">
                         </div>
                         <h3 class="titres-troubles">Les roubles des apprentissages :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
@@ -68,7 +68,7 @@
                     
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-troubles.jpg" alt="vigette détails troubles">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles du comportement.jpg" alt="vigette détails troubles">
                         </div>
                         <h3 class="titres-troubles">Les troubles neurologiques :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
@@ -81,7 +81,7 @@
                     
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-troubles.jpg" alt="vigette détails troubles">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles du spectre autistique.jpg" alt="vigette détails troubles">
                         </div>
                         <h3 class="titres-troubles">Les troubles neurologiques :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
