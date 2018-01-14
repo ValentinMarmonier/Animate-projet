@@ -141,6 +141,17 @@ setTimeout(attendre3, 1000);
             {
              modal3.fadeOut();
             });
+             /* MODAL BENEFICE-4 */
+            var modal4 = $('.modal4');
+            $('.show-modal4').click(function() 
+            {
+             modal4.fadeIn();
+            });
+
+            $('.close-modal4').click(function() 
+            {
+             modal4.fadeOut();
+            });
             
 
 var Modal = (function() {
