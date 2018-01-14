@@ -12,10 +12,10 @@
                             <button class="show-modal4 open-modal4">
                                 <h3>
 					    			<strong>
-					    				<a href="" data-modal="#modal" class="modal__trigger">
+					    				
 					    				Partons ensemble pour la découverte du monde d'AniMate®<br>
 					    				Le petit bonhomme d&#039;aide à la communication et à la rééducation.
-			                        	</a>
+			                        	
 			                    	</strong>
 					    		</h3>
                             </button>

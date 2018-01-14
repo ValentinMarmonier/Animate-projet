@@ -29,6 +29,7 @@ h2{
 h3{
     font-size:26px;
 }
+
 h4{
     margin-bottom: 3%;
     font-size: 24px;
@@ -224,6 +225,15 @@ nav.fixed{
     border-radius:10%;
     transform: rotate(-5deg);
 }
+.sections-index-fondateurs .bloctexte{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sections-index-fondateurs .bloctexte h3:hover {
+    color: white;
+}
+
 .cadre{
     width: 50%;
     display: inline-block;
