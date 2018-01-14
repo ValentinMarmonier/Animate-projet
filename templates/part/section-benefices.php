@@ -22,12 +22,8 @@
                     <div class="ligne-benefices">
                         <div class="bloctexte">
                             <button class="show-modal1 open-modal1">
-                                <h3 class="titre-3-sections"><strong>Bénéfice 1 :</strong></h3>
-                                <p class="paragraphes-benefices" class="paragraphes-index">
-                                    <strong> 
-                                        AniMate® est tangible, manipulable et de forme humaine. Il n’existe pas d’outil plus concret !
-                                    </strong>
-                                </p>
+                                <h3 class="titre-3-sections"><strong>AniMate® est tangible, manipulable et de forme humaine. Il n’existe pas d’outil plus concret !</strong>
+                                </h3>
                             </button>
                             <div class="modal1">
                                 <a class="close-modal1" href="#">X</a>
@@ -54,12 +50,8 @@
                     <div class="ligne-benefices">
                         <div class="bloctexte">
                             <button class="show-modal2 open-modal2">
-                                <h3 class="titre-3-sections"><strong>Bénéfice 2 :</strong></h3>
-                                <p class="paragraphes-benefices" class="paragraphes-index">
-                                    <strong> 
-                                        AniMate® est ludique, rassurant et apaisant. Il crée un lien affectif !
-                                    </strong>
-                                </p>
+                                <h3 class="titre-3-sections"><strong>AniMate® est ludique, rassurant et apaisant. Il crée un lien affectif !</strong>
+                                </h3>
                             </button>
                             <div class="modal2">
                                 <a class="close-modal2" href="#">X</a>
@@ -84,12 +76,7 @@
                     <div class="ligne-benefices">
                         <div class="bloctexte">
                             <button class="show-modal3 open-modal3">
-                                <h3 class="titre-3-sections"><strong>Bénéfice 3 :</strong></h3>
-                                <p class="paragraphes-benefices" class="paragraphes-index">
-                                    <strong> 
-                                        AniMate® est polyvalent et évolutif. C’est l’accompagnant idéal au service des professionnels !
-                                    </strong>
-                                </p>
+                                <h3 class="titre-3-sections"><strong>AniMate® est polyvalent et évolutif. C’est l’accompagnant idéal au service des professionnels !</strong></h3>
                             </button>
                             <div class="modal3">
                                 <a class="close-modal3" href="#">X</a>

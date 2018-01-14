@@ -1,7 +1,11 @@
+<?php
+
+require_once("$cheminPart/header.php");
+?>
 
 
-<section>
-    
+<section class="section-blog">
+     <section class="largeur">   
 
 <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
@@ -41,7 +45,7 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <article>
+    <article class="article-blog">
         <h3>$titre</h3>
         <p>$contenu</p>
         <div>$htmlImage</div>
@@ -61,3 +65,7 @@ else {
 
 
 </section>
+</section>
+
+<?php
+require_once("$cheminPart/footer-view.php");

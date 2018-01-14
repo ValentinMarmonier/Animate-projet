@@ -1,8 +1,9 @@
 
 
-<section>
+<section class="section-blog">
     <h3>Retrouvez toute l'actualité Animate.</h3>
-
+<section class="largeur">
+    
 <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
 
@@ -47,7 +48,7 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <article>
+    <article class="article-blog">
          <h4 title="$id"><a href="$urlViewArticle">$titre</a></h4>
         <p>$contenu</p>
         <div>$htmlImage</div>
@@ -64,5 +65,5 @@ CODEHTML;
 }
 ?>
 
-
+</section>
 </section>
