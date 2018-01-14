@@ -15,46 +15,104 @@
                     mais aussi favorise leur bien-être.
                 </p>
                 </div>
+                
                 <section class="largeur">
-                    <div class="ligne-benefices">
-                        <div class="bloctexte">
-                        <h3 class="titre-3-sections">Bénéfice 1 : </h3>
-                        <p class="paragraphes-benefices" class="paragraphes-index"> 
-                        AniMate® est tangible, manipulable et de forme humaine. 
-                    Il n’existe pas d’outil plus concret ! Il permet ainsi à des individus présentant 
-                    des troubles cognitifs de s’identifier à lui ou de se projeter pour travailler efficacement 
-                    autour du corps, de l’habillage, de la douleur,… ou encore agir comme médiateur pour exprimer 
-                    un ressenti émotionnel. 
-                    </p>
-                        </div>
-                        <img class="icones-benefices" src="assets/img/attention-aux-autres.png" alt="">
-                    </div>
                     
-                    <div class="ligne-benefices">
-                       <img class="icones-benefices" src="assets/img/attention.png" alt="">
-                        <div class="bloctexte">
-                        <h3 class="titre-3-sections">Bénéfice 2 :</h3>
-                        <p class="paragraphes-benefices" class="paragraphes-index"> 
-                        AniMate® est ludique, rassurant et apaisant. Il crée un lien affectif tel 
-                    que les personnes accompagnées adorent travailler avec ce matériel… 
-                    tout comme ceux qui les prennent en charge ! Stimulant, il permet de canaliser 
-                    l’attention des personnes fragilisées et ainsi de travailler efficacement en séance de rééducation.
-                    </p>
-                        </div>
-                    </div>
+                    <div class="container">
                     <div class="ligne-benefices">
                         <div class="bloctexte">
-                        <h3 class="titre-3-sections">Bénéfice 3 :</h3>
-                        <p class="paragraphes-benefices" class="paragraphes-index"> 
-                        AniMate® est polyvalent et évolutif. Il permet d’accompagner les personnes prises en charge 
-                     sur une grande diversité de thématique de rééducation ou éducatives (corps, langage, émotions, vie quotidienne, sexualité,…). 
-                     Adapté à la fois à des séances de rééducation en orthophonie, en psychomotricité ou encore en psychologie, 
-                     il s’avère également très pratique pour l’accompagnement au quotidien en centre ou en famille. 
-                     Il crée ainsi de la cohérence dans la prise en charge globale de personnes en situation de handicap. 
-                     Il convient aussi bien à des enfants qu’à des adultes avec ou sans déficience intellectuelle, ou encore avec et sans langage. 
-					</p>
+                            <button class="show-modal1 open-modal1">
+                                <h3 class="titre-3-sections"><strong>Bénéfice 1 :</strong></h3>
+                                <p class="paragraphes-benefices" class="paragraphes-index">
+                                    <strong> 
+                                        AniMate® est tangible, manipulable et de forme humaine. Il n’existe pas d’outil plus concret !
+                                    </strong>
+                                </p>
+                            </button>
+                            <div class="modal1">
+                                <a class="close-modal1" href="#">X</a>
+                                <div>
+                                    <strong>
+                                        <p class="paragraphe-benefices">
+                                            AniMate® est tangible, manipulable et de forme humaine. Il n’existe pas d’outil plus concret !
+                                        </p>    
+                                    </strong>
+                                    <p>
+                                        AniMate® permet ainsi à des individus présentant des troubles cognitifs de s’identifier à lui 
+                                        ou de se projeter pour travailler efficacement autour du corps, de l’habillage, de la douleur,… 
+                                        ou encore agir comme médiateur pour exprimer un ressenti émotionnel. 
+                                    </p>
+                                    <img class="icones-benefices" src="assets/img/avantage 1.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                        <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
                     </div>
+                </div>
+                    
+                    
+                     <div class="container">
+                    <div class="ligne-benefices">
+                        <div class="bloctexte">
+                            <button class="show-modal2 open-modal2">
+                                <h3 class="titre-3-sections"><strong>Bénéfice 2 :</strong></h3>
+                                <p class="paragraphes-benefices" class="paragraphes-index">
+                                    <strong> 
+                                        AniMate® est ludique, rassurant et apaisant. Il crée un lien affectif !
+                                    </strong>
+                                </p>
+                            </button>
+                            <div class="modal2">
+                                <a class="close-modal2" href="#">X</a>
+                                <div>
+                                     <img class="icones-benefices" src="assets/img/avantage 2.png" alt="">
+                                    <strong>
+                                        <p class="paragraphe-benefices">
+                                           AniMate® est ludique, rassurant et apaisant. Il crée un lien affectif !
+                                        </p>    
+                                    </strong>
+                                    <p>
+                                        Grâce à AniMate®, les personnes accompagnées adorent travailler avec ce matériel… 
+                                        tout comme ceux qui les prennent en charge ! Stimulant, il permet de canaliser 
+                                        l’attention des personnes fragilisées et ainsi de travailler efficacement en séance de rééducation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   <div class="container">
+                    <div class="ligne-benefices">
+                        <div class="bloctexte">
+                            <button class="show-modal3 open-modal3">
+                                <h3 class="titre-3-sections"><strong>Bénéfice 3 :</strong></h3>
+                                <p class="paragraphes-benefices" class="paragraphes-index">
+                                    <strong> 
+                                        AniMate® est polyvalent et évolutif. C’est l’accompagnant idéal au service des professionnels !
+                                    </strong>
+                                </p>
+                            </button>
+                            <div class="modal3">
+                                <a class="close-modal3" href="#">X</a>
+                                <div>
+                                    <strong>
+                                        <p class="paragraphe-benefices">
+                                            AniMate® est polyvalent et évolutif. C’est l’accompagnant idéal au service des professionnels !
+                                        </p>    
+                                    </strong>
+                                    <p>
+                                        AniMate® permet d’accompagner les personnes prises en charge sur une grande diversité de thématique 
+                                        de rééducation ou éducatives (corps, langage, émotions, vie quotidienne, sexualité, …). 
+                                        Adapté à la fois à des séances de rééducation en orthophonie, en psychomotricité ou encore 
+                                        en psychologie, il s’avère également très pratique pour l’accompagnement au quotidien en centre 
+                                        ou en famille. Il crée ainsi de la cohérence dans la prise en charge globale de personnes en situation 
+                                        de handicap. Il convient aussi bien à des enfants qu’à des adultes avec ou sans déficience intellectuelle, 
+                                        ou encore avec et sans langage. 
+                                    </p>
+                                    <img class="icones-benefices" src="assets/img/avantage 3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </section>
             </section>

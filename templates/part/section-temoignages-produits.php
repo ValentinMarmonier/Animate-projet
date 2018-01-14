@@ -1,5 +1,5 @@
 <section class="sectionTemoignages">
-    <h3>Ils nous ont fait confiance</h3>
+    <h4>Ils nous ont fait confiance</h4>
         <section class="largeur">
             <div class="bxslider">
               <div class="paragraphes-slider">Le Lorem Ipsum est simplement du 

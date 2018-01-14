@@ -43,11 +43,11 @@
                         Le fait que le bonhomme soit concret est plus parlant.</p>
                     <p class="signatures">- Laure Jolly<br>Une orthophoniste ravie</p>
                     </div>
-                    <img class="icones-benefices" src="assets/img/attention-aux-autres.png" alt="">
+                    <img class="icones-benefices" src="assets/img/femme1.jpg" alt="">
                 </div>
                 
                 <div class="big-fact">
-                   <img class="icones-benefices" src="assets/img/attention.png" alt="">
+                   <img class="icones-benefices" src="assets/img/femme2.jpg" alt="">
                     <div class="bloctexte" id="apostrophes">
                     <p class="paragraphes-preuves" lass="paragraphes-index"> 
                     Nous nous sommes rendu compte en l’utilisant qu’AniMate apportait un vrai plus 
@@ -69,11 +69,11 @@
                         de travail en psychomotricité pour la rééducation sur le plan du schéma corporel et des émotions</p>
                     <p class="signatures">- Isabelle I.<br>Psychomotricienne</p>
                     </div>
-                    <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
+                    <img class="icones-benefices" src="assets/img/femme3.jpg" alt="">
                 </div> 
                 
                 <div class="big-fact">
-                    <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
+                    <img class="icones-benefices" src="assets/img/femme4.jpg" alt="">
                     <div class="bloctexte" id="apostrophes">
                     <p class="paragraphes-preuves" class="paragraphes-index"> 
                     Je l’utilise auprès de personnes atteintes de démence avancée. 
@@ -101,11 +101,11 @@
                         Elle a même dessiné sur la figurine, je ne m’y attendais pas car elle n’aime vraiment pas le graphisme</p>
                     <p class="signatures">- Nadège Mouroux<br>psycho-intervenante spécialisée en troubles du spectre autistique</p>
                     </div>
-                    <img class="icones-benefices" src="assets/img/attention-1.png" alt="">
+                    <img class="icones-benefices" src="assets/img/femme5.jpg" alt="">
                 </div>
                 
                 <div class="big-fact">
-                   <img class="icones-benefices" src="assets/img/attention.png" alt="">
+                   <img class="icones-benefices" src="assets/img/femme6.jpg" alt="">
                     <div class="bloctexte" id="apostrophes">
                     <p class="paragraphes-preuves" lass="paragraphes-index"> 
                     Bien que mon fils parle correctement ilrencontre des difficultés pour exprimer ses sentiments 

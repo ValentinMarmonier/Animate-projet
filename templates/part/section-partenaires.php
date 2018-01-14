@@ -1,23 +1,19 @@
             <section id="partenaire" class="sections-index">
                 <section class="largeur">
+                     <div id="partenaires">
+                    <h2 id="titre-partenaires">Nos partenaires</h2>
+                </div>
                 <div id="icones-partenaires">
                     <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
                     <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
                     <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
                     <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
                     <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
                     </div>
-                    <div id="icones-partenaires">
-                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
-                    <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
-                </div>
+                   
                 
                 <div id="partenaires">
-                    <h2 id="titre-partenaires">Nos partenaires</h2>
+                    <h3 id="titre-partenaires">Nos partenaires Financiers</h3>
                 </div>
                 
                 <div id="logos-partenaires">

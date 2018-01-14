@@ -17,7 +17,7 @@
 						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
 					</div>
 					</div>
-	            		<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologueicone.png" alt="logo métier orthophoniste">
+	            		<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/orthophoniste.png" alt="logo métier orthophoniste">
 		            
 				</article>
 			
@@ -27,7 +27,7 @@
 				
 			
 			<article class="ligne-cibles">
-				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologueicone.png" alt="logo métier psychomotricienne">
+				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychomotricien.png" alt="logo métier psychomotricienne">
 					<div class="bloctexte">
 					<h3 class="titre-3-sections-index">Psychomotricien/psychomotricienne</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -58,13 +58,13 @@
 						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
 					</div>
 				</div>
-				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologueicone.png" alt="logo métier psychologue">
+				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologue.png" alt="logo métier psychologue">
 			</article>
 			
 		
 				
 			<article class="ligne-cibles" class="lignes-index">
-				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologueicone.png" alt="logo métier éducateur spécialisé">
+				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/enseignant special.png" alt="logo métier éducateur spécialisé">
 				<div class="bloctexte">
 					<h3 class="titre-3-sections-index">Educateur spécialisé</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
@@ -96,12 +96,12 @@
 					</div>
 				</div>
 			
-				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologueicone.png" alt="logo métier établissement médico-social">
+				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/responsable CMS.png" alt="logo métier établissement médico-social">
 			</article>
 
 
 			<article class="ligne-cibles" class="lignes-index">
-				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologueicone.png" alt="logo famille">
+				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/parent.png" alt="logo famille">
 				<div class="bloctexte">
 					<h3 class="titre-3-sections-index">Familles</h3>
 					<p class="paragraphes-cibles" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>

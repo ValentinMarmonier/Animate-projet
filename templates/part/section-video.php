@@ -1,16 +1,17 @@
-<section>
-    <h1>
-                Animate&reg;<br>
-                outil d&#039;aide à la communication et de rééducation
-            </h1>
+<section class="intro-video">
+    <article class="intro">
+    <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="<?php echo $urlAccueil ?>assets/img/video/Dessiner Coller - Barbara Calvin.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>Animate&reg;<br>
+            outil d&#039;aide à la communication et de rééducation
+        </h1>
+</div>
+</article>
 </section>
-<section> 
-    <div class="intro">
-    <img class="gif" src="<?php echo $urlAccueil ?>assets/img/BD-AniMatecoeur.png" loop=infinite>
-        <div class="video">
-            <iframe class="video-placement" width="560" height="315" src="https://www.youtube.com/embed/qskzSUsuLeU"
-            frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-    </div>
-</section>
+
 

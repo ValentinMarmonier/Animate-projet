@@ -1,11 +1,17 @@
-<section class="sectionBoutique">
-    
-    <h3>Boutique</h3>
+<section class="section-boutique">
+    <div class="titre">
+    <h2>Boutique</h2>
+    </div>
+<section class="bloc-boutique">
 
+    <article class="article-boutique-picto">
+        <a href="<?php echo $urlPictogramme ?>">Pictogrammes</a>
+    </article>
+    
+    <article class="article-boutique-kit">
+        <a href="<?php echo $urlKit ?>">Kits</a>
+    </article>
 
-    
-    <section class="boutiqueKits"><a href="<?php echo $urlKit ?>">Kits</a></section>
-    
-    <section class="boutiquePictos"><a href="<?php echo $urlPictogramme ?>">Pictogrammes</a></section>
+</section>
     
 </section>

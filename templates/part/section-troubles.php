@@ -91,8 +91,7 @@
     					            peuvent mener ou être causées par des symptômes tels qu'une paralysie, faiblesse musculaire, faible coordination,<br>
     					            perte de sensation, des convulsions, confusion et douleurs.
     	            	</p>
-                	<section>
     
     			</article>
-    
+                </section>
     		</section><!-- troubles -->
