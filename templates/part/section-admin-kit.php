@@ -1,7 +1,7 @@
 <?php 
 
 
-require_once("$cheminPart/admin-form-kits-read.php");
+
 
 if ($objetRequest->get("afficher", "") == "update")
 {
@@ -12,4 +12,4 @@ else
     require_once("$cheminTemplates/template-admin-kit-create.php");
 }
 
-
+require_once("$cheminPart/admin-form-kits-read.php");

@@ -1,17 +1,7 @@
 
 <div class="container-fluid">
       <div class="row">
-        <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-          
-          <ul class="nav nav-pills flex-column">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo $urlAdminKit?>" id="btn-kits">Retour à l'interface Admin</a>
-            </li>
-            
-            
-
-        </nav>
+        
 
 
 <section class="col-lg-4 col-lg-offset-2">
@@ -21,7 +11,7 @@
     
     
     
-    <form>
+    <form enctype="multipart/form-data">
         
   <div class="form-group">
     <label for="formGroupExampleInput">Nom du kit</label>

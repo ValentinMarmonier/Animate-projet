@@ -10,6 +10,9 @@ $urlKit             = $this->generateUrl("kit");
 $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
 $urlPanier          = $this->generateUrl("panier");
+$urlContact         = $this->generateUrl("contact");
+
+
         // A SUPRIMER QUAND ADMIN OK !!!
 $urlInscription             = $this->generateUrl("inscription");
 ?>

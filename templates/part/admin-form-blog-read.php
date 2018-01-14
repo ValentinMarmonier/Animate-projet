@@ -6,7 +6,7 @@
           
           <div id="modifPage">
             
-            <h1>Page Blog</h1>
+            
   
             <section class="row text-center placeholders">
               
@@ -31,7 +31,10 @@ if ($objetRequest->get("codebarre", "") == "delete")
 }
 ?>
 
-<section>
+<section class="col-lg-offset-2">
+    
+    <h2>Page Blog</h2>
+
     <h3>Liste des articles de la page blog</h3>
         <table>
             <tbody>
@@ -77,11 +80,11 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <tr>
+    <tr class="readArticle">
         <td>$id</td>
-        <td><a href="$urlViewArticle">$titre</a></td>
-        <td>$categorie</td>
-        <td>$contenu</td>
+        <td><label>Titre</label></br><a href="$urlViewArticle">$titre</a></td>
+        <td><label>Categorie</label></br>$categorie</td>
+        <td><label>Contenu</label></br>$contenu</td>
         <td>$htmlImage</td>
         <td>$video</td>
         <td>
@@ -89,14 +92,14 @@ CODEHTML;
             <form method="GET" action="#section-update">
                 <input type="hidden" name="afficher" value="update">
                 <input type="hidden" name="idUpdate" value="$id">
-                <button type="submit">Modifier</button>
+                <button type="submit" class="btn btn-primary">Modifier</button>
             </form>
         </td>
         <td>
             <form method="POST" action="">
                 <input type="hidden" name="codebarre" value="delete">
                 <input type="hidden" name="idDelete" value="$id">
-                <button type="submit">Supprimer</button>
+                <button type="submit" class="btn btn-danger">Supprimer</button>
             </form>
         </td>
     </tr>

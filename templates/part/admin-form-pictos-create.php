@@ -1,15 +1,7 @@
 
 <div class="container-fluid">
       <div class="row">
-        <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-          
-          <ul class="nav nav-pills flex-column">
-            
-            
-            
-            
-
-        </nav>
+       
 
 
 <section class="col-lg-4 col-lg-offset-2">
@@ -19,7 +11,7 @@
     
     
     
-    <form>
+    <form enctype="multipart/form-data">
         
   <div class="form-group">
     <label for="formGroupExampleInput">Nom du pictogramme</label>

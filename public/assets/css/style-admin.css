@@ -1,3 +1,41 @@
-img{
+
+.thumbnail {
+    position: relative;
+}
+
+.sidebar{
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+}
+
+.bg-faded {
+    background-color: #f7f7f7;
+}
+
+
+
+.readArticle{
+    margin:auto;
+}
+.readArticle td{
+    border:solid black 1px;
+    margin:0.5em;
+    padding:1em;
+}
+.readArticle img{
+    max-width:5em;
+}
+.showArticle{
+    max-width:80%;
+    margin:auto;
+    
+}
+.showArticle img{
     max-width: 10em;
 }
+

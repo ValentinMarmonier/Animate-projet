@@ -2,7 +2,7 @@
           
           <div id="modifPage">
             
-            <h1>Page Kits</h1>
+            
   
             <section class="row text-center placeholders">
               
@@ -27,10 +27,13 @@ if ($objetRequest->get("codebarre", "") == "delete")
 }
 ?>
 
-<section>
-    <h3>Liste des articles de la page Kits</h3>
-        <table>
-            <tbody>
+<section class="col-lg-offset-2">
+    
+    <h2>Page Kits</h2>
+    
+        <h3>Liste des articles de la page Kits</h3>
+            <table>
+                <tbody>
             
 <?php
 
@@ -54,6 +57,7 @@ foreach($tabResultat as $objetKits)
     $infoComplementaire     = $objetKits->getinfoComplementaire();
     $prix                   = $objetKits->getPrix();
     $image                  = $objetKits->getImage();
+    $imagefiche             = $objetKits->getImagefiche();
     $categorie              = $objetKits->getCategorie();
     
     
@@ -68,34 +72,49 @@ foreach($tabResultat as $objetKits)
 CODEHTML;
     }
     
+    
+    
+$htmlImageFiche = "";
+    if ($imagefiche)
+    {
+        $htmlImageFiche = 
+<<<CODEHTML
+
+    <img src="$urlAccueil/assets/img/imgBoutique/$imagefiche" title="$imagefiche">
+
+CODEHTML;
+    }      
+    
+    
     // CREER L'URL POUR LA ROUTE DYNAMIQUE (AVEC PARAMETRE)
     $urlViewKit = $this->generateUrl("view-kits", [ "id" => $id ]);
     
     echo
 <<<CODEHTML
 
-    <tr>
+    <tr class="readArticle">
         <td>$id</td>
-        <td><a href="$urlViewKit">$nomKit</a></td>
-        <td>$description</td>
-        <td>$contenuKit</td>
-        <td>$infoComplementaire</td>
-        <td>$prix</td>
+        <td><label>Nom du kit</label></br><a href="$urlViewKit">$nomKit</a></td>
+        <td><label>Description</label></br>$description</td>
+        <td><label>Contenu</label></br>$contenuKit</td>
+        <td><label>Infos complémentaires</label></br>$infoComplementaire</td>
+        <td><label>Prix</label></br>$prix</td>
         <td>$htmlImage</td>
-        <td>$categorie</td>
+        <td>$htmlImageFiche</td>        
+        <td><label>Catégorie</label></br>$categorie</td>
         <td>
             <!-- ETAPE 1: AFFICHER LE FORMULAIRE POUR UN UPDATE -->
             <form method="GET" action="#section-update">
                 <input type="hidden" name="afficher" value="update">
                 <input type="hidden" name="idUpdate" value="$id">
-                <button type="submit">Modifier</button>
+                <button type="submit" class="btn btn-primary">Modifier</button>
             </form>
         </td>
         <td>
             <form method="POST" action="">
                 <input type="hidden" name="codebarre" value="delete">
                 <input type="hidden" name="idDelete" value="$id">
-                <button type="submit">supprimer</button>
+                <button type="submit" class="btn btn-danger">supprimer</button>
             </form>
         </td>
     </tr>
@@ -104,7 +123,20 @@ CODEHTML;
     
 }
 
+
+
+   
 ?>
+
+
+
+
+
+
+
+
+
+
             </tbody>
         </table>
 

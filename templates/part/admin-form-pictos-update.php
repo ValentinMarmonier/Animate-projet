@@ -45,7 +45,7 @@ $objetUpdatePictos = $objetRepository->find($idUpdate);
 
 ?>
     <H3>Modifier un article de la page Pictogrammes</H3>
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data">
         <input type="text" name="titre" required placeholder="Nom du pictogramme" value="<?php echo $titre ?>">
         <textarea id="editor1" type="text" name="description" required placeholder="description" rows="30" value="<?php echo $description ?>"></textarea>
         <input type="text" name="prix" required placeholder="prix" value="<?php echo $prix ?>">

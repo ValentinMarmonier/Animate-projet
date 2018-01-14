@@ -1,4 +1,5 @@
-<section id="section-update">
+<section id="section-update" class="col-lg-offset-2">
+
 <?php
 
 // ON TRAITE LE FORMULAIRE UPDATE AVANT DE FAIRE LA REQUETE
@@ -34,17 +35,17 @@ $objetUpdateKits = $objetRepository->find($idUpdate);
             if ($objetUpdateKits) :
 
 // OK ON A TROUVE UN ARTICLE POUR CET ID
-    $nomKit                 = $objetKits->getNomKit();
-    $description            = $objetKits->getDescription();
-    $contenuKit             = $objetKits->getContenuKit();
-    $infoComplementaire     = $objetKits->getinfoComplementaire();
-    $prix                   = $objetKits->getPrix();
-    $image                  = $objetKits->getImage();
-    $categorie              = $objetKits->getCategorie();
+    $nomKit                 = $objetUpdateKits->getNomKit();
+    $description            = $objetUpdateKits->getDescription();
+    $contenuKit             = $objetUpdateKits->getContenuKit();
+    $infoComplementaire     = $objetUpdateKits->getinfoComplementaire();
+    $prix                   = $objetUpdateKits->getPrix();
+    $image                  = $objetUpdateKits->getImage();
+    $categorie              = $objetUpdateKits->getCategorie();
 
 ?>
     <H3>Modifier un article de la page Kits</H3>
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data">
         <input type="text" name="nomKit" required placeholder="Nom du kit" value="<?php echo $nomKit ?>">
         <input type="text" name="contenuKit" required placeholder="description" value="<?php echo $contenuKit ?>">
         <textarea id="editor1" type="text" name="description" required placeholder="contenu du kit" rows="30" value="<?php echo $description ?>"></textarea>

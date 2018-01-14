@@ -1,7 +1,7 @@
 <?php 
 
 
-require_once("$cheminPart/admin-form-blog-read.php");
+
 
 if ($objetRequest->get("afficher", "") == "update")
 {
@@ -13,3 +13,4 @@ else
 }
 
 
+require_once("$cheminPart/admin-form-blog-read.php");

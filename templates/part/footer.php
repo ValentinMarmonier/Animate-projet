@@ -21,7 +21,7 @@
             <section class="bottom-footer">
                 <div class="column-1">
                     <div id="contact">
-                        <a  href="contact"><span>Contact</span></a>
+                        <a  href="<?php echo $urlContact ?>"><span>Contact</span></a>
                     </div>
                     <div id="infos-legales">
                         <a s href="infos-legales"><span>Infos légales</span></a>

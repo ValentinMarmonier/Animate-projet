@@ -1,5 +1,4 @@
 
-
     <div class="container-fluid">
       <div class="row">
         
@@ -13,23 +12,36 @@
             <section class="row text-center placeholders">
               
               <div class="col-6 col-sm-3 placeholder">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Page Kits</h4>
+                <div class="thumbnail text-center">
+                  <a href="<?php echo $urlAdminKit ?>">
+                  <img src="<?php $urlAccueil ?>assets/img/imgBoutique/kitDecouverte.jpg" width="295" height="295" class="img-fluid rounded-circle" alt="kits">
+                  <div class="caption">
+                    <h4>Kits</h4>
+                  </a>
+                  </div>
+                </div>
               </div>
               
               <div class="col-6 col-sm-3 placeholder">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Page Pictogrammes</h4>
+                <div class="thumbnail text-center">
+                  <a href="<?php echo $urlAdminPicto ?>">
+                  <img src="<?php $urlAccueil ?>assets/img/imgBoutique/pictoVetements.jpg" width="250" height="250" class="img-fluid rounded-circle" alt="Pictogrammes">
+                  <div class="caption">
+                    <h4>Pictogrammes</h4>
+                  </a>
+                  </div>
+                </div>
               </div>
               
               <div class="col-6 col-sm-3 placeholder">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Blog</h4>
-              </div>
-              
-              <div class="col-6 col-sm-3 placeholder">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-                <h4>Boutique</h4>
+                <div class="thumbnail text-center">
+                  <a href="<?php echo $urlAdminBlog ?>">
+                  <img src="<?php $urlAccueil ?>assets/img/blogCloud.png" width="345" height="345" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+                  <div class="caption">
+                    <h4>Blog</h4>
+                  </a>
+                  </div>
+                </div>
               </div>
               
             </section>  

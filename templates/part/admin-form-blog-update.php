@@ -1,7 +1,6 @@
-    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
 
 
-        <section id="section-update">
+        <section id="section-update" class="col-lg-offset-2">
 <?php
 
 // ON TRAITE LE FORMULAIRE UPDATE AVANT DE FAIRE LA REQUETE
@@ -39,56 +38,53 @@ $objetArticleUpdate = $objetRepository->find($idUpdate);
 // OK ON A TROUVE UN ARTICLE POUR CET ID
 $titre      = $objetArticleUpdate->getTitre();
 $contenu    = $objetArticleUpdate->getContenu();
-$image      = $objetArticleUpdate->getImage();
 $categorie  = $objetArticleUpdate->getCategorie();
-$video      = $objetArticleUpdate->getVideo();
 
 
 ?>
 
-<form>
+  <H3>Modifier un article de la page Blog</H3>
+
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="text" name="titre" required placeholder="Titre de l'article" value="<?php echo $titre ?>">
+        <textarea id="editor1" type="text" name="contenu" required placeholder="Contenu de l'article" rows="30" value="<?php echo $contenu ?>"></textarea>
+        <input type="file" name="cheminImage">
+        <input type="text" name="categorie" required placeholder="Categorie de l'article" value="<?php echo $categorie ?>">
+        <input type="file" name="video" value="<?php echo $video ?>">
         
-  <div class="form-group">
-    <label for="formGroupExampleInput">Titre</label>
-    <input type="text" name="titre" required class="form-control" id="formGroupExampleInput" placeholder="Titre de l'article" value="<?php echo $titre ?>">
-  </div>
+        
+        <button type="submit" class="btn btn-primary">Modifier l'article</button>
   
-  <div class="form-group">
-    <label for="formGroupExampleInput2">Contenu</label>
-    <textarea name="contenu" required class="form-control" id="formGroupExampleInput" placeholder="Contenu de l'article" value="<?php echo $contenu ?>"></textarea>
-  </div>
-  
-  <div class="form-group">
-    <label for="exampleInputFile">Image</label>
-    <input type="file" name="image" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" value="<?php echo $image ?>">
-  </div>
-  
-  <div class="form-group">
-    <label for="formGroupExampleInput">Categorie</label>
-    <input type="text" name="categorie" class="form-control" id="formGroupExampleInput" placeholder="Categorie de l'article" value="<?php echo $categorie ?>">
-  </div>  
-  
-  <div class="form-group">
-    <label for="exampleInputFile">Video</label>
-    <input type="file" name="video" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" value="<?php echo $video ?>">
-  </div>
-  
-  
-  
-  <button type="submit" class="btn btn-primary">Modifier l'article</button>
-  
-  <input type="hidden" name="afficher" value="update">
-  <input type="hidden" name="idUpdate" value="<?php echo $idUpdate ?>">
-  <input type="hidden" name="codebarre" value="update">  
-  
+        <input type="hidden" name="afficher" value="update">
+        <input type="hidden" name="idUpdate" value="<?php echo $idUpdate ?>">
+        <input type="hidden" name="codebarre" value="update">  
+    </form>
+
 <?php echo $messageUpdate ?>
 
-</form>
+    
+</section>
+    
+    <!-- https://sdk.ckeditor.com/samples/autogrow.html# -->
+	<script src="https://cdn.ckeditor.com/4.8.0/standard-all/ckeditor.js"></script>
+	
+    <script>
+    CKEDITOR.replace( 'editor1', {
+			extraPlugins: 'autogrow',
+			autoGrow_minHeight: 200,
+			autoGrow_maxHeight: 600,
+			autoGrow_bottomSpace: 50,
+			removePlugins: 'resize'
+		} );
+    </script>
+    
+<?php endif; ?>
 
- <?php endif; ?>
+
+
  
 
-</main>
 
 
 

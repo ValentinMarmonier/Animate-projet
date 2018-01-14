@@ -1,27 +1,17 @@
 
 <div class="container-fluid">
       <div class="row">
-        <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-          
-          <ul class="nav nav-pills flex-column">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo $urlAdminBlog?>" id="btn-kits">Retour à l'interface Admin</a>
-            </li>
-            
-            
-
-        </nav>
+        
 
 
-<section class="col-lg-4 ">
+<section class="col-lg-4 col-lg-offset-2">
     <h3>Ajouter un article dans la page Blog</h3>
     <!-- NE PAS OUBLIER: POUR UPLOADER UN FICHIER -->
     <!-- method="POST" enctype="multipart/form-data" -->
     
     
     
-    <form>
+    <form enctype="multipart/form-data">
         
   <div class="form-group">
     <label for="formGroupExampleInput">Titre</label>
@@ -35,7 +25,7 @@
   
   <div class="form-group">
     <label for="exampleInputFile">Image</label>
-    <input type="file" name="image" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <input type="file" name="cheminImage" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
   </div>
   
   <div class="form-group">

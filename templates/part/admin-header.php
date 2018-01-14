@@ -43,8 +43,7 @@ $urlAdminPicto      = $this->generateUrl("adminPicto");
     
  <div class="container-fluid">
       <div class="row">    
-    
-    <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
+        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
           
           <ul class="nav nav-pills flex-column">
             
@@ -60,10 +59,10 @@ $urlAdminPicto      = $this->generateUrl("adminPicto");
               <a class="nav-link" href="<?php echo $urlAdminBlog?>" id="btn-blog">Blog</a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="#!" id="btn-boutique">Boutique</a>
-            </li>
+            
             
           </ul>
-
+          
         </nav>
+      
+  

@@ -2,7 +2,6 @@
           
           <div id="modifPage">
             
-            <h1>Page Kits</h1>
   
             <section class="row text-center placeholders">
               
@@ -27,7 +26,11 @@ if ($objetRequest->get("codebarre", "") == "delete")
 }
 ?>
 
-<section>
+<section class="col-lg-offset-2">
+
+            <h2>Page Pictogrammes</h2>
+
+    
     <h3>Liste des articles de la page Pictogrammes</h3>
         <table>
             <tbody>
@@ -52,6 +55,7 @@ foreach($tabResultat as $objetPictogrammes)
     $description            = $objetPictogrammes->getDescription();
     $prix                   = $objetPictogrammes->getPrix();
     $image                  = $objetPictogrammes->getImage();
+    $imagefiche             = $objetPictogrammes->getImagefiche();
     $categorie              = $objetPictogrammes->getCategorie();
     
     
@@ -66,32 +70,45 @@ foreach($tabResultat as $objetPictogrammes)
 CODEHTML;
     }
     
+    
+$htmlImageFiche = "";
+    if ($imagefiche)
+    {
+        $htmlImageFiche = 
+<<<CODEHTML
+
+    <img src="$urlAccueil/assets/img/imgBoutique/$imagefiche" title="$imagefiche">
+
+CODEHTML;
+    }      
+    
     // CREER L'URL POUR LA ROUTE DYNAMIQUE (AVEC PARAMETRE)
     $urlViewPictos = $this->generateUrl("view-pictos", [ "id" => $id ]);
     
     echo
 <<<CODEHTML
 
-    <tr>
+    <tr class="readArticle">
         <td>$id</td>
-        <td><a href="$urlViewPictos">$titre</a></td>
-        <td>$description</td>
-        <td>$prix</td>
-        <td>$image</td>
-        <td>$categorie</td>
+        <td><label>Nom du pictogramme</label></br><a href="$urlViewPictos">$titre</a></td>
+        <td><label>Description</label></br>$description</td>
+        <td><label>Prix</label></br>$prix</td>
+        <td>$htmlImage</td>
+        <td>$htmlImageFiche</td>
+        <td><label>Categorie</label></br>$categorie</td>
         <td>
             <!-- ETAPE 1: AFFICHER LE FORMULAIRE POUR UN UPDATE -->
             <form method="GET" action="#section-update">
                 <input type="hidden" name="afficher" value="update">
                 <input type="hidden" name="idUpdate" value="$id">
-                <button type="submit">Modifier</button>
+                <button type="submit" class="btn btn-primary">Modifier</button>
             </form>
         </td>
         <td>
             <form method="POST" action="">
                 <input type="hidden" name="codebarre" value="delete">
                 <input type="hidden" name="idDelete" value="$id">
-                <button type="submit">supprimer</button>
+                <button type="submit" class="btn btn-danger">supprimer</button>
             </form>
         </td>
     </tr>

@@ -34,19 +34,6 @@
                     </p>
                 </div>
                 
-                <article class="ligne-partenaires" class="lignes-index">
-                    <h5><span id="titre-IME">Vous êtes centre IME</span></h5>
-                    <section id="bloc-partenaires" class="lignes-index">
-                        <p class="paragraphes-index">
-                            Parmi nos partenaires privilégiés se trouve l’association la Chrysalide à Marseille. 
-                        En effet, nous avons choisi de confier l’assemblage et les opérations de conditionnement et de finition 
-                        de notre kit à deux ESAT (Etablissement et Service d’Aide par le Travail) de l’association. 
-                        Acheter nos kits c’est aussi soutenir l’activité d’ateliers protégés employant des travailleurs 
-                        eux mêmes fragilisés ou en situation de handicap.</p>
-                        <div id="cta-upercase" class="cta-upercase">
-                            <a class="bouton cta-bouton" href="#">Bouton cta</a>
-                        </div>
-                    </section>
-                </article>
+                
             </section>  
         </section><!-- partenaires -->     
