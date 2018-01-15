@@ -1,6 +1,12 @@
+<?php
 
-<section>
-    <h3>Retrouvez nos kits AniMate pour travailler avec les personnes que vous prenez en charge dans le cadre de séances individuelles ou en groupe.</h3>
+require_once("$cheminPart/header.php");
+?>
+
+
+<section class="section-blog">
+    <section class="largeur">  
+        <h3>Retrouvez nos kits AniMate pour travailler avec les personnes que vous prenez en charge dans le cadre de séances individuelles ou en groupe.</h3>
 
 <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
@@ -47,11 +53,11 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <article>
-        <h4 title="$nomKit"><a href="$urlKitFiche">$nomKit</a></h4>
-        <p>$description</p>
-        <p>$prix €</p>
-        <div class="imageBoutique">$htmlImage</div>
+    <article class="bloc-produit">
+        <h4 id="title-roduit" title="$nomKit"><a href="$urlKitFiche">$nomKit</a></h4>
+        <p id="description-produit">$description</p>
+        <p id="prix-produit">$prix €</p>
+        <div class="image-produit">$htmlImage</div>
 
     </article>
     
@@ -64,11 +70,14 @@ CODEHTML;
 ?>
 
 
-</section>
 
 <div>
     
     <a href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
     
 </div>
+</section>
+</section>
+<?php
+require_once("$cheminPart/footer-view.php");
 

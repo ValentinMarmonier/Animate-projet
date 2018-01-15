@@ -13,46 +13,48 @@
 			</article>
 
 			<div id="block-emotions-icones">
-			<article class="ligne-emotions" class="lignes-index">
-				<section>
+			<section class="ligne-emotions" class="lignes-index">
+				<article class="section-emotions">
 					<h3>Schéma corporel</h3>
 					<img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-produits-clic-2.jpg" alt="vignette émotions n°1">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 		                mais s'est aussi adapté à la bureautique informatique,<br> 
 		                sans que son contenu n'en soit modifié</p>
-				</section>
-				<section>
+				</article>
+				<article class="section-emotions">
 					<h3>Communication</h3>
 					<img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-produits-clic-2.jpg" alt="vignette emotion n°2">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 		                mais s'est aussi adapté à la bureautique informatique,<br> 
 		                sans que son contenu n'en soit modifié</p>
-				</section>
+				</article>
 			
-				<section>
+				<article class="section-emotions">
 					<h3>Emotions</h3>
 					<img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-produits-clic-2.jpg" alt="vignette émotions n°3">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié</p>
-            	</section>
             	</article>
+            	</section>
             	
-            	<article class="ligne-emotions" class="lignes-index">
-            	<section>
+            	<section class="ligne-emotions" class="lignes-index">
+            	<article class="section-emotions">
+            		<h3>Stimulation cognitive</h3>
             		<img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-produits-clic-2.jpg" alt="vignette emotion n°4">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié</p>
-            	</section>
+            	</article>
 
-				<section>
+				<article class="section-emotions">
+					<h3>Vie quotidienne</h3>
 					<img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/BD AniMate-produits-clic-2.jpg" alt="vignette émotions n°5">
 					<p class="paragraphes-emotions" class="paragraphes-index">Il n'a pas fait que survivre cinq siècles,<br>
 	                mais s'est aussi adapté à la bureautique informatique,<br> 
 	                sans que son contenu n'en soit modifié</p>
-            	</section>
-			</article>
+            	</article>
+			</section>
 			</div>
 			</div>
 		</section>

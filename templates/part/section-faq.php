@@ -32,20 +32,5 @@
         </p>
         </div>
     </article>
-    <article class="block-faq">
-    <div class="colonne-faq">
-        <p><strong>Est il possible de demander d’autres pictogrammes?</strong></p>
-        <p>
-            Oui, nous pouvons établir des propositions de pictogrammes sur demande. Adressez-nous un mail !
-        </p>
-        </div>
-    
-    
-    <div class="colonne">
-        <p><strong>Comment puis-je utiliser AniMate dans ma profession ?</strong></p>
-        <p>Le lien renvoie vers la section de clic sur les différentes professions</p>
-    </div>
-    </article>
-    </article>
     </section>
 </section>

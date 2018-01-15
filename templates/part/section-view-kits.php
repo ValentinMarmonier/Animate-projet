@@ -1,8 +1,3 @@
-
-
-<section>
-    
-
 <?php
 
 $urlAccueil         = $this->generateUrl("accueil");
@@ -91,6 +86,5 @@ else {
 }
 
 ?>
-
 
 </section>

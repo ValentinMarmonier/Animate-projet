@@ -3,12 +3,11 @@
                     <h2 class="titre-2-sections">AniMate® – un outil concret adapté<br />
                     aux personnes présentant des troubles cognitifs
                     </h2>
-                    <p class="paragraphe-benefices">    L’accompagnement dans la vie de tous les jours, de personnes présentant des troubles cognitifs,
+                    <p class="paragraphe-benefices" id="paragraphe-chapeau">    L’accompagnement dans la vie de tous les jours, de personnes présentant des troubles cognitifs,
                     des déficiences sur le plan intellectuel ou encore des troubles des apprentissages,
                     suppose l’utilisation d’outils adaptés simples et concrets pour leur permettre de focaliser l’attention,
                     stimuler les interactions et favoriser la communication.
-                </p>
-                <p>
+                <br>
                     AniMate® c’est un bonhomme ludique et attachant au service de ces personnes et de leurs accompagnants.<br />
                     Ses 2 objectifs principaux sont de faciliter l’échange et de rendre plus efficace les activités et séances de rééducation.<br />
                     En somme, AniMate contribue à l’autonomie et l’inclusion des personnes en situation de handicap
@@ -22,7 +21,7 @@
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal1 open-modal1">
-                                    <h3 class="titre-3-sections"><strong>AniMate® est tangible, manipulable et de forme humaine. Il n’existe pas d’outil plus concret !</strong>
+                                    <h3 class="titre-3-sections"><strong>Tangible <br> Manipulable <br> Humain</strong>
                                     </h3>
                                 </button>
                                 <div class="modal1">
@@ -51,7 +50,7 @@
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal2 open-modal2">
-                                    <h3 class="titre-3-sections"><strong>AniMate® est ludique, rassurant et apaisant. Il crée un lien affectif !</strong>
+                                    <h3 class="titre-3-sections"><strong>Ludique<br> Rassurant <br> Apaisant. </strong>
                                     </h3>
                                 </button>
                                 <div class="modal2">
@@ -75,11 +74,11 @@
                     </article>
                     
                    <article class="container" id="conteneur">
-                         <h2>Benefeice n°3</h2>
+                         <h2>Benefice n°3</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal3 open-modal3">
-                                    <h3 class="titre-3-sections"><strong>AniMate® est polyvalent et évolutif. C’est l’accompagnant idéal au service des professionnels !</strong></h3>
+                                    <h3 class="titre-3-sections"><strong>Polyvalent <br> Evolutif</strong></h3>
                                 </button>
                                 <div class="modal3">
                                     <a class="close-modal3" href="#">X</a>

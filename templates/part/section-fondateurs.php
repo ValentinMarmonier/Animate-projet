@@ -2,7 +2,7 @@
             <article class="largeur">
                 <div class="fondateurs">
                     <div class="cadre">
-                        <img src="assets/img/BD AniMate-fondateurs-3.png" alt="image figurines fondateurs">
+                        <img src="assets/img/BD-AniMate-fondateurs-3.png" alt="image figurines fondateurs">
                     </div>
                     
                     <section class="container">

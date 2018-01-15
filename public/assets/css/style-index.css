@@ -25,7 +25,6 @@ h2{
    padding-bottom: 20px;
     font-size: 34px;
     text-align: center;
-    padding-left: 80px; 
 }
 h3{
     font-size:26px;
@@ -273,14 +272,21 @@ nav.fixed{
     width: 40%;
     margin: 0 auto;
 }
+#paragraphe-chapeau{
+    background-color: rgba(0,0,0,0.5);
+    padding:20px;
+    color: white;
+    border-radius: 10px;
+    text-align: justify;
+}
 #benefices .bloctexte{
     margin: 0 auto;
     align-items: center;
-    padding-top: 15%;
 }
 #benefices .bloctexte h3, .fondateurs h3{
-     color: #f6a92d;
-    font-size: 18px;
+    color: #f6a92d;
+    font-size: 24px;
+    line-height: 2.2;
 }
 #benefices .largeur{
    display: flex;
@@ -288,7 +294,7 @@ nav.fixed{
    
 }
 #benefices .container{
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url(./../img/cadre.png);
     border: none;
@@ -297,6 +303,9 @@ nav.fixed{
 }
 #conteneur{
     background-color: none !important;
+}
+#conteneur h2{
+    padding-left: 80px;
 }
 #benefices .ligne-benefices{
     width: 65%;
@@ -321,8 +330,8 @@ nav.fixed{
 .big-fact img{
     border-radius: 50%;
     object-fit: cover;
-    height: 180px;
-    width: 180px;
+    height: 250px;
+    width: 250px;
     filter: grayscale(100%);
     
 }
@@ -351,6 +360,9 @@ nav.fixed{
     object-fit: cover;
     height: 180px;
     width: 180px;
+}
+.compteurs img:hover{
+ color: #1797d7;
 }
 .paragraphes-preuves{
     padding: 20px;
@@ -512,6 +524,12 @@ nav.fixed{
     justify-content:space-between;
     padding-top: 4%;
 }
+.section-emotions{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .icones-emotions{
      max-width: 200px;
     max-height:200px;
@@ -519,7 +537,7 @@ nav.fixed{
     border-radius: 10%;
 }
 .ligne-emotions{
-    width: 60%;
+    width: 50%;
     padding-right: 5%;
         text-align: justify;
     line-height: 1.4em;
@@ -684,6 +702,17 @@ nav.fixed{
 }
 
 
+/* ------------------------------section boutique-produit -------------------------------- */
+
+.bloc-produit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px;
+}
+#description{
+    width:60%;
+}
 
 /* --------------------------Input--------------------------------- */
 
@@ -757,6 +786,7 @@ textarea{
     outline: none;
     cursor: pointer;
     height: auto;
+    width: auto;
 
 }
 
