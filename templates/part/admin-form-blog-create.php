@@ -11,7 +11,7 @@
     
     
     
-    <form enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data">
         
   <div class="form-group">
     <label for="formGroupExampleInput">Titre</label>
@@ -25,7 +25,7 @@
   
   <div class="form-group">
     <label for="exampleInputFile">Image</label>
-    <input type="file" name="cheminImage" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <input type="file" name="image" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
   </div>
   
   <div class="form-group">

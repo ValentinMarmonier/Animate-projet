@@ -152,7 +152,7 @@ class TraitementFormController extends Controller
                 $objetConnection->insert("contact", [ "email" => $email, "nom" => $nom, "message" => $message, "date_message" => $dateMessage ] );
                 
                 // MESSAGE POUR LE VISITEUR
-                echo "Merci de votre message...";
+                echo "Votre message a été bien envoyé";
             }
             
         }

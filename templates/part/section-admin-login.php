@@ -5,13 +5,11 @@ $urlLogout = $this->generateUrl("logout");
 ?>
 
 
-<div>
-    <a href="<?php echo $urlLogout?>">Déconnexion</a>
-</div>
+
 
             <div class="container">
 
-      <form class="form-signin">
+      <form class="form-signin" method="post">
         <h2 class="form-signin-heading">Connectez-vous à votre espace administrateur</h2>
         
         <label for="inputEmail" class="sr-only">Email address</label>

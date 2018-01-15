@@ -37,7 +37,7 @@ foreach($tabResultat as $objetArticleBlog)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBlog/$image" title="$image">
 
 CODEHTML;
     }
@@ -53,8 +53,7 @@ CODEHTML;
         <p>$contenu</p>
         <div>$htmlImage</div>
         <div>$video</div>
-        <p>$categorie</p>
-        
+
     </article>
     
 CODEHTML;

@@ -68,7 +68,7 @@ foreach($tabResultat as $objetArticle)
         $htmlImage = 
 <<<CODEHTML
 
-    <img src="$urlAccueil/assets/img/imgBoutique/$image" title="$image">
+    <img src="$urlAccueil/assets/img/imgBlog/$image" title="$image">
 
 CODEHTML;
     }

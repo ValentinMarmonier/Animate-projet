@@ -11,7 +11,7 @@
     
     
     
-    <form enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data">
         
   <div class="form-group">
     <label for="formGroupExampleInput">Nom du pictogramme</label>

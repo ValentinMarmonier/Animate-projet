@@ -29,7 +29,7 @@ class FormAdmin extends Controller
         $contenuKit             = $objetRequest->get("contenuKit", "");   
         $infoComplementaire     = $objetRequest->get("infoComplementaire", "");
         $prix                   = $objetRequest->get("prix", "");       
-        $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
+        $image                  = $this->getUploadedFileKit("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
         
         
@@ -75,7 +75,7 @@ class FormAdmin extends Controller
         $contenuKit             = $objetRequest->get("contenuKit", "");   
         $infoComplementaire     = $objetRequest->get("infoComplementaire", "");
         $prix                   = $objetRequest->get("prix", "");       
-        $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
+        $image                  = $this->getUploadedFileKit("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
 
         $idUpdate = intval($idUpdate);
@@ -138,7 +138,7 @@ class FormAdmin extends Controller
         $titre                  = $objetRequest->get("titre", "");       
         $description            = $objetRequest->get("description", "");       
         $prix                   = $objetRequest->get("prix", "");       
-        $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
+        $image                  = $this->getUploadedFilePicto("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
         
         
@@ -178,7 +178,7 @@ class FormAdmin extends Controller
         $titre                  = $objetRequest->get("titre", "");       
         $description            = $objetRequest->get("description", "");       
         $prix                   = $objetRequest->get("prix", "");       
-        $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
+        $image                  = $this->getUploadedFilePicto("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
         
         // SECURITE TRES BASIQUE
@@ -235,9 +235,9 @@ class FormAdmin extends Controller
         //  ALORS ON RETOURNE LA VALEUR PAR DEFAUT ""
         $titre                  = $objetRequest->get("titre", "");       
         $contenu                = $objetRequest->get("contenu", "");       
-        $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
+        $image                  = $this->getUploadedFileBlog("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
-        $video                  = $this->getUploadedFile("video", $objetRequest, $cheminSymfony);
+        $video                  = $this->getUploadedFileBlog("video", $objetRequest, $cheminSymfony);
         
         
         // SECURITE TRES BASIQUE
@@ -276,9 +276,9 @@ class FormAdmin extends Controller
         $idUpdate               = $objetRequest->get("idUpdate",    "");       
         $titre                  = $objetRequest->get("titre", "");       
         $contenu                = $objetRequest->get("contenu", "");       
-        $image                  = $this->getUploadedFile("image", $objetRequest, $cheminSymfony);
+        $image                  = $this->getUploadedFileBlog("image", $objetRequest, $cheminSymfony);
         $categorie              = $objetRequest->get("categorie", "");
-        $video                  = $this->getUploadedFile("video", $objetRequest, $cheminSymfony);
+        $video                  = $this->getUploadedFileBlog("video", $objetRequest, $cheminSymfony);
  
         // CONVERTIR $idUpdate EN NOMBRE
         $idUpdate = intval($idUpdate);
@@ -331,12 +331,12 @@ class FormAdmin extends Controller
     
     // SI ON VEUT GERER L'UPLOAD DE FICHIER
     // https://symfony.com/doc/current/controller/upload_file.html
-    function getUploadedFile ($nameInput, $objetRequest, $cheminSymfony)
+    function getUploadedFileBlog ($nameInput, $objetRequest, $cheminSymfony)
     {
-        $cheminImage = "";
+        $image = "";
         
-        $objetUploadedFile = $objetRequest->files->get($nameInput);
-        if ($objetUploadedFile)
+        $objetUploadedFileBlog = $objetRequest->files->get($nameInput);
+        if ($objetUploadedFileBlog)
         {
             // IL Y A UN FICHIER UPLOADE
             // EST-CE QUE L'UPLOAD S'EST DEROULE SANS ERREUR
@@ -347,28 +347,28 @@ class FormAdmin extends Controller
             // ATTENTION: DOUBLE NIVEAU HERITAGE
             // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/File.html
             // http://php.net/SplFileInfo
-            if ($objetUploadedFile->getError() == 0)
+            if ($objetUploadedFileBlog->getError() == 0)
             {
                 // OK
-                $extensionFichier = $objetUploadedFile->getClientOriginalExtension();
+                $extensionFichier = $objetUploadedFileBlog->getClientOriginalExtension();
                 $extensionFichier = strtolower($extensionFichier);
                 if (in_array($extensionFichier, [ "jpg", "jpeg", "png", "gif", "svg" ]))
                 {
                     // OK
                     // http://php.net/manual/fr/splfileinfo.getsize.php
-                    $tailleFichier = $objetUploadedFile->getSize();
+                    $tailleFichier = $objetUploadedFileBlog->getSize();
                     if ($tailleFichier <= 10 * 1024 * 1024) // 10 Mo
                     {
                         // OK
                         // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/UploadedFile.html#method_getClientOriginalName
-                        $nomOriginal = $objetUploadedFile->getClientOriginalName();
+                        $nomOriginal = $objetUploadedFileBlog->getClientOriginalName();
                         // SORTIR LE FICHIER DE SA QUARANTAINE
                         // ATTENTION: NE PAS OUBLIER DE CREER LE DOSSIER upload...
-                        $dossierCible = "$cheminSymfony/public/assets/upload/";
-                        $objetUploadedFile->move($dossierCible, $nomOriginal);
+                        $dossierCible = "$cheminSymfony/public/assets/img/imgBlog";
+                        $objetUploadedFileBlog->move($dossierCible, $nomOriginal);
                         
                         // POUR LE STOCKAGE DANS SQL
-                        $cheminImage = "assets/upload/$nomOriginal";
+                        $image = "$nomOriginal";
                     }
                     else
                     {
@@ -390,9 +390,134 @@ class FormAdmin extends Controller
             
         }
         
-        return $cheminImage;
+        return $image;
     }
     
+    
+    function getUploadedFilePicto ($nameInput, $objetRequest, $cheminSymfony)
+    {
+        $image = "";
+        
+        $objetUploadedFilePicto = $objetRequest->files->get($nameInput);
+        if ($objetUploadedFilePicto)
+        {
+            // IL Y A UN FICHIER UPLOADE
+            // EST-CE QUE L'UPLOAD S'EST DEROULE SANS ERREUR
+            // EST-CE QUE L'EXTENSION EST AUTORISEE
+            // EST-CE QUE LA TAILLE NE DEPASSE PAS LA LIMITE AUTORISEE
+            // ON SORT LE FICHIER HORS DE SA QUARANTAINE
+            // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/UploadedFile.html
+            // ATTENTION: DOUBLE NIVEAU HERITAGE
+            // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/File.html
+            // http://php.net/SplFileInfo
+            if ($objetUploadedFilePicto->getError() == 0)
+            {
+                // OK
+                $extensionFichier = $objetUploadedFilePicto->getClientOriginalExtension();
+                $extensionFichier = strtolower($extensionFichier);
+                if (in_array($extensionFichier, [ "jpg", "jpeg", "png", "gif", "svg" ]))
+                {
+                    // OK
+                    // http://php.net/manual/fr/splfileinfo.getsize.php
+                    $tailleFichier = $objetUploadedFilePicto->getSize();
+                    if ($tailleFichier <= 10 * 1024 * 1024) // 10 Mo
+                    {
+                        // OK
+                        // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/UploadedFile.html#method_getClientOriginalName
+                        $nomOriginal = $objetUploadedFilePicto->getClientOriginalName();
+                        // SORTIR LE FICHIER DE SA QUARANTAINE
+                        // ATTENTION: NE PAS OUBLIER DE CREER LE DOSSIER upload...
+                        $dossierCible = "$cheminSymfony/public/assets/img/imgBoutique";
+                        $objetUploadedFilePicto->move($dossierCible, $nomOriginal);
+                        
+                        // POUR LE STOCKAGE DANS SQL
+                        $image = "$nomOriginal";
+                    }
+                    else
+                    {
+                        // KO
+                        // TAILLE TROP GRANDE
+                    }
+                }
+                else
+                {
+                    // KO
+                    // EXTENSION NON AUTORISEE
+                }
+            }
+            else 
+            {
+                // KO
+                // ERREUR TRANSFERT
+            }
+            
+        }
+        
+        return $image;
+    }
+    
+    
+    function getUploadedFileKit ($nameInput, $objetRequest, $cheminSymfony)
+    {
+        $image = "";
+        
+        $objetUploadedFileKit = $objetRequest->files->get($nameInput);
+        if ($objetUploadedFileKit)
+        {
+            // IL Y A UN FICHIER UPLOADE
+            // EST-CE QUE L'UPLOAD S'EST DEROULE SANS ERREUR
+            // EST-CE QUE L'EXTENSION EST AUTORISEE
+            // EST-CE QUE LA TAILLE NE DEPASSE PAS LA LIMITE AUTORISEE
+            // ON SORT LE FICHIER HORS DE SA QUARANTAINE
+            // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/UploadedFile.html
+            // ATTENTION: DOUBLE NIVEAU HERITAGE
+            // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/File.html
+            // http://php.net/SplFileInfo
+            if ($objetUploadedFileKit->getError() == 0)
+            {
+                // OK
+                $extensionFichier = $objetUploadedFileKit->getClientOriginalExtension();
+                $extensionFichier = strtolower($extensionFichier);
+                if (in_array($extensionFichier, [ "jpg", "jpeg", "png", "gif", "svg" ]))
+                {
+                    // OK
+                    // http://php.net/manual/fr/splfileinfo.getsize.php
+                    $tailleFichier = $objetUploadedFileKit->getSize();
+                    if ($tailleFichier <= 10 * 1024 * 1024) // 10 Mo
+                    {
+                        // OK
+                        // https://api.symfony.com/master/Symfony/Component/HttpFoundation/File/UploadedFile.html#method_getClientOriginalName
+                        $nomOriginal = $objetUploadedFileKit->getClientOriginalName();
+                        // SORTIR LE FICHIER DE SA QUARANTAINE
+                        // ATTENTION: NE PAS OUBLIER DE CREER LE DOSSIER upload...
+                        $dossierCible = "$cheminSymfony/public/assets/img/imgBoutique";
+                        $objetUploadedFileKit->move($dossierCible, $nomOriginal);
+                        
+                        // POUR LE STOCKAGE DANS SQL
+                        $image = "$nomOriginal";
+                    }
+                    else
+                    {
+                        // KO
+                        // TAILLE TROP GRANDE
+                    }
+                }
+                else
+                {
+                    // KO
+                    // EXTENSION NON AUTORISEE
+                }
+            }
+            else 
+            {
+                // KO
+                // ERREUR TRANSFERT
+            }
+            
+        }
+        
+        return $image;
+    }
     
     
     

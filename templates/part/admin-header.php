@@ -9,6 +9,11 @@ $urlAdminBlog       = $this->generateUrl("adminBlog");
 $urlAdminPicto      = $this->generateUrl("adminPicto");
 
 
+$urlLogout          = $this->generateUrl("logout");
+
+
+
+
 ?>
 
 
@@ -27,8 +32,13 @@ $urlAdminPicto      = $this->generateUrl("adminPicto");
 
 
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+    
+<!-- BALISE META POUR NE PAS INDEXER L'INTERFACE ADMIN -->
+  <meta name="robots" content="noindex">
+    
+    
     <link rel="icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="<?php echo $urlAccueil ?>assets/css/style-admin.css" type="text/css" />
     
@@ -38,7 +48,11 @@ $urlAdminPicto      = $this->generateUrl("adminPicto");
     <header>
       <nav class="navbar navbar-inverse navbar-static-top">
         <a class="navbar-brand" href="<?php echo $urlEspaceAdmin?>">Espace Administrateur Animate</a>
+        
+        <a class="navbar-brand col-lg-offset-9" href="<?php echo $urlLogout?>"><button type="button" class="btn btn-info">Déconnexion</button></a>
+
         </nav>
+        
     </header>
     
  <div class="container-fluid">

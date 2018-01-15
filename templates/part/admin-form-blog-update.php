@@ -46,10 +46,10 @@ $categorie  = $objetArticleUpdate->getCategorie();
   <H3>Modifier un article de la page Blog</H3>
 
 
-    <form method="POST" enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data">
         <input type="text" name="titre" required placeholder="Titre de l'article" value="<?php echo $titre ?>">
         <textarea id="editor1" type="text" name="contenu" required placeholder="Contenu de l'article" rows="30" value="<?php echo $contenu ?>"></textarea>
-        <input type="file" name="cheminImage">
+        <input type="file" name="image">
         <input type="text" name="categorie" required placeholder="Categorie de l'article" value="<?php echo $categorie ?>">
         <input type="file" name="video" value="<?php echo $video ?>">
         
