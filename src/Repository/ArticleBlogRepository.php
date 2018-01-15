@@ -12,7 +12,8 @@ class ArticleBlogRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, ArticleBlog::class);
     }
-
+    
+    
     /*
     public function findBySomething($value)
     {

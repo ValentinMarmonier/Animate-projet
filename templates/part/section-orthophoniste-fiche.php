@@ -1,10 +1,10 @@
-<section class="OrthoFiche">
+<section class="article-blog">
     
-        <p>
+        <h4>
             Les personnes qui ont des capacités cognitives altérées ou diminuées présentent des facultés attentionnelles réduites, des capacités de communication et d’interactions limitées, mais aussi des difficultés importantes dans leurs aptitudes à se projeter ou encore à faire preuve d’abstraction. 
             Il en est de même chez les jeunes enfants. 
             Travailler en séance de rééducation orthophonique avec ces patients nécessite l’utilisation de supports de travail appropriés à la fois simples, concrets, et stimulants.
-        </p>
+        </h4>
         
         <p>
             AniMate est le support idéal pour travailler avec les personnes présentant des troubles cognitifs : déficients intellectuels, personnes avec autisme, personnes atteints de démences,… ou encore avec les jeunes enfants. 
@@ -47,6 +47,7 @@
                 <li>
                     Renforçateur, c’est à dire permettant de contribuer à prendre du plaisir dans le cadre de la séance et de renforcer la motivation et la stimulation de la personne prise en charge et de canaliser son attention
                 </li>
+            </ul>    
         </p>
         
         <p>

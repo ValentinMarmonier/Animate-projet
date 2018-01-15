@@ -246,7 +246,7 @@ class VitrineController
    /**
       * @Route("blog/", name="blog")
       */   
-   public function blog (Request $objetRequest)
+   public function blog (Request $objetRequest, Connection $objetConnection)
    {
         // POUR RECUPERER LES INFOS DE FORMULAIRE
         // ON DEMANDE A SYMFONY DE NOUS FOURNIR 

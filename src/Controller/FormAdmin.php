@@ -11,6 +11,7 @@ use Doctrine\DBAL\Driver\Connection;
 use Symfony\Component\HttpFoundation\Request;
 
 use App\Entity\UserAdmin;
+use App\Entity\ArticleBlog;
 
 class FormAdmin extends Controller 
 {
@@ -524,23 +525,9 @@ class FormAdmin extends Controller
     // TODO: 
     // IL FAUDRAIT POUVOIR SELECTIONNER SEULEMENT UN CERTAIN NOMBRE DE LIGNE 
     // (ET PAS TOUTES...)
-    function compterLigne ($nomTable)
+    public function compterLigne ($objetConnection)
     {
-        $requeteSQL = 
-<<<CODESQL
-    
-    SELECT COUNT(*) AS nbLigne FROM $nomTable
-    
-CODESQL;
-    
-        $tabResultat = envoyerRequeteSQL($requeteSQL, []);
-        $nbLigne = 0;
-        foreach($tabResultat as $tabLigne)
-        {
-            // VA ME FOURNIR LA VALEUR DANS LA VARIABLE $nbLigne
-            // extract($tabLigne);
-            $nbLigne = $tabLigne["nbLigne"];
-        }
+        $nbLigne = $objetConnection->fetchColumn('SELECT COUNT(*) AS nbLigne FROM "article_blog"');
         
         return $nbLigne;
     }

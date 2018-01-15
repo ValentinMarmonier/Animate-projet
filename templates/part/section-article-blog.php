@@ -62,18 +62,12 @@ CODEHTML;
 }
 ?>
 
-    <div>
-        
-        
-    </div>
+    
+   
+   
+    
     
 
 
-    </section>
+   
     
-    
-    
-    
-    
-    
-</section>
