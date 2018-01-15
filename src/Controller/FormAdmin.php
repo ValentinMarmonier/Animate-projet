@@ -520,6 +520,29 @@ class FormAdmin extends Controller
     }
     
     
+        // COMPTE TOUTES LES LIGNES D'UNE TABLE
+    // TODO: 
+    // IL FAUDRAIT POUVOIR SELECTIONNER SEULEMENT UN CERTAIN NOMBRE DE LIGNE 
+    // (ET PAS TOUTES...)
+    function compterLigne ($nomTable)
+    {
+        $requeteSQL = 
+<<<CODESQL
     
+    SELECT COUNT(*) AS nbLigne FROM $nomTable
+    
+CODESQL;
+    
+        $tabResultat = envoyerRequeteSQL($requeteSQL, []);
+        $nbLigne = 0;
+        foreach($tabResultat as $tabLigne)
+        {
+            // VA ME FOURNIR LA VALEUR DANS LA VARIABLE $nbLigne
+            // extract($tabLigne);
+            $nbLigne = $tabLigne["nbLigne"];
+        }
+        
+        return $nbLigne;
+    }
     
 }
