@@ -23,11 +23,7 @@
         
         <article id="partenaires">
             <p class="paragraphes-index">
-                Parmi nos partenaires privilégiés se trouve l’association la Chrysalide à Marseille. 
-                En effet, nous avons choisi de confier l’assemblage et les opérations de conditionnement et de finition 
-                de notre kit à deux ESAT (Etablissement et Service d’Aide par le Travail) de l’association. 
-                Acheter nos kits c’est aussi soutenir l’activité d’ateliers protégés employant des travailleurs 
-                eux mêmes fragilisés ou en situation de handicap.
+                Parmi nos partenaires privilégiés se trouve l’association la Chrysalide à Marseille.
             </p>
         </article>
     </section>  

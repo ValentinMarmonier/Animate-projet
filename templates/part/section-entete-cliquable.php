@@ -1,6 +1,6 @@
 <section class="intro2">
         <div id="entete-produit">
-                <img class="imagecliquable" src="<?php echo $urlAccueil ?>assets/img/kit-complet.png" alt="image des produits Animate sur lesquels cliqués" usemap="#image-map">
+                <img class="imagecliquable" src="<?php echo $urlAccueil ?>assets/img/AniMate boutique.png" alt="image des produits Animate sur lesquels cliqués" usemap="#image-map">
                 <map name="image-map">
                     <area target="_blank" alt="stylo" title="stylo" href="" coords="151,1159,620,1280" shape="rect">
                     <area target="_blank" alt="socle" title="socle" href="" coords="325,904,713,1054" shape="rect">

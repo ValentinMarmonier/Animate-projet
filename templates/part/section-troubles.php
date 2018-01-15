@@ -24,9 +24,9 @@
 
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/maladies neurodégénératives 2.jpg" alt="image des déficiences intellectuelle">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/déficiences intellectuelles .jpg" alt="image des déficiences intellectuelle">
                         </div>
-                        <h3 class="titres-troubles">Déficience intellectuelle</h3>
+                        <h3 class="titres-troubles">Les déficiences intellectuelles</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
                             Par déficience intellectuelle, on entend une incapacité caractérisée par des limitations 
                             significatives du fonctionnement intellectuel (deux écarts types sous la moyenne) 
@@ -37,7 +37,7 @@
 
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/maladies neurodégénératives.jpg" alt="vigette détails troubles">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/maladies neurodégénératives 2.jpg" alt="vigette détails troubles">
                         </div>
                         <h3 class="titres-troubles">Les maladies neurodégénératives :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
@@ -54,7 +54,7 @@
                         <div class="icones">
                             <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles des apprentissages.jpg" alt="vigette détails troubles">
                         </div>
-                        <h3 class="titres-troubles">Les roubles des apprentissages :</h3>
+                        <h3 class="titres-troubles">Les troubles des apprentissages :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
                             Les principaux troubles des apprentissages sont :<br> 
                             - la dyslexie (trouble spécifique de la lecture),<br>
@@ -70,7 +70,7 @@
                         <div class="icones">
                             <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles du comportement.jpg" alt="vigette détails troubles">
                         </div>
-                        <h3 class="titres-troubles">Les troubles neurologiques :</h3>
+                        <h3 class="titres-troubles">Les troubles du comportement :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
                             Un trouble neurologique est un trouble du système nerveux du corps.<br>
                             Les anomalies structurelles, biochimiques ou électriques du cerveau, de la moelle épinière ou des nerfs<br>

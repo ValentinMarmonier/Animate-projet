@@ -16,7 +16,7 @@
 				<span id="compteur2">0</span>
 				<p class="">
 					<strong>Etablissements médicales</strong><br>
-					<span id="esperluette">&</span>
+					&
 					<strong>Centres médico-sociales</strong>
 				</p>
 			</article>
