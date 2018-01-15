@@ -11,6 +11,7 @@ $urlCategorie       = $this->generateUrl("categorieGlob");
 $urlPictogramme     = $this->generateUrl("pictogramme");
 $urlPanier          = $this->generateUrl("panier");
 $urlContact         = $this->generateUrl("contact");
+$urlOrthoFiche      = $this->generateUrl("orthophonisteFiche");
 
 
         // A SUPRIMER QUAND ADMIN OK !!!

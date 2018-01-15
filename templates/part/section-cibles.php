@@ -12,7 +12,7 @@
 					autour de la communication, du langage ou encore des émotions.
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
+						<a class="bouton cta-bouton"  href="<?php echo $urlOrthoFiche ?>">Bouton cta</a>
 					</div>
 				</div>
             		<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/orthophoniste.png" alt="logo métier orthophoniste">
