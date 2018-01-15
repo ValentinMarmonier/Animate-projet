@@ -2,7 +2,7 @@
 
 <section class="section-blog">
     <h3>Retrouvez toute l'actualité Animate.</h3>
-<section class="largeur">
+    <section class="largeur">
     
 <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
@@ -59,10 +59,21 @@ CODEHTML;
 CODEHTML;
     
 
-    
-
 }
 ?>
 
-</section>
+    <div>
+        
+        
+    </div>
+    
+
+
+    </section>
+    
+    
+    
+    
+    
+    
 </section>
