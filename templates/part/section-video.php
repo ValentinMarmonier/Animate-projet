@@ -7,7 +7,7 @@
 
 <!-- Optional: some overlay text to describe the video -->
 <div class="content">
-  <h1>Animate&reg;<br>
+  <h1>AniMate&reg;<br>
             outil d&#039;aide à la communication et de rééducation
         </h1>
 </div>

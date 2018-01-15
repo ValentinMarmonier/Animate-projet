@@ -46,22 +46,9 @@
                 </div>
                 <img class="icones-benefices" src="assets/img/femme1.jpg" alt="">
             </article>
-            
+
             <article class="big-fact">
-               <img class="icones-benefices" src="assets/img/femme2.jpg" alt="">
-                <div class="bloctexte" id="apostrophes">
-                <p class="paragraphes-preuves" lass="paragraphes-index"> 
-                Nous nous sommes rendu compte en l’utilisant qu’AniMate apportait un vrai plus 
-                    à nos groupes non seulement car il permettait notamment de stimuler l’intérêt des enfants 
-                    envers les autres (par exemple : «Pourquoi es-tu triste ?»), mais aussi car le support 
-                    visuel est une vraie aide à la compréhension et à l’expression des émotions. 
-                    Enfin, nous avons constaté que le support ludique de la figurine a tout de suite été investi 
-                    par les enfants. AniMate est devenu ainsi un outil indispensable pour l’animation de nos groupes.</p>
-                <p class="signatures">- Caroline Briclout<br>Psychologue au sein du CMPP Robert Debré</p>
-                </div>
-            </article>
-            
-            <article class="big-fact">
+                <img class="icones-benefices" src="assets/img/femme3.jpg" alt="">
                 <div class="bloctexte" id="apostrophes">
                 <p class="paragraphes-preuves" class="paragraphes-index"> 
                 AniMate, c’est un bonhomme dans le quel chaque personne se projette. 
@@ -70,42 +57,10 @@
                     de travail en psychomotricité pour la rééducation sur le plan du schéma corporel et des émotions</p>
                 <p class="signatures">- Isabelle I.<br>Psychomotricienne</p>
                 </div>
-                <img class="icones-benefices" src="assets/img/femme3.jpg" alt="">
+                
             </article> 
             
             <article class="big-fact">
-                <img class="icones-benefices" src="assets/img/femme4.jpg" alt="">
-                <div class="bloctexte" id="apostrophes">
-                <p class="paragraphes-preuves" class="paragraphes-index"> 
-                Je l’utilise auprès de personnes atteintes de démence avancée. 
-                    Certaines personnes communiquent en quelques sorte avec l’avatar comme si ils devaient en prendre soin.
-                    L’outil est utilisé pour travailler différentes fonctions :
-                        <ul>
-                            <li>La mémoire immédiate : se souvenir de quels vêtements portait l’avatar</li>
-                            <li>L’attention sélective : retrouver un vêtement parmi d’autres</li>
-                            <li>La catégorisation : trier les vêtements par type (chaussures, hauts.. vêtements chauds, froids…)</li>
-                            <li>L’orientation temporelle : sélectionner les vêtements adaptés en fonction de la saison</li>
-                            <li>La reconnaissance des expressions (visage douloureux, malade, triste, en colère…)</li>
-                        </ul>
-                        </p>
-                <p class="signatures">- Florine L. <br>Ergothérapeute en EHPAD</p>
-                </div>
-            </article>
-            
-            <article class="big-fact">
-                <div class="bloctexte" id="apostrophes">
-                <p class="paragraphes-preuves" class="paragraphes-index"> 
-                Avec AniMate, elle fait des efforts au niveau des mimiques faciales et balaie son regard 
-                    de la figurine à mon visage, ainsi j’imite les émotions que l’on choisit d’apposer sur la figurine, 
-                    et elle fait des efforts, et de beaux progrès, et nomme plus facilement les émotions. 
-                    Elle a même dessiné sur la figurine, je ne m’y attendais pas car elle n’aime vraiment pas le graphisme</p>
-                <p class="signatures">- Nadège Mouroux<br>psycho-intervenante spécialisée en troubles du spectre autistique</p>
-                </div>
-                <img class="icones-benefices" src="assets/img/femme5.jpg" alt="">
-            </article>
-            
-            <article class="big-fact">
-               <img class="icones-benefices" src="assets/img/femme6.jpg" alt="">
                 <div class="bloctexte" id="apostrophes">
                 <p class="paragraphes-preuves" lass="paragraphes-index"> 
                 Bien que mon fils parle correctement ilrencontre des difficultés pour exprimer ses sentiments 
@@ -116,6 +71,7 @@
                     il aide également dans l’ordre des choses pour l’habillage…»</p>
                 <p class="signatures">- Une maman d’un enfant autiste utilisateur d’AniMate</p>
                 </div>
+                <img class="icones-benefices" src="assets/img/femme6.jpg" alt="">
             </article>
     </section>
 </section>

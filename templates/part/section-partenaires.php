@@ -20,11 +20,5 @@
             <img class="logo-partenaires" src="<?php echo $urlAccueil ?>assets/img/chrysalidemarseille.png" alt="chrysalide marseille">
             <img class="logo-partenaires" src="https://www.animate.fr/wp-content/uploads/2016/10/Unknown.png" alt="bpi france">
         </article>
-        
-        <article id="partenaires">
-            <p class="paragraphes-index">
-                Parmi nos partenaires privilégiés se trouve l’association la Chrysalide à Marseille.
-            </p>
-        </article>
     </section>  
 </section><!-- partenaires -->     

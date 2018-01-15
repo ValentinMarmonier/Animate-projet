@@ -30,6 +30,7 @@
 			                        professionnels les accompagnant, familles vivant à leur côté.<br> 
 			                        Bonne découverte dans le monde d’AniMate®.
 			                    </h3>
+			                    </strong>
 								<p>
 									AniMate® est l’outil d’aide à la communication et de rééducation appropriée. 
 			                        AniMate® est un petit bonhomme qui possède cette faculté de remédiation 
