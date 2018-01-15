@@ -17,8 +17,10 @@
             </li>
             <li>
                 Car il est debout et non posé à plat, il est de ce fait plus qu’un matériel, c’est une figurine qui prend vie lors de la séance, qui permet de capter plus facilement l’attention et stimule la personne prise en charge
-            </li>    
+            </li> 
+            <li>
                 Car il se manipule, or il est prouvé que des expériences multisensorielles et en particulier l’usage des mains lors d’une séance mobilise davantage de capacités cognitives et facilite l’apprentissage  
+            </li>
             <li>    
                 Car il est ludique, sympathique le bonhomme permet de créer un climat de confiance et de jeu propice à l’apprentissage mais aussi de libérer la parole
             </li>

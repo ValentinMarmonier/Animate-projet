@@ -14,7 +14,7 @@
 	            	<div class="ligne-cibles" class="lignes-index">
 
 
-						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
+						<a class="bouton cta-bouton"  href="<?php echo $urlOrthoFiche ?>">En savoir plus</a>
 
 					</div>
 				</div>
