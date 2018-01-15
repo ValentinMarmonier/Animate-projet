@@ -81,7 +81,7 @@
                     
                     <section class="lignes-troubles">
                         <div class="icones">
-                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/troubles du spectre autistique.jpg" alt="vigette détails troubles">
+                            <img id="BD-troubles" src="<?php echo $urlAccueil ?>assets/img/maladies neurodégénératives.jpg" alt="vigette détails troubles">
                         </div>
                         <h3 class="titres-troubles">Les troubles neurologiques :</h3>
                         <p class="paragraphes-troubles" class="paragraphes-index">
