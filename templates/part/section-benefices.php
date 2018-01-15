@@ -17,7 +17,8 @@
                 </div>
                 
                 <section class="largeur">
-                    <article class="container">
+                    <article class="container" id="conteneur">
+                         <h2>Benefice n°1</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal1 open-modal1">
@@ -45,7 +46,8 @@
                     </article>
                     
                     
-                    <article class="container">
+                    <article class="container" id="conteneur">
+                         <h2>Benefice n°2</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal2 open-modal2">
@@ -72,7 +74,8 @@
                         </div>
                     </article>
                     
-                   <article class="container">
+                   <article class="container" id="conteneur">
+                         <h2>Benefeice n°3</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal3 open-modal3">

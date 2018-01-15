@@ -22,9 +22,10 @@ h1{
     color: white;
 }
 h2{
-    padding-top: 20px;
+   padding-bottom: 20px;
     font-size: 34px;
-    
+    text-align: center;
+    padding-left: 80px; 
 }
 h3{
     font-size:26px;
@@ -274,6 +275,8 @@ nav.fixed{
 }
 #benefices .bloctexte{
     margin: 0 auto;
+    align-items: center;
+    padding-top: 40%;
 }
 #benefices .bloctexte h3, .fondateurs h3{
      color: #f6a92d;
@@ -285,9 +288,18 @@ nav.fixed{
    
 }
 #benefices .container{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(./../img/cadre.png);
-    border:none;
-    object-fit: cover;
+    border: none;
+    background-position: top;
+    min-height: 300px;
+}
+#conteneur{
+    background-color: none !important;
+}
+#benefices .ligne-benefices{
+    width: 65%;
 }
 .ligne-benefices img{
     border-radius: 50%;
@@ -391,7 +403,7 @@ nav.fixed{
     padding: 5% 0px;
 }
 .logo-partenaires{
-    border-radius: 50%;
+    border-radius: 20px;
     object-fit: cover;
     max-height: 80px;
     max-width: 180px;
@@ -732,7 +744,6 @@ textarea{
     border: solid 2px #1797d7;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
     margin: 15px auto;
     width: 30%;
 }

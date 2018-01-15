@@ -12,7 +12,10 @@
 					autour de la communication, du langage ou encore des émotions.
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="<?php echo $urlOrthoFiche ?>">Bouton cta</a>
+
+
+						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
+
 					</div>
 				</div>
             		<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/orthophoniste.png" alt="logo métier orthophoniste">
@@ -28,7 +31,7 @@
 					séances de rééducation en psychomotricité
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
+						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
 					</div>
             	</div>
 			</article>
@@ -42,7 +45,7 @@
 					dans vos séances en individuel ou en groupe. 
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
+						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
 					</div>
 				</div>
 				<img class="icones-cibles" src="<?php echo $urlAccueil ?>assets/img/psychologue.png" alt="logo métier psychologue">
@@ -59,7 +62,7 @@
 
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
+						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
 					</div>
             	</div>
 			</article>
@@ -75,7 +78,7 @@
 					durable et accessiblesur le plan financier.
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
+						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
 					</div>
 				</div>
 			
@@ -92,7 +95,7 @@
 					Découvrez ici quelques applications concrètes d’AniMate dans votre quotidien.
 	            	</p>
 	            	<div class="ligne-cibles" class="lignes-index">
-						<a class="bouton cta-bouton"  href="#">Bouton cta</a>
+						<a class="bouton cta-bouton"  href="#">En savoir plus</a>
 					</div>
             	</div>
 			</article>
