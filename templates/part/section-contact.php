@@ -26,9 +26,9 @@ if ($objetRequest->get("codebarre", "") == "contact")
                     
                     
             
-            <section class="">
+            <section class="map-contact">
                 <h3 class="">Vous pouvez nous situer :</h3>
-                <div id="EmplacementDeMaCarte" style="width:60%; height:300px;"></div>
+                <div id="maCarte" style="width:60%; height:300px;"></div>
 
         	    <noscript>
         			<p>Attention : </p>
@@ -39,17 +39,27 @@ if ($objetRequest->get("codebarre", "") == "contact")
     		</section>
     		
     		<script>
-			function initialisation(){
+			function initMap(){
+			    var myLatLng= new google.maps.LatLng(43.3440915,5.431467500000053)
 				var optionsCarte = {
 					zoom: 8,
-					center: new google.maps.LatLng(43.3440915, 5.431467500000053)
+					center: myLatLng
 				}
-				var maCarte = new google.maps.Map(document.getElementById("EmplacementDeMaCarte"), optionsCarte);
+				var maCarte = new google.maps.Map(document.getElementById("maCarte"), optionsCarte);
+				var marker = new google.maps.Marker(
+				    {
+				        position: myLatLng,
+                         map: maCarte,
+                         title: 'Animate'
+                    });
+                 marker.setMap(maCarte);   
 			}
+			
+                
 		    </script>
-		
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTRXwU5HMtlVMwdNfOeY6k6L8NVQhuuiE&callback=initialisation"
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTRXwU5HMtlVMwdNfOeY6k6L8NVQhuuiE&callback=initMap"
             type="text/javascript">
-            </script>       
+            </script>  
+		     
             
             

@@ -1,5 +1,5 @@
 <section class="sectionTemoignages">
-    <h4>Ils nous ont fait confiance</h4>
+    <h2>Ils nous ont fait confiance</h2>
         <section class="largeur">
             <div class="bxslider">
               <div class="paragraphes-slider">

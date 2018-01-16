@@ -6,12 +6,14 @@
 
 var compteur1 = 0;
 var timer1 = null;
-var waypoint = new Waypoint(
-{
-  element: document.getElementById('#preuves'),
-  handler: function(direction) 
-  {
-    notify('Les compteurs démarrent en arrivant sur la section preuve-sociale')
+
+
+var waypoint = new Waypoint({
+    element: document.getElementById('preuves'),
+    handler: function(direction) {
+    timer1 = setInterval(compter1, 14);
+    timer2 = setInterval(compter2, 20);
+    timer3 = setInterval(compter3, 8);
   },
   offset: 20 
 })
@@ -82,7 +84,6 @@ function compter2 ()
 }
 
 setTimeout(attendre2, 25);
-
 
 
 /* INITIALISATION DU 3 ème COMPTEUR*/

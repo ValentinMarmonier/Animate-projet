@@ -25,7 +25,8 @@
                 <img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/emotions.jpg" alt="vignette émotions n°3">
                 <p class="paragraphes-emotions" class="paragraphes-index">Redécouvrez toutes les émotions essentielles à maitriser au quotidien et travaillez aussi par le biais de nos visages l’imitation ou encore les praxies bucco-faciales.</p>
             </article>
-                
+        </section>
+        <section id="block-emotions-icones">
             <article class="section-emotions">
                 <h3>Stimulation cognitive</h3>
                 <img class="icones-emotions" src="<?php echo $urlAccueil ?>assets/img/stimulation-cognitive.jpeg" alt="vignette emotion n°4">

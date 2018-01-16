@@ -55,10 +55,12 @@ CODEHTML;
 
     <article class="bloc-produit">
         <h4 id="title-roduit" title="$nomKit"><a href="$urlKitFiche">$nomKit</a></h4>
-        <p id="description-produit">$description</p>
-        <p id="prix-produit">$prix €</p>
-        <div class="image-produit">$htmlImage</div>
-
+            
+            <div class="image-produit">$htmlImage</div>
+            <div class="bloc-texte-produit">
+                <p id="description-produit">$description</p>
+                <p id="prix-produit">$prix €</p>
+            </div>
     </article>
     
 CODEHTML;
@@ -78,5 +80,6 @@ CODEHTML;
 </div>
 </section>
 </section>
+<div class="bloc-texte-produit"></div>
 
 

@@ -1,7 +1,7 @@
 <section id="partenaire" class="sections-index">
     <section class="largeur">
         <div id="partenaires">
-            <h2 id="titre-partenaires">Nos partenaires</h2>
+            <h2 id="titre-partenaires">Ils nous soutiennent</h2>
         </div>
             <article id="icones-partenaires">
                 <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chu grenoble.png" alt="icone ... partenaires">
@@ -11,7 +11,7 @@
                 <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
             </article>
         <div id="partenaires">
-            <h3 id="titre-partenaires">Nos partenaires Financiers</h3>
+            <h3 id="titre-partenaires">Nos partenaires </h3>
         </div>
         
         <article id="logos-partenaires">
