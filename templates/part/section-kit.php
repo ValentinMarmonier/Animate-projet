@@ -6,7 +6,7 @@ require_once("$cheminPart/header.php");
 
 <section class="section-blog">
     <section class="largeur">  
-        <h3>Retrouvez nos kits AniMate pour travailler avec les personnes que vous prenez en charge dans le cadre de séances individuelles ou en groupe.</h3>
+        <h3>Retrouvez nos kits AniMate&reg; pour travailler avec les personnes que vous prenez en charge dans le cadre de séances individuelles ou en groupe.</h3>
 
 <?php
 // ALLER CHERCHER LA LISTE DES ARTICLES DANS LA CATEGORIE $cat
@@ -73,7 +73,7 @@ CODEHTML;
 
 <div>
     
-    <a href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
+    <a class="but-boutique" href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
     
 </div>
 </section>

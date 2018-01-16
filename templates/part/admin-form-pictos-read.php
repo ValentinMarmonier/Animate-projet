@@ -83,14 +83,14 @@ CODEHTML;
     }      
     
     // CREER L'URL POUR LA ROUTE DYNAMIQUE (AVEC PARAMETRE)
-    $urlViewPictos = $this->generateUrl("view-pictos", [ "id" => $id ]);
+    $urlPictoFiche = $this->generateUrl("pictoFiche", [ "id" => $id ]);
     
     echo
 <<<CODEHTML
 
     <tr class="readArticle">
         <td>$id</td>
-        <td><label>Nom du pictogramme</label></br><a href="$urlViewPictos">$titre</a></td>
+        <td><label>Nom du pictogramme</label></br><a href="$urlPictoFiche">$titre</a></td>
         <td><label>Description</label></br>$description</td>
         <td><label>Prix</label></br>$prix</td>
         <td>$htmlImage</td>

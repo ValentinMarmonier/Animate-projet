@@ -1,6 +1,7 @@
 
 
-<section>
+<section class="section-blog">
+    <section class="largeur">
     
 
 <?php
@@ -59,7 +60,7 @@ $urlCheminAchat = $this->generateUrl("cheminAchat");
     echo
 <<<CODEHTML
 
-    <article>
+    <article class="bloc-produit">
         <h4 title="$id">$nomKit</h4>
         <p>$description</p>
         <p>$infoComplementaire</p>
@@ -79,4 +80,6 @@ else {
 ?>
 
 
-</section>
+    </section>
+    
+</section>    

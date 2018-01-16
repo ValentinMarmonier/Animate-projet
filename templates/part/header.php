@@ -12,10 +12,11 @@ $urlPictogramme     = $this->generateUrl("pictogramme");
 $urlPanier          = $this->generateUrl("panier");
 $urlContact         = $this->generateUrl("contact");
 $urlOrthoFiche      = $this->generateUrl("orthophonisteFiche");
+$urlCgu             = $this->generateUrl("cgu");
+$urlInfosLegales    = $this->generateUrl("infosLegales");
 
 
-        // A SUPRIMER QUAND ADMIN OK !!!
-$urlInscription             = $this->generateUrl("inscription");
+
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
