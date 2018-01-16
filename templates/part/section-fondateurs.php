@@ -8,7 +8,7 @@
                     <section class="container">
                     <div class="ligne-benefices">
                         <div class="bloctexte">
-                        	<h2><strong>Chère visiteuse, cher visiteur</strong></h2>
+                        	<h2><strong>Cher visiteur</strong></h2>
                             <button class="show-modal4 open-modal4">
                                 <h3>
 					    			<strong>

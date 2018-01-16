@@ -17,11 +17,11 @@
                 
                 <section class="largeur">
                     <article class="container" id="conteneur">
-                         <h2>Benefice n°1</h2>
+                         <h2>Bénéfice n°1</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal1 open-modal1">
-                                    <h3 class="titre-3-sections"><strong>Tangible <br> Manipulable <br> Humain</strong>
+                                    <h3 class="titre-3-sections"><strong>Concret</strong>
                                     </h3>
                                 </button>
                                 <div class="modal1">
@@ -46,11 +46,11 @@
                     
                     
                     <article class="container" id="conteneur">
-                         <h2>Benefice n°2</h2>
+                         <h2>Bénéfice n°2</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal2 open-modal2">
-                                    <h3 class="titre-3-sections"><strong>Ludique<br> Rassurant <br> Apaisant. </strong>
+                                    <h3 class="titre-3-sections"><strong>Attachant </strong>
                                     </h3>
                                 </button>
                                 <div class="modal2">
@@ -74,11 +74,11 @@
                     </article>
                     
                    <article class="container" id="conteneur">
-                         <h2>Benefice n°3</h2>
+                         <h2>Bénéfice n°3</h2>
                         <div class="ligne-benefices">
                             <div class="bloctexte">
                                 <button class="show-modal3 open-modal3">
-                                    <h3 class="titre-3-sections"><strong>Polyvalent <br> Evolutif</strong></h3>
+                                    <h3 class="titre-3-sections"><strong>Tout en un</strong></h3>
                                 </button>
                                 <div class="modal3">
                                     <a class="close-modal3" href="#">X</a>
