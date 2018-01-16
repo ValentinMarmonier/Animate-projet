@@ -8,7 +8,6 @@
                 <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
                 <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chumontpellier.png" alt="icone ... partenaires">
                 <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chuquebec.png" alt="icone ... partenaires">
-                <img class="icones-partenaires" src="<?php echo $urlAccueil ?>assets/img/chulimoges.png" alt="icone ... partenaires">
             </article>
         <div id="partenaires">
             <h3 id="titre-partenaires">Nos partenaires </h3>

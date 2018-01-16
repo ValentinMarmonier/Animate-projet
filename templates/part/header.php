@@ -26,7 +26,8 @@ $urlInfosLegales    = $this->generateUrl("infosLegales");
 
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="format-detection" content="telephone=no">
 
         <title>Animate&reg;, outil d&#039;aide à la communication et de rééducation</title>
