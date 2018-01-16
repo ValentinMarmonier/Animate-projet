@@ -8,18 +8,6 @@ var compteur1 = 0;
 var timer1 = null;
 
 
-var waypoint = new Waypoint({
-    element: document.getElementById('preuves'),
-    handler: function(direction) {
-    timer1 = setInterval(compter1, 14);
-    timer2 = setInterval(compter2, 20);
-    timer3 = setInterval(compter3, 8);
-  },
-  offset: 20 
-})
-
-
-
 function attendre1 ()
 {
     /*console.log(performance.now()); */
@@ -119,3 +107,75 @@ function compter3 ()
 }
 
 setTimeout(attendre3, 25);
+
+/* MODALS */
+/* 1ère MODAL */
+var modal = $('.modal');
+$('.show-modal').click(function(e)
+{
+    event.preventDefault();
+    modal.fadeIn();
+});
+
+$('.close-modal').click(function(e)
+{
+    event.preventDefault();
+    modal.fadeOut();
+});
+
+
+/* MODALS BENEFICES */
+/* MODAL BENEFICE-1 */
+var modal1 = $('.modal1');
+$('.show-modal1').click(function(e)
+{
+    event.preventDefault();
+    modal1.fadeIn();
+});
+
+$('.close-modal1').click(function(e)
+{
+    event.preventDefault();
+    modal1.fadeOut();
+});
+
+/* MODAL BENEFICE-2 */
+var modal2 = $('.modal2');
+$('.show-modal2').click(function(e)
+{
+    event.preventDefault();
+    modal2.fadeIn();
+});
+
+$('.close-modal2').click(function(e)
+{
+    event.preventDefault();
+    modal2.fadeOut();
+});
+
+/* MODAL BENEFICE-3 */
+var modal3 = $('.modal3');
+$('.show-modal3').click(function(e)
+{
+    event.preventDefault();
+    modal3.fadeIn();
+});
+
+$('.close-modal3').click(function(e)
+{
+   event.preventDefault();
+    modal3.fadeOut();
+});
+ /* MODAL BENEFICE-4 */
+var modal4 = $('.modal4');
+$('.show-modal4').click(function(e)
+{
+    event.preventDefault();
+    modal4.fadeIn();
+});
+
+$('.close-modal4').click(function(e)
+{
+    event.preventDefault();
+    modal4.fadeOut();
+});

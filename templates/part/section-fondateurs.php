@@ -24,7 +24,7 @@
                                 <div>
                                     <strong>
                                         <p class="paragraphe-benefices">
-                                            <h3>
+                                            <h3 id="modal-h3">
 									Yunshan et Eric sont ravis de vous accueillir sur le site Internet d’AniMate®, 
 			                        le petit avatar au service des personnes en situation de handicap et vous personnes, 
 			                        professionnels les accompagnant, familles vivant à leur côté.<br> 

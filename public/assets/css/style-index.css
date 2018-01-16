@@ -74,6 +74,7 @@ h2{
    padding-bottom: 20px;
     font-size: 34px;
     text-align: center;
+    padding-top: 20px;
 }
 h3{
     font-size:26px;
@@ -346,7 +347,13 @@ nav.fixed{
 #benefices .bloctexte h3, .fondateurs h3{
     color: #f6a92d;
     font-size: 37px;
-    line-height: 3.2;
+}
+.fondateurs h3 {
+    color: #f6a92d;
+    font-size: 30px !important;
+}
+#modal-h3:hover{
+    color:#f6a92d;
 }
 #benefices .largeur{
    display: flex;
@@ -365,7 +372,9 @@ nav.fixed{
     background-color: none !important;
 }
 #conteneur h2{
-    padding-left: 80px;
+        padding-left: 80px;
+    padding-top: initial;
+    padding-bottom: 20%;
 }
 #benefices .ligne-benefices{
     width: 65%;
@@ -648,8 +657,8 @@ nav.fixed{
     border-radius: 10%;
     display: block;
 }
-.fiche-pictogramme{
-    padding-right: 5%;
+.fiche-pictogrammes, .fiche-figurine{
+    padding: 2%;
 }
 
 
