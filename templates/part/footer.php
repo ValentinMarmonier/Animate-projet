@@ -1,15 +1,15 @@
-</main>
-        
+        </main>
+
         <footer>
             <section class="section-top">
                 <div id="cadre-footer">
-                    <h4 >Rejoignez la communauté AniMate</h4>
-                <p>AniMate est l’outil idéal pour renforcer les liens avec vos patients ou avec les personnes fragilisées qui vous sont proches !
-                    Alors adoptez votre avatar sans plus attendre et commandez le directement sur notre boutique en ligne ! 
+                    <h4 >Rejoignez la communauté AniMate®</h4>
+                <p>AniMate® est l’outil idéal pour renforcer les liens avec vos patients ou les personnes fragilisées qui vous sont proches !
+                    Alors adoptez votre avatar sans plus attendre et commandez le directement sur notre boutique en ligne !
                 </p>
                 <div id="cta-upercase" class="cta-upercase">
                     <a class="bouton cta-bouton"  href="#">Bouton cta</a>
-                </div>    
+                </div>
             </div><!-- section#cadre-? -->
 
             <div id="ressources-tutos" class="">
@@ -19,7 +19,7 @@
                 </div>
             </div><!-- section#ressources-tutos -->
             </section>
-            
+
             <section class="bottom-footer">
                 <div class="column-1">
                     <div id="contact">
@@ -31,7 +31,7 @@
                     <div id="cgu">
                         <a href="<?php echo $urlCgu ?>"><span>Conditions générales d'utilisation</span></a>
                     </div>
-                    
+
                 </div><!-- .column-1 -->
 
                 <div class="column-2">
@@ -47,11 +47,11 @@
                     <div id="boutique-footer">
                         <a href="<?php echo $urlBoutique ?>">Boutique</a>
                     </div>
-                    
 
-                    
-                    
-                    
+
+
+
+
                 </div><!-- .column-2 -->
 
                 <div class="column-3">
@@ -75,14 +75,14 @@
                     <a class="social" href="https://www.facebook.com/Animate.figurine/" alt="facebook" target="_blank">
                         <img src="<?php echo $urlAccueil ?>assets/img/facebook.png" />
                     </a>
-                    <a class="social" href="https://www.youtube.com/channel/UC1alssxte9DNlCR_6N9SIxg/" alt="youtube" target="_blank"> 
+                    <a class="social" href="https://www.youtube.com/channel/UC1alssxte9DNlCR_6N9SIxg/" alt="youtube" target="_blank">
                         <img src="<?php echo $urlAccueil ?>assets/img/youtube.png" />
                     </a>
                     <a class="social" href="https://www.instagram.com/figurineanimate/" alt="instagram" target="_blank">
                         <img src="<?php echo $urlAccueil ?>assets/img/instagram.png" />
                     </a>
                 </div><!-- .column-4 -->
- 
+
             </section><!-- section.bottom-footer -->
 
         </footer>
@@ -97,11 +97,11 @@
            $(window).scroll(function (event) {
              // A chaque fois que l'utilisateur va scroller (descendre la page)
             var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
- 
+
             //si cette valeur > à 200 on ajouter la class
                 if (y >= 200) {
                     $('.nav').addClass('fixed');
-                }   
+                }
                 else {
             // sinon, on l'enlève
                     $('.nav').removeClass('fixed');
