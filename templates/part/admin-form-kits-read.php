@@ -87,14 +87,14 @@ CODEHTML;
     
     
     // CREER L'URL POUR LA ROUTE DYNAMIQUE (AVEC PARAMETRE)
-    $urlViewKit = $this->generateUrl("view-kits", [ "id" => $id ]);
+    $urlKitFiche = $this->generateUrl("kitFiche", [ "id" => $id ]);
     
     echo
 <<<CODEHTML
 
     <tr class="readArticle">
         <td>$id</td>
-        <td><label>Nom du kit</label></br><a href="$urlViewKit">$nomKit</a></td>
+        <td><label>Nom du kit</label></br><a href="$urlKitFiche">$nomKit</a></td>
         <td><label>Description</label></br>$description</td>
         <td><label>Contenu</label></br>$contenuKit</td>
         <td><label>Infos complémentaires</label></br>$infoComplementaire</td>

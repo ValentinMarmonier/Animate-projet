@@ -26,14 +26,12 @@
                         <a  href="<?php echo $urlContact ?>"><span>Contact</span></a>
                     </div>
                     <div id="infos-legales">
-                        <a s href="infos-legales"><span>Infos légales</span></a>
+                        <a s href="<?php echo $urlInfosLegales ?>"><span>Infos légales</span></a>
                     </div>
                     <div id="cgu">
-                        <a href="cgu"><span>Conditions générales d'utilisation</span></a>
+                        <a href="<?php echo $urlCgu ?>"><span>Conditions générales d'utilisation</span></a>
                     </div>
-                    <div id="cgv">
-                        <a href=""><span>Conditions générales de vente</span></a>
-                    </div>
+                    
                 </div><!-- .column-1 -->
 
                 <div class="column-2">
@@ -44,16 +42,13 @@
                         <a href="<?php echo $urlProduits ?>">Produits</a>
                     </div>
                     <div id="blog-footer">
-                        <a href="<?php echo $urlBlog ?>">Produits</a>
+                        <a href="<?php echo $urlBlog ?>">Blog</a>
                     </div>
                     <div id="boutique-footer">
                         <a href="<?php echo $urlBoutique ?>">Boutique</a>
                     </div>
                     
-                    <!-- A SUPRIMER QUAND ADMIN OK !!! -->
-                    <div>
-                        <a href="<?php echo $urlInscription ?>">Inscription Admin</a>
-                    </div>
+
                     
                     
                     

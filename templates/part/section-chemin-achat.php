@@ -1,4 +1,5 @@
-<section>
+<section class="section-blog">
+    <section class="largeur">
     <h3>Choisissez un pictogramme complémentaire</h3>
 
 <?php
@@ -44,7 +45,7 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <article>
+    <article class="bloc-produit">
          <h4 title="$titre"><a href="$urlPictoFiche">$titre</a></h4>
         <p>$description</p>
         <p>$prix €</p>
@@ -59,6 +60,9 @@ CODEHTML;
 
 <div>
     
-    <a href="<?php echo $urlBoutique ?>">Non merci je retourne à la boutique</a>
+    <a class="but-boutique" href="<?php echo $urlBoutique ?>">Non merci je retourne à la boutique</a>
     
 </div>
+
+    </section>
+</section>    

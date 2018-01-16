@@ -1,6 +1,7 @@
 
 
-<section>
+<section class="section-blog">
+    <section class="largeur"> 
     
 
 <?php
@@ -54,7 +55,7 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <article>
+    <article class="bloc-produit">
          <h4 title="$titre">$titre</h4>
         <p>$description</p>
         <p>$prix €</p>
@@ -72,4 +73,5 @@ else {
 ?>
 
 
-</section>
+    </section>
+</section>    

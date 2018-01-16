@@ -1,6 +1,7 @@
 
 
-<section>
+<section class="section-blog">
+    <section class="largeur">
     <h3>Retrouvez ici tous les pictogrammes que nous proposons pour diversifier les exercices et les applications de notre petit bonhomme.</h3>
 
 <?php
@@ -46,7 +47,7 @@ CODEHTML;
     echo
 <<<CODEHTML
 
-    <article>
+    <article class="bloc-produit">
          <h4 title="$titre"><a href="$urlPictoFiche">$titre</a></h4>
         <p>$description</p>
         <p>$prix €</p>
@@ -62,10 +63,12 @@ CODEHTML;
 ?>
 
 
-</section>
+    </section>
 
 <div>
     
-    <a href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
+    <a class="but-boutique" href="<?php echo $urlBoutique ?>">Retour à la boutique</a>
     
 </div>
+
+</section>
