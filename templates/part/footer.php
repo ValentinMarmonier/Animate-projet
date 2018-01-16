@@ -3,8 +3,10 @@
         <footer>
             <section class="section-top">
                 <div id="cadre-footer">
-                    <h4 >Titre h4 </h4>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.</p>
+                    <h4 >Rejoignez la communauté AniMate</h4>
+                <p>AniMate est l’outil idéal pour renforcer les liens avec vos patients ou avec les personnes fragilisées qui vous sont proches !
+                    Alors adoptez votre avatar sans plus attendre et commandez le directement sur notre boutique en ligne ! 
+                </p>
                 <div id="cta-upercase" class="cta-upercase">
                     <a class="bouton cta-bouton"  href="#">Bouton cta</a>
                 </div>    

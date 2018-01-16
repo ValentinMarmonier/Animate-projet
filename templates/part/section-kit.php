@@ -78,6 +78,5 @@ CODEHTML;
 </div>
 </section>
 </section>
-<?php
-require_once("$cheminPart/footer-view.php");
+
 
