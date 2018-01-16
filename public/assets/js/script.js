@@ -4,15 +4,33 @@
 /*console.log(performance.now()); */
 /* console.log("hello"); */
 
-var compteur1 = 0;
-var timer1 = null;
+var waypoint = new Waypoint
+({
+    element: document.querySelector('.block-compteur'),
+    offset: "80%",
+    handler: function(direction) 
+    {
+        console.log('Scrolled to waypoint! ' + performance.now());
+        //attendre1();
+        //attendre2();
+        //attendre3();
+        setTimeout(attendre1, 25);
+        setTimeout(attendre2, 25);
+        setTimeout(attendre3, 25);
+    }
+});
+
+var TT = {};
+
+TT.compteur1 = 0;
+TT.timer1 = null;
 
 
 function attendre1 ()
 {
     /*console.log(performance.now()); */
     /*console.log("attendre1");*/
-    timer1 = setInterval(compter1, 14);
+    TT.timer1 = setInterval(compter1, 14);
 }
 
 function compter1 ()
@@ -24,18 +42,20 @@ function compter1 ()
     var balise = document.querySelector("#compteur1");
     if(balise)
     {
-        balise.innerHTML = compteur1;
-        compteur1++;
-        if (compteur1 > 100)
+        if (TT.compteur1 > 100)
         {
-            /*console.log(performance.now());*/
+            /*console.log(performance.now()); */
             /*console.log("stop compteur1" + compteur1);*/
-            clearInterval(timer1);
+            clearInterval(TT.timer1);
+        }
+        else
+        {
+            balise.innerHTML = TT.compteur1;
+            TT.compteur1++;
         }
     }
 }
 
-setTimeout(attendre1, 25);
 
 
 /* INITIALISATION DU 2ème COMPTEUR */
@@ -60,18 +80,20 @@ function compter2 ()
     var balise2 = document.querySelector("#compteur2");
     if(balise2)
     {
-      balise2.innerHTML = compteur2;
-      compteur2++;
       if (compteur2 > 150)
       {
           /*console.log(performance.now()); */
           /*console.log("stop compteur2" + compteur2);*/
           clearInterval(timer2);
       }
+      else
+      {
+          balise2.innerHTML = compteur2;
+          compteur2++;
+      }
     }
 }
 
-setTimeout(attendre2, 25);
 
 
 /* INITIALISATION DU 3 ème COMPTEUR*/
@@ -95,18 +117,21 @@ function compter3 ()
     var balise3 = document.querySelector("#compteur3");
     if(balise3)
     {
-      balise3.innerHTML = compteur3;
-      compteur3++;
       if (compteur3 > 250)
       {
           /*console.log(performance.now());       */
           /*console.log("stop compteur3" + compteur3);*/
           clearInterval(timer3);
       }
+      else
+      {
+          balise3.innerHTML = compteur3;
+          compteur3++;
+          
+      }
     }
 }
 
-setTimeout(attendre3, 25);
 
 /* MODALS */
 /* 1ère MODAL */

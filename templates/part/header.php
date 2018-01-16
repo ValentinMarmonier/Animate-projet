@@ -36,7 +36,7 @@ $urlInfosLegales    = $this->generateUrl("infosLegales");
         <!-- -->
         <meta name="description" content="Animate, outil de communication, de rééducation pour l&#039;autisme, la déficience intellectuelle, les troubles neuros-dégénératifs et des apprentissages" />
         <meta name="robots" content="noodp"/>
-        <link rel="canonical" href="http://www.animate.fr/" />
+        <link rel="icon" href="<?php echo $urlAccueil ?>assets/img/logo-nav.png" type="image/png">
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Animate&reg;, outil d&#039;aide à la communication et de rééducation" />
@@ -60,7 +60,7 @@ $urlInfosLegales    = $this->generateUrl("infosLegales");
     <body>
         
         <header id="site-header" class="" role="banner">
-            <a href="https://www.animate.fr/">
+            <a href="<?php echo $urlAccueil ?>">
                 <img src="<?php echo $urlAccueil ?>assets/img/logo-nav.png" alt="Logo Animate | Outil de remédiation pour la prise en charge des troubles du langage et du comportement" class="default-logo" id="logo-nav" /> 
             </a>
             

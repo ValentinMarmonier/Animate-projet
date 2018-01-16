@@ -7,11 +7,6 @@
                     des déficiences sur le plan intellectuel ou encore des troubles des apprentissages,
                     suppose l’utilisation d’outils adaptés simples et concrets pour leur permettre de focaliser l’attention,
                     stimuler les interactions et favoriser la communication.
-                <br>
-                    AniMate® c’est un bonhomme ludique et attachant au service de ces personnes et de leurs accompagnants.<br />
-                    Ses 2 objectifs principaux sont de faciliter l’échange et de rendre plus efficace les activités et séances de rééducation.<br />
-                    En somme, AniMate contribue à l’autonomie et l’inclusion des personnes en situation de handicap
-                    mais aussi favorise leur bien-être.
                 </p>
                 </div>
                 
